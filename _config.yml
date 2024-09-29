@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Wonduk Seo"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate Student @ Peking University"
+  bio              : # "Undergraduate Student @ Peking University"
   location         : "South korea"
-  employer         : "Peking University & Baidu"
+  employer         : "Peking University"
   uri              : # URL
   email            : "seowonduk@pku.edu.cn" 
 
