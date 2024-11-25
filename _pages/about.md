@@ -17,16 +17,15 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 [2023/02 - 2023/04] Data Scientist Intern @ Solution Team, BetaBrain.<br/>
 
 ## Laboratory Expereince
-2024/03 - Present  | Student Researcher @ Data Mining Laboratory, Peking University.<br/>
-2024/06 - 2024/08 | Research Assistant @ ML4Health, UT Austin.<br/>
-2023/09 - 2023/11 | Research Assistant @ Gerstein Lab, Yale University.<br/>
+[2024/03 - Present] Student Researcher @ Data Mining Laboratory, Peking University.<br/>
+[2024/06 - 2024/08] Research Assistant @ ML4Health, UT Austin.<br/>
+[2023/09 - 2023/11] Research Assistant @ Gerstein Lab, Yale University.<br/>
 
 # Publications
 <b>Wonduk Seo</b>, Haojie Zhang, Yueyang Zhang, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<br/>
 GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval<br/>
 Arxiv, [[pdf]](https://arxiv.org/pdf/2409.10909)<br/>
 ![image](https://github.com/user-attachments/assets/c14052dd-fa03-4009-89ac-d6b1a1358426)<br/>
-
 
 <b>Wonduk Seo</b>, Yi Bu<br/>
 Transforming the Landscape of Scientific Team Role Classification with Large Language Models and Advanced Predictive Analytics<br/>
