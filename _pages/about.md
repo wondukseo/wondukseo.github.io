@@ -24,7 +24,7 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 # Publications
 <b>Wonduk Seo</b>, Haojie Zhang, Yueyang Zhang, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<br/>
 GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval<br/>
-Arxiv, [pdf](https://arxiv.org/pdf/2409.10909)<br/><br/>
+Arxiv, [[pdf]](https://arxiv.org/pdf/2409.10909)<br/><br/>
 
 <b>Wonduk Seo</b>, Yi Bu<br/>
 Transforming the Landscape of Scientific Team Role Classification with Large Language Models and Advanced Predictive Analytics<br/>
