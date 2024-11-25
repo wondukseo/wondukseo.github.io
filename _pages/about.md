@@ -11,7 +11,7 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 
 # Experience
 ## Industry Experience
-[2024/04 - Present] Research Intern @ Search Science Team, Baidu.<br/>
+[2024/04 - Present] LLM Research Intern @ Search Science Team, Baidu.<br/>
 [2023/09 - 2024/02] Machine Learning Engineer @ ML Team, Enhans.<br/>
 [2023/06 - 2023/08] Data Scientist & Engineer Intern @ AI Team, LG Chem.<br/>
 [2023/02 - 2023/04] Data Scientist Intern @ Solution Team, BetaBrain.<br/>
