@@ -24,12 +24,12 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 
 # Publications
 <b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
-<b><u>Wonduk Seo</u></b>\*, Haojie Zhang\*, Yueyang Zhang\*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<sup>†</sup><br/>
+<u>Wonduk Seo</u>\*, Haojie Zhang\*, Yueyang Zhang\*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<sup>†</sup><br/>
 <i>Arxiv</i>. [[pdf]](https://arxiv.org/pdf/2409.10909)<br/>
 ![image](https://github.com/user-attachments/assets/c14052dd-fa03-4009-89ac-d6b1a1358426)<br/><br/>
 
 <b>Transforming the Landscape of Scientific Team Role Classification with Large Language Models and Advanced Predictive Analytics</b><br/>
-<b><u>Wonduk Seo</u></b>, Yi Bu<sup>†</sup><br/>
+<u>Wonduk Seo</u>, Yi Bu<sup>†</sup><br/>
 <i>Quantitative Science Studies</i>. Under Major Revision. <br/>
 
 # Competitions
