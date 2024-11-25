@@ -17,10 +17,10 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 [2023/02 - 2023/04] Data Scientist Intern @ Solution Team, BetaBrain.<br/>
 
 ## Laboratory Expereince
-[2024/03 - Present] Student Researcher @ Data Mining Laboratory, Peking University.<br/>
-[2024/06 - 2024/08] Research Assistant @ ML4Health, The University of Texas at Austin.<br/>
+[2024/03 - Present] Student Researcher @ [Data Mining Laboratory](https://buyi08.wixsite.com/yi-bu), Peking University.<br/>
+[2024/06 - 2024/08] Research Assistant @ [ML4Health](https://www.ischool.utexas.edu/people/people-details?PersonID=399), The University of Texas at Austin.<br/>
 [2023/09 - 2023/11] Research Assistant @ Gerstein Lab, Yale University.<br/>
-[2022/06 - 2023/01] Student Researcher @ Data Mining Laboratory, Peking University.<br/>
+[2022/06 - 2023/01] Student Researcher @ [Data Mining Laboratory](https://buyi08.wixsite.com/yi-bu), Peking University.<br/>
 
 # Publications
 <b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
