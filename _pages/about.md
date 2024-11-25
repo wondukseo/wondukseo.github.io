@@ -38,8 +38,8 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 2023/12 | <b>Silver Medal</b>, CAFA 5 Protein Function Prediction [[Link]](https://www.kaggle.com/competitions/cafa-5-protein-function-prediction)<br/>
 2023/10 | <b>Bronze Medal</b>, LLM Science Exam [[Link]](https://www.kaggle.com/competitions/kaggle-llm-science-exam)<br/>
 2023/04 | <b>Top 1%</b>, Regression with a Tabular Media Campaign Cost Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e11)<br/>
-2023/03 | <b>Top 2%</b>, Binary Classification with a Pulsar Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e10)<br/>
-2023/11 | <b>Top 1%</b>, 𝐃acon - Jeju Product Price Prediction [[Link]](https://dacon.io/competitions/official/236176/leaderboard?selected=private)<br/><br/>
+2023/03 | <b>Top 2%</b>, Binary Classification with a Pulsar Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e10)<br/><br/>
+2023/11 | <b>Top 1%</b>, 𝐃acon - Jeju Product Price Prediction [[Link]](https://dacon.io/competitions/official/236176/leaderboard?selected=private)<br/>
 <span style="font-size: 16px;">- Joined three days, yet achieved Top 1% in a month-long contest with 2000+ teams.</span><br/><br/>
 
 # Kaggle 
