@@ -22,14 +22,14 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 [2023/09 - 2023/11] Research Assistant @ Gerstein Lab, Yale University.<br/>
 
 # Publications
+<b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
 <b>Wonduk Seo</b>, Haojie Zhang, Yueyang Zhang, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<br/>
-GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval<br/>
 Arxiv, [[pdf]](https://arxiv.org/pdf/2409.10909)<br/>
 ![image](https://github.com/user-attachments/assets/c14052dd-fa03-4009-89ac-d6b1a1358426)<br/>
 
+<b>Transforming the Landscape of Scientific Team Role Classification with Large Language Models and Advanced Predictive Analytics</b><br/>
 <b>Wonduk Seo</b>, Yi Bu<br/>
-Transforming the Landscape of Scientific Team Role Classification with Large Language Models and Advanced Predictive Analytics<br/>
-Quantitative Science Studies, Under Major Revision. 
+Quantitative Science Studies, Under Major Revision. <br/>
 
 # Competitions
 2024/05 | Bronze Medal, Enefit - Predict Energy Behavior of Prosumers [[Link]](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)<br/>
