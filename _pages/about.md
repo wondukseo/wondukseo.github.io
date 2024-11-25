@@ -40,4 +40,7 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 2023/04 | <b>Top 1%</b>, Regression with a Tabular Media Campaign Cost Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e11)<br/>
 2023/03 | <b>Top 2%</b>, Binary Classification with a Pulsar Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e10)<br/>
 
+# Kaggle Ranking
+![image](https://github.com/user-attachments/assets/21fdc93a-6250-416d-99d2-b1eaede00cab)<br/>
+2024/06/16 Updated
 
