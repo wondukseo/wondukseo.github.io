@@ -23,13 +23,13 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 
 # Publications
 <b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
-<h4><b>Wonduk Seo</b>, Haojie Zhang, Yueyang Zhang, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<br/></h4>
-<h4>Arxiv, [[pdf]](https://arxiv.org/pdf/2409.10909)<br/></h4>
+<span style="font-size: 10px;"><b>Wonduk Seo</b>, Haojie Zhang, Yueyang Zhang, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<br/></span>
+Arxiv, [[pdf]](https://arxiv.org/pdf/2409.10909)<br/>
 ![image](https://github.com/user-attachments/assets/c14052dd-fa03-4009-89ac-d6b1a1358426)<br/><br/>
 
 <b>Transforming the Landscape of Scientific Team Role Classification with Large Language Models and Advanced Predictive Analytics</b><br/>
-<h4><b>Wonduk Seo</b>, Yi Bu<br/></h4>
-<h4>Quantitative Science Studies, Under Major Revision. <br/></h4>
+<span style="font-size: 10px;"><b>Wonduk Seo</b>, Yi Bu<br/></span>
+Quantitative Science Studies, Under Major Revision. <br/>
 
 # Competitions
 2024/05 | <b>Bronze Medal</b>, Enefit - Predict Energy Behavior of Prosumers [[Link]](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)<br/>
