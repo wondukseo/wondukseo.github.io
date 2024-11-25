@@ -25,18 +25,18 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 <b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
 <b>Wonduk Seo</b>, Haojie Zhang, Yueyang Zhang, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin<br/>
 Arxiv, [[pdf]](https://arxiv.org/pdf/2409.10909)<br/>
-![image](https://github.com/user-attachments/assets/c14052dd-fa03-4009-89ac-d6b1a1358426)<br/>
+![image](https://github.com/user-attachments/assets/c14052dd-fa03-4009-89ac-d6b1a1358426)<br/><br/>
 
 <b>Transforming the Landscape of Scientific Team Role Classification with Large Language Models and Advanced Predictive Analytics</b><br/>
 <b>Wonduk Seo</b>, Yi Bu<br/>
 Quantitative Science Studies, Under Major Revision. <br/>
 
 # Competitions
-2024/05 | Bronze Medal, Enefit - Predict Energy Behavior of Prosumers [[Link]](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)<br/>
-2024/04 | Bronze Medal, Harvard Medical School Harmful Brain Activity Classification [[Link]](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)<br/>
-2023/12 | Silver Medal, CAFA 5 Protein Function Prediction [[Link]](https://www.kaggle.com/competitions/cafa-5-protein-function-prediction)<br/>
-2023/10 | Bronze Medal, LLM Science Exam [[Link]](https://www.kaggle.com/competitions/kaggle-llm-science-exam)<br/>
-2023/04 | Top 1%, Regression with a Tabular Media Campaign Cost Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e11)<br/>
-2023/03 | Top 2%, Binary Classification with a Pulsar Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e10)<br/>
+2024/05 | <b>Bronze Medal</b>, Enefit - Predict Energy Behavior of Prosumers [[Link]](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)<br/>
+2024/04 | <b>Bronze Medal</b>, Harvard Medical School Harmful Brain Activity Classification [[Link]](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)<br/>
+2023/12 | <b>Silver Medal</b>, CAFA 5 Protein Function Prediction [[Link]](https://www.kaggle.com/competitions/cafa-5-protein-function-prediction)<br/>
+2023/10 | <b>Bronze Medal</b>, LLM Science Exam [[Link]](https://www.kaggle.com/competitions/kaggle-llm-science-exam)<br/>
+2023/04 | <b>Top 1%</b>, Regression with a Tabular Media Campaign Cost Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e11)<br/>
+2023/03 | <b>Top 2%</b>, Binary Classification with a Pulsar Dataset [[Link]](https://www.kaggle.com/competitions/playground-series-s3e10)<br/>
 
 
