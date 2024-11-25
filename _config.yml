@@ -21,7 +21,7 @@ repository               : "wondukseo/wondukseo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Wonduk Seo"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate Student at Peking University, Specialized in Data Science."
