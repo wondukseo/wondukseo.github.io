@@ -10,11 +10,11 @@
 locale                   : "en-US"
 title                    : "Homepage"
 title_separator          : "-"
-name                     : &name "Zonghao Yuan(袁宗豪)"
-description              : &description "Master student at Tsinghua University. Research interest covers science of science, computational social science, and complex science."
-url                      : https://zonghaoyuan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Wonduk Seo"
+description              : &description "Undergraduate Student at Peking University. Research interest covers Natural Language Processing, Large Language Model, Information Retrieval."
+url                      : https://wondukseo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zonghaoyuan/zonghaoyuan.github.io"
+repository               : "wondukseo/wondukseo.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,17 +22,17 @@ repository               : "zonghaoyuan/zonghaoyuan.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zonghao Yuan(袁宗豪)"
+  name             : "Wonduk Seo"
   pronouns         : # example: "she/her"  
-  bio              : "Master student at Tsinghua University's Department of Sociology."
-  location         : "BeiJing, China"
-  employer         : "Tsinghua University"
+  bio              : "Undergraduate Student at Peking University, Specialized in Data Science."
+  location         : "Seoul, South Korea"
+  employer         : "Peking University"
   uri              : # URL
-  email            : "yzh23@tsinghua.edu.cn" 
+  email            : "seowonduk@pku.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=fHuY3toAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -43,8 +43,8 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "zonghaoyuan"
-  kaggle           : # Username  
+  github           : "wondukseo"
+  kaggle           : "wonduk"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "wondukseo"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : 'zonghaoyuan' #for X / Twitter
+  twitter          : #'zonghaoyuan' #for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
