@@ -22,13 +22,13 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 
 ## 🏫 Laboratory Expereince
 [2024/03 - Present] Student Researcher @ Data Mining Laboratory, Peking University<br/>
-<span style="font-size: 12px;">- <i>Adviced by Prof. [Yi Bu](https://scholar.google.com/citations?hl=en&user=bSUm6ikAAAAJ)</i></span><br/>
+<span style="font-size: 12px;">- <i>Adviced by [Prof. Yi Bu](https://scholar.google.com/citations?hl=en&user=bSUm6ikAAAAJ)</i></span><br/>
 [2024/06 - 2024/08] Research Assistant @ ML4Health, The University of Texas at Austin<br/>
-<span style="font-size: 12px;">- <i>Adviced by Prof. [Ying Ding](https://scholar.google.com/citations?user=riuIGwIAAAAJ&hl=en)</i></span><br/>
+<span style="font-size: 12px;">- <i>Adviced by [Prof.Ying Ding](https://scholar.google.com/citations?user=riuIGwIAAAAJ&hl=en)</i></span><br/>
 [2023/09 - 2023/11] Research Assistant @ Gerstein Lab, Yale University<br/>
 <span style="font-size: 12px;">- <i>Adviced by [Robert Tang](https://scholar.google.com/citations?hl=en&user=gGcRkpYAAAAJ)</i></span><br/>
 [2022/06 - 2023/01] Student Researcher @ Data Mining Laboratory, Peking University<br/>
-<span style="font-size: 12px;">- <i>Adviced by Prof. [Yi Bu](https://scholar.google.com/citations?hl=en&user=bSUm6ikAAAAJ)</i></span><br/><br/>
+<span style="font-size: 12px;">- <i>Adviced by [Prof. Yi Bu](https://scholar.google.com/citations?hl=en&user=bSUm6ikAAAAJ)</i></span><br/><br/>
 
 # Publications
 <b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
