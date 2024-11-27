@@ -18,13 +18,17 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 [2023/06 - 2023/08] Data Scientist & Engineer Intern @ AI Team, [LG Chem](https://www.lgchem.com/main/index).<br/>
 <span style="font-size: 12px;">- <i>LG Chem is a global leader in advanced materials based in South Korea.</i></span><br/>
 [2023/02 - 2023/04] Data Scientist Intern @ Solution Team, [BetaBrain](https://www.betabrain.co.kr/).<br/>
-<span style="font-size: 12px;">- <i>Betabrain is an AI startup in South Korea specialized in sales forecasting.</i></span><br/><br/>
+<span style="font-size: 12px;">- <i>Betabrain is an AI startup in South Korea specialized in sales forecasting.</i></span><br/>
 
 ## 🏫 Laboratory Expereince
 [2024/03 - Present] Student Researcher @ Data Mining Laboratory, Peking University.<br/>
+<span style="font-size: 12px;">- Adviced by Prof. [Yi Bu](https://scholar.google.com/citations?hl=en&user=bSUm6ikAAAAJ)</i></span><br/>
 [2024/06 - 2024/08] Research Assistant @ ML4Health, The University of Texas at Austin.<br/>
+<span style="font-size: 12px;">- Adviced by Prof. [Ying Ding](https://scholar.google.com/citations?user=riuIGwIAAAAJ&hl=en)</i></span><br/>
 [2023/09 - 2023/11] Research Assistant @ Gerstein Lab, Yale University.<br/>
-[2022/06 - 2023/01] Student Researcher @ Data Mining Laboratory, Peking University.<br/><br/>
+<span style="font-size: 12px;">- Adviced by [Robert Tang](https://scholar.google.com/citations?hl=en&user=gGcRkpYAAAAJ)</i></span><br/>
+[2022/06 - 2023/01] Student Researcher @ Data Mining Laboratory, Peking University.<br/>
+<span style="font-size: 12px;">- Adviced by Prof. [Yi Bu](https://scholar.google.com/citations?hl=en&user=bSUm6ikAAAAJ)</i></span><br/><br/>
 
 # Publications
 <b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
