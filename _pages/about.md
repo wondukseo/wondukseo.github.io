@@ -12,13 +12,13 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 # Experience
 ## 💼 Industry Experience
 [2024/04 - Present] LLM Research Intern @ Search Science Team, [Baidu](https://baidu.com/).<br/>
-<span style="font-size: 14px;">- <i>Baidu is a largest search engine and AI company in China.</i></span><br/>
+<span style="font-size: 12px;">- <i>Baidu is a largest search engine and AI company in China.</i></span><br/>
 [2023/09 - 2024/02] Machine Learning Engineer @ ML Team, [Enhans](https://www.enhans.ai/).<br/>
-<span style="font-size: 14px;">- <i>Enhans is a Series-A startup advancing AI automation in South Korea.</i></span><br/>
+<span style="font-size: 12px;">- <i>Enhans is a Series-A startup advancing AI automation in South Korea.</i></span><br/>
 [2023/06 - 2023/08] Data Scientist & Engineer Intern @ AI Team, [LG Chem](https://www.lgchem.com/main/index).<br/>
-<span style="font-size: 14px;">- <i>LG Chem is a global leader in advanced materials based in South Korea.</i></span><br/>
+<span style="font-size: 12px;">- <i>LG Chem is a global leader in advanced materials based in South Korea.</i></span><br/>
 [2023/02 - 2023/04] Data Scientist Intern @ Solution Team, [BetaBrain](https://www.betabrain.co.kr/).<br/>
-<span style="font-size: 14px;">- <i>Betabrain is an AI startup in South Korea specialized in sales forecasting.</i></span><br/><br/>
+<span style="font-size: 12px;">- <i>Betabrain is an AI startup in South Korea specialized in sales forecasting.</i></span><br/><br/>
 
 ## 🏫 Laboratory Expereince
 [2024/03 - Present] Student Researcher @ Data Mining Laboratory, Peking University.<br/>
