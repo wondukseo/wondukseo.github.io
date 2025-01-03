@@ -1,4 +1,4 @@
----
+![values_rag_figure1](https://github.com/user-attachments/assets/513f47e1-ddf2-4c77-9c6b-85569687f85e)<img width="868" alt="image" src="https://github.com/user-attachments/assets/e1e9a22b-55d4-4310-a7e3-912728a67c7f" />---
 permalink: /
 title: "About"
 author_profile: true
@@ -31,6 +31,12 @@ I am Wonduk Seo. Currently an undergraduate student at Peking University, Specia
 <span style="font-size: 14px;">- <i>Adviced by [Prof. Yi Bu](https://scholar.google.com/citations?hl=en&user=bSUm6ikAAAAJ)</i></span><br/><br/>
 
 # Publications
+
+<b>ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning</b><br/>
+<u>W. Seo</u>\*, Z. Yuan\*, Y. Bu<sup>†</sup><br/>
+<i>Arxiv</i>. [[pdf]](https://arxiv.org/pdf/2501.01031)<br/>
+![values_rag_figure1](https://github.com/user-attachments/assets/224aba9f-486c-49f9-a73e-58e267490dd3)<br/><br/>
+
 <b>GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval</b><br/>
 <u>W. Seo</u>\*, H. Zhang\*, Y. Zhang\*, C. Zhang, S. Duan, L. Su, D. Shi, J. Zhao, D. Yin<sup>†</sup><br/>
 <i>Arxiv</i>. [[pdf]](https://arxiv.org/pdf/2409.10909)<br/>
