@@ -1,4 +1,4 @@
-![values_rag_figure1](https://github.com/user-attachments/assets/513f47e1-ddf2-4c77-9c6b-85569687f85e)<img width="868" alt="image" src="https://github.com/user-attachments/assets/e1e9a22b-55d4-4310-a7e3-912728a67c7f" />---
+---
 permalink: /
 title: "About"
 author_profile: true
