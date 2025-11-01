@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Wonduk Seo, a Bachelor in Information Management from Peking University, currently working with Enhans AI.
+I am Wonduk Seo, holding a Bachelor's Degree from Peking University, currently working with Enhans AI.
 
 ## Research Interests
 
