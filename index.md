@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## About me
 
 Hi! I’m Wonduk Seo, an AI researcher at Enhans AI and a graduate of Peking University (Bachelor in Information Management, Big Data Management & Application). I’m passionate about bridging human values, reasoning, and real-world AI systems through scalable, interpretable methods.
 
