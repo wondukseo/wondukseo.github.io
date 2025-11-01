@@ -14,10 +14,9 @@ Hi! I’m Wonduk Seo, an AI researcher at Enhans AI and a graduate of Peking Uni
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Oct. 2025]** 🇲🇴 One first author paper got accepted to IEEE International Conference on Big Data 2025 Industry Track.
+- **[Jul. 2025]** 🇪🇸 One first author paper got accepted to AAAI/ACM Conference on AI, Ethics, and Society (AIES) Main Track.
+- **[Apr. 2025]** 🇩🇰 One co-first author paper got accepted to IEEE Engineering in Medicine and Biology Society (EMBC), Oral Presentation.
 
 {% include_relative _includes/publications.md %}
 
