@@ -8,8 +8,9 @@ Hi! I’m Wonduk Seo, an AI researcher at Enhans AI and a graduate of Peking Uni
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Socially Responsible and Interpretable AI:** Advancing interpretability, consistency, and accountability in LLMs for socially impactful, privacy-aware, and ethically aligned applications.
+- **Human Alignment and Evaluation:** Designing structured evaluation strategies, retrieval-augmented frameworks, and human-in-the-loop systems to align LLM behavior with human expectations.
+- **Multi-Agent Reasoning and Interaction:** Leveraging collaborative agent architectures for reasoning, prompt optimization, and interpretable decision-making in large-scale AI systems.
 
 ## News
 
