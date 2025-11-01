@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am Wonduk Seo, a Bachelor in Information Management from Peking University, currently working with Enhans AI.
 
 ## Research Interests
 
