@@ -14,10 +14,10 @@ Hi! I’m Wonduk Seo, an AI researcher at Enhans AI and a graduate of Peking Uni
 
 ## News
 
-- **[Oct. 2025]** One **co-first author** paper got accepted to **IEEE International Conference on Big Data 2025 Industry Track** 🇲🇴
+- **[Oct. 2025]** One **co-first author** paper got accepted to **IEEE International Conference on Big Data 2025 Industry Track** for **Oral Presentation** 🇲🇴
 - **[Jul. 2025]** One **first author** paper got accepted to **AAAI/ACM Conference on AI, Ethics, and Society (AIES) Main Track** 🇪🇸
-- **[Jun. 2025]** One **first author** paper accepted for oral presentation at the **ACM SIGKDD 2025 Workshop on AI Agent for Information Retrieval** 🇨🇦
-- **[Apr. 2025]** One **co-first author** paper got accepted to **IEEE Engineering in Medicine and Biology Society (EMBC), Oral Presentation** 🇩🇰
+- **[Jun. 2025]** One **first author** paper accepted for **Oral Presentation** at the **ACM SIGKDD 2025 Workshop on AI Agent for Information Retrieval** 🇨🇦
+- **[Apr. 2025]** One **co-first author** paper got accepted to **IEEE Engineering in Medicine and Biology Society (EMBC)** for **Oral Presentation** 🇩🇰
 - **[Feb. 2025]** One **first author** paper accepted by **Quantitative Science Studies (QSS)**
 
 {% include_relative _includes/publications.md %}
