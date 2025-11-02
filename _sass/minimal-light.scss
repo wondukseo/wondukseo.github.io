@@ -633,20 +633,13 @@ footer {
   display:none;
   font-family: monospace;
 }
-.affiliation-link {
-  color: #0d4e8c;
-  font-weight: 600;
-}
-
-.affiliation-link:hover {
-  color: #0c3d6b;
-}
-
+.affiliation-link,
 .about-link {
-  color: #0d4e8c;
+  color: #2a8dde;
   font-weight: 600;
 }
 
+.affiliation-link:hover,
 .about-link:hover {
-  color: #0c3d6b;
+  color: #1f6fb0;
 }
