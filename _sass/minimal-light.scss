@@ -14,6 +14,15 @@
   margin-bottom: 0.8rem;
 }
 
+.pub-row .title a {
+  color: #0d4e8c;
+  font-weight: 600;
+}
+
+.pub-row .title a:hover {
+  color: #0c3d6b;
+}
+
 .oral-note {
   color: #e74d3c;
   font-weight: 600;
@@ -623,4 +632,21 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: monospace;
+}
+.affiliation-link {
+  color: #0d4e8c;
+  font-weight: 600;
+}
+
+.affiliation-link:hover {
+  color: #0c3d6b;
+}
+
+.about-link {
+  color: #0d4e8c;
+  font-weight: 600;
+}
+
+.about-link:hover {
+  color: #0c3d6b;
 }
