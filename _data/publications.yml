@@ -53,7 +53,6 @@ working:
     conference: Under review.
     pdf: https://arxiv.org/abs/2510.16635
     image: ./images/working/prompt_optimization_via.png
-    notes: Under review
 
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
     authors: <strong>Wonduk Seo</strong>, Daye Kang, Hyunjin An, Seunghyun Lee, Taehan Kim, Zonghao Yuan, Yi Bu
@@ -61,7 +60,6 @@ working:
     conference: Under review.
     pdf: https://arxiv.org/abs/2502.11140
     image: ./images/working/automated_visualization.png
-    notes: Under review
 
   - title: "MARIC: Multi-Agent Reasoning for Image Classification"
     authors: <strong>Wonduk Seo*</strong>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
@@ -69,7 +67,6 @@ working:
     conference: Under review.
     pdf: https://arxiv.org/abs/2509.14860
     image: ./images/working/maric.png
-    notes: Under review
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <strong>Wonduk Seo*</strong>, Juhyeon Lee*, Yi Bu
@@ -77,7 +74,6 @@ working:
     conference: Under revision.
     pdf: https://arxiv.org/abs/2503.23314
     image: ./images/working/spio.png
-    notes: Under revision
 
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
     authors: <strong>Wonduk Seo</strong> et al.
@@ -85,7 +81,6 @@ working:
     conference: Under revision.
     pdf: https://arxiv.org/abs/2409.10909
     image: ./images/working/gencrf.png
-    notes: Under revision
 
   - title: "AIAP: A Multi Agent Workflow Builder with Visual Programming and Natural Language Prompts"
     authors: Hyunjin An, Yongwon Kim, <strong>Wonduk Seo</strong>, Jian Park, Daye Kang, Changhoon Oh, Dokyun Kim, Seunghyun Lee
@@ -93,4 +88,3 @@ working:
     conference: Under review.
     pdf: https://arxiv.org/abs/2508.02470
     image: ./images/working/aiap.png
-    notes: Under review
