@@ -20,6 +20,7 @@ Hi! I’m Wonduk Seo, an AI researcher at <a class="about-link" href="https://ww
   <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (JCDL)</strong>.</li>
   <li><strong>[Oct. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for Oral Presentation 🇲🇴.</li>
   <li><strong>[Jul. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>AAAI/ACM Conference on AI, Ethics, and Society (AIES) Main Track</strong> 🇪🇸.</li>
+  <li><strong>[Jul. 2025]</strong> Graduated from Peking University (Bachelor in Information Management, Big Data Management &amp; Application).</li>
   <li><strong>[Jun. 2025]</strong> One <strong>first author</strong> paper accepted for Oral Presentation at the <strong>ACM SIGKDD 2025 Workshop on AI Agent for Information Retrieval</strong> 🇨🇦.</li>
   <li><strong>[Apr. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE Engineering in Medicine and Biology Society (EMBC)</strong> for Oral Presentation 🇩🇰.</li>
   <li><strong>[Apr. 2025]</strong> Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (RECOMB)</strong> 🇰🇷.</li>
