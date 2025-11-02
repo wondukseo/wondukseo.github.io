@@ -2,9 +2,9 @@
 layout: homepage
 ---
 
-## About me
+## About Me
 
-Hi! I’m Wonduk Seo, an AI researcher at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> since January 2025 and a graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, I was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. I’m passionate about bridging human values, reasoning, and real-world AI systems through scalable, interpretable methods.
+Hi! I’m Wonduk Seo, an AI researcher at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> since January 2025 and a graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, I was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. I’m passionate about bridging human values, reasoning, and real-world AI systems through scalable, interpretable methods that maintain LLM consistency and reduce hallucinations in high-stakes settings.
 
 ## Research Interests
 
