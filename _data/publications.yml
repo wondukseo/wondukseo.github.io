@@ -1,4 +1,4 @@
-main:
+accepted:
 
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
     authors: <strong>Wonduk Seo</strong>, Zonghao Yuan, Yi Bu
@@ -10,7 +10,7 @@ main:
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
     authors: <strong>Wonduk Seo</strong>, Hyunjin An, Seunghyun Lee
     conference_short: KDD(W)
-    conference: ACM SIGKDD Workshop on AI Agent for Information Retrieval (Agent4IR), 2025.
+    conference: ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(Agent4IR)</strong>, 2025.
     pdf: https://arxiv.org/abs/2502.08557
     image: ./images/kdd.png
     notes: Oral Presentation
@@ -44,3 +44,53 @@ main:
     conference: Quantitative Science Studies <strong>(QSS)</strong>, 2025.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific
     image: ./images/qss.png
+
+working:
+
+  - title: "Prompt Optimization via Retrieved Reasoning Assets and Multi-Agent Analysis"
+    authors: <strong>Wonduk Seo</strong>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen, Yi Bu
+    conference_short: W1
+    conference: Under review.
+    pdf: https://arxiv.org/abs/2510.16635
+    image: ./images/working/prompt_optimization_via.png
+    notes: Under review
+
+  - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
+    authors: <strong>Wonduk Seo</strong>, Daye Kang, Hyunjin An, Seunghyun Lee, Taehan Kim, Zonghao Yuan, Yi Bu
+    conference_short: W2
+    conference: Under review.
+    pdf: https://arxiv.org/abs/2502.11140
+    image: ./images/working/automated_visualization.png
+    notes: Under review
+
+  - title: "MARIC: Multi-Agent Reasoning for Image Classification"
+    authors: <strong>Wonduk Seo*</strong>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
+    conference_short: W3
+    conference: Under review.
+    pdf: https://arxiv.org/abs/2509.14860
+    image: ./images/working/maric.png
+    notes: Under review
+
+  - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
+    authors: <strong>Wonduk Seo*</strong>, Juhyeon Lee*, Yi Bu
+    conference_short: W4
+    conference: Under revision.
+    pdf: https://arxiv.org/abs/2503.23314
+    image: ./images/working/spio.png
+    notes: Under revision
+
+  - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
+    authors: <strong>Wonduk Seo</strong> et al.
+    conference_short: W5
+    conference: Under revision.
+    pdf: https://arxiv.org/abs/2409.10909
+    image: ./images/working/gencrf.png
+    notes: Under revision
+
+  - title: "AIAP: A Multi Agent Workflow Builder with Visual Programming and Natural Language Prompts"
+    authors: Hyunjin An, Yongwon Kim, <strong>Wonduk Seo</strong>, Jian Park, Daye Kang, Changhoon Oh, Dokyun Kim, Seunghyun Lee
+    conference_short: W6
+    conference: Under review.
+    pdf: https://arxiv.org/abs/2508.02470
+    image: ./images/working/aiap.png
+    notes: Under review
