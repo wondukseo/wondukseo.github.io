@@ -1,22 +1,45 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
+    authors: <strong>Wonduk Seo</strong>, Zonghao Yuan, Yi Bu
+    conference_short: AIES
+    conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society <strong>(AIES)</strong>, 2025.
+    pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
+    image: ./images/aies.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
+    authors: <strong>Wonduk Seo</strong>, Hyunjin An, Seunghyun Lee
+    conference_short: KDD
+    conference: ACM SIGKDD Workshop on AI Agent for Information Retrieval, 2025.
+    pdf: https://arxiv.org/abs/2502.08557
+    image: ./images/kdd.png
     notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+
+  - title: "Question-to-Knowledge: Multi-Agent Generation of Inspectable Facts for Product Mapping"
+    authors: <strong>Wonduk Seo*</strong>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee
+    conference_short: BigData
+    conference: 2025 IEEE International Conference on Big Data <strong>(BigData)</strong> Industry Track, 2025.
+    pdf: https://arxiv.org/abs/2509.01182
+    image: ./images/bigdata.png
+    notes: Oral Presentation
+
+  - title: "Better by Comparison: Retrieval-Augmented Contrastive Reasoning for Automatic Prompt Optimization"
+    authors: Juhyeon Lee*, <strong>Wonduk Seo*</strong>, Hyunjin An, Seunghyun Lee, Yi Bu
+    conference_short: JCDL
+    conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries <strong>(JCDL)</strong>, Short Paper, 2025.
+    pdf: https://arxiv.org/abs/2509.02093
+    image: ./images/jcdl.png
+
+  - title: "Pesti-Gen: Unleashing a Generative Molecule Approach for Toxicity Aware Pesticide Design"
+    authors: Taehan Kim*, <strong>Wonduk Seo*</strong>
+    conference_short: EMBC
+    conference: 47th International Conference of the IEEE Engineering in Medicine and Biology <strong>(EMBC)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2501.14469
+    image: ./images/embc.png
+    notes: Oral Presentation
+
+  - title: "Transforming Role Classification in Scientific Teams using LLMs and Advanced Predictive Analytics"
+    authors: <strong>Wonduk Seo</strong>, Yi Bu
+    conference_short: QSS
+    conference: Quantitative Science Studies <strong>(QSS)</strong>, 2025.
+    pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific
