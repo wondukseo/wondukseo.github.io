@@ -46,6 +46,18 @@
   padding-right: 0.5rem;
   margin-bottom: 1.5rem;
   position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: #97a9bc #f1f3f5;
+}
+
+.news-scroll::after {
+  content: "\2195";
+  position: absolute;
+  top: 0.35rem;
+  right: 0.2rem;
+  font-size: 0.85rem;
+  color: #5f6f7f;
+  pointer-events: none;
 }
 
 .news-scroll::-webkit-scrollbar {
@@ -64,11 +76,6 @@
 
 .news-scroll::-webkit-scrollbar-thumb:hover {
   background: #97a9bc;
-}
-
-.news-scroll {
-  scrollbar-width: thin;
-  scrollbar-color: #97a9bc #f1f3f5;
 }
 
 .news-scroll ul {
