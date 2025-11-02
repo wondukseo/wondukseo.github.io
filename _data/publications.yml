@@ -2,7 +2,7 @@ main:
 
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
     authors: <strong>Wonduk Seo</strong>, Zonghao Yuan, Yi Bu
-    conference_short: AIES
+    conference_short: AAAI-AIES
     conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society <strong>(AIES)</strong>, 2025.
     pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
     image: ./images/aies.png

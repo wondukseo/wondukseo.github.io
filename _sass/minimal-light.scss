@@ -2,6 +2,13 @@
   display: flex; 
   align-items: center;}
 
+.pub-row img.teaser {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
 .social-icons a{
   display:inline-block;
   height:2.4rem;
