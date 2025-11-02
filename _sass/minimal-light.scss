@@ -42,23 +42,33 @@
 
 .news-scroll {
   max-height: 18rem;
-  overflow-y: auto;
+  overflow-y: scroll;
   padding-right: 0.5rem;
   margin-bottom: 1.5rem;
   position: relative;
 }
 
-.news-scroll-indicator {
-  position: absolute;
-  top: 0.3rem;
-  right: 0.2rem;
-  font-size: 0.85rem;
-  color: #5f6f7f;
-  font-weight: 600;
+.news-scroll::-webkit-scrollbar {
+  width: 8px;
 }
 
-.news-scroll:hover .news-scroll-indicator {
-  display: none;
+.news-scroll::-webkit-scrollbar-track {
+  background: #f1f3f5;
+  border-radius: 8px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb {
+  background: #b5c4d4;
+  border-radius: 8px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb:hover {
+  background: #97a9bc;
+}
+
+.news-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #97a9bc #f1f3f5;
 }
 
 .news-scroll ul {

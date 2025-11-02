@@ -15,7 +15,6 @@ Hi! I’m Wonduk Seo, an AI researcher at <a class="about-link" href="https://ww
 ## News
 
 <div class="news-scroll">
-  <div class="news-scroll-indicator" aria-hidden="true">⇵ Scroll</div>
 <ul>
   <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (JCDL)</strong>.</li>
   <li><strong>[Oct. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for Oral Presentation 🇲🇴.</li>
