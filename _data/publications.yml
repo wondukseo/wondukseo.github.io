@@ -10,7 +10,7 @@ main:
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
     authors: <strong>Wonduk Seo</strong>, Hyunjin An, Seunghyun Lee
     conference_short: KDD(W)
-    conference: ACM SIGKDD Workshop on AI Agent for Information Retrieval, 2025.
+    conference: ACM SIGKDD Workshop on AI Agent for Information Retrieval (Agent4IR), 2025.
     pdf: https://arxiv.org/abs/2502.08557
     image: ./images/kdd.png
     notes: Oral Presentation
