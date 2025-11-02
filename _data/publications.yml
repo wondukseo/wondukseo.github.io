@@ -1,14 +1,14 @@
 accepted:
 
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
-    authors: <strong>Wonduk Seo</strong>, Zonghao Yuan, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Zonghao Yuan, Yi Bu
     conference_short: AAAI-AIES
     conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society <strong>(AIES)</strong>, 2025.
     pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
     image: ./images/aies.png
 
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
-    authors: <strong>Wonduk Seo</strong>, Hyunjin An, Seunghyun Lee
+    authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee
     conference_short: KDD(W)
     conference: ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(Agent4IR)</strong>, 2025.
     pdf: https://arxiv.org/abs/2502.08557
@@ -16,7 +16,7 @@ accepted:
     notes: Oral Presentation
 
   - title: "Question-to-Knowledge: Multi-Agent Generation of Inspectable Facts for Product Mapping"
-    authors: <strong>Wonduk Seo*</strong>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee
     conference_short: BigData
     conference: 2025 IEEE International Conference on Big Data <strong>(BigData)</strong> Industry Track, 2025.
     pdf: https://arxiv.org/abs/2509.01182
@@ -24,14 +24,14 @@ accepted:
     notes: Oral Presentation
 
   - title: "Better by Comparison: Retrieval-Augmented Contrastive Reasoning for Automatic Prompt Optimization"
-    authors: Juhyeon Lee*, <strong>Wonduk Seo*</strong>, Hyunjin An, Seunghyun Lee, Yi Bu
+    authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Hyunjin An, Seunghyun Lee, Yi Bu
     conference_short: JCDL
     conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries <strong>(JCDL)</strong>, Short Paper, 2025.
     pdf: https://arxiv.org/abs/2509.02093
     image: ./images/jcdl.png
 
   - title: "Pesti-Gen: Unleashing a Generative Molecule Approach for Toxicity Aware Pesticide Design"
-    authors: Taehan Kim*, <strong>Wonduk Seo*</strong>
+    authors: Taehan Kim*, <span class="me-highlight">Wonduk Seo*</span>
     conference_short: EMBC
     conference: 47th International Conference of the IEEE Engineering in Medicine and Biology <strong>(EMBC)</strong>, 2025.
     pdf: https://arxiv.org/abs/2501.14469
@@ -39,7 +39,7 @@ accepted:
     notes: Oral Presentation
 
   - title: "Transforming Role Classification in Scientific Teams using LLMs and Advanced Predictive Analytics"
-    authors: <strong>Wonduk Seo</strong>, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Yi Bu
     conference_short: QSS
     conference: Quantitative Science Studies <strong>(QSS)</strong>, 2025.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific
@@ -48,42 +48,42 @@ accepted:
 working:
 
   - title: "Prompt Optimization via Retrieved Reasoning Assets and Multi-Agent Analysis"
-    authors: <strong>Wonduk Seo</strong>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen, Yi Bu
     conference_short: W1
     conference: Under review.
     pdf: https://arxiv.org/abs/2510.16635
     image: ./images/working/prompt_optimization_via.png
 
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
-    authors: <strong>Wonduk Seo</strong>, Daye Kang, Hyunjin An, Seunghyun Lee, Taehan Kim, Zonghao Yuan, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Seunghyun Lee, Taehan Kim, Zonghao Yuan, Yi Bu
     conference_short: W2
     conference: Under review.
     pdf: https://arxiv.org/abs/2502.11140
     image: ./images/working/automated_visualization.png
 
   - title: "MARIC: Multi-Agent Reasoning for Image Classification"
-    authors: <strong>Wonduk Seo*</strong>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
     conference_short: W3
     conference: Under review.
     pdf: https://arxiv.org/abs/2509.14860
     image: ./images/working/maric.png
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
-    authors: <strong>Wonduk Seo*</strong>, Juhyeon Lee*, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yi Bu
     conference_short: W4
     conference: Under revision.
     pdf: https://arxiv.org/abs/2503.23314
     image: ./images/working/spio.png
 
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
-    authors: <strong>Wonduk Seo</strong> et al.
+    authors: <span class="me-highlight">Wonduk Seo</span> et al.
     conference_short: W5
     conference: Under revision.
     pdf: https://arxiv.org/abs/2409.10909
     image: ./images/working/gencrf.png
 
   - title: "AIAP: A Multi Agent Workflow Builder with Visual Programming and Natural Language Prompts"
-    authors: Hyunjin An, Yongwon Kim, <strong>Wonduk Seo</strong>, Jian Park, Daye Kang, Changhoon Oh, Dokyun Kim, Seunghyun Lee
+    authors: Hyunjin An, Yongwon Kim, <span class="me-highlight">Wonduk Seo</span>, Jian Park, Daye Kang, Changhoon Oh, Dokyun Kim, Seunghyun Lee
     conference_short: W6
     conference: Under review.
     pdf: https://arxiv.org/abs/2508.02470

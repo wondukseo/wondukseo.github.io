@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 16px 0px 14px;">Publications</h2>
 
 {% assign sections = site.data.publications %}
 
@@ -20,11 +20,7 @@
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
         <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
         <div class="author">{{ link.authors }}</div>
-        <div class="periodical"><em>{{ link.conference }}</em>
-        </div>
-      {% if link.notes %}
-      <p class="pub-note">{{ link.notes }}</p>
-      {% endif %}
+        <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
     </div>
   </div>
   </li>
@@ -52,11 +48,7 @@
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
         <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
         <div class="author">{{ link.authors }}</div>
-        <div class="periodical"><em>{{ link.conference }}</em>
-        </div>
-      {% if link.notes %}
-      <p class="pub-note">{{ link.notes }}</p>
-      {% endif %}
+        <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
     </div>
   </div>
   </li>

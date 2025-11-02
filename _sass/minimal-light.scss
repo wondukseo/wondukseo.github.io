@@ -10,14 +10,25 @@
 }
 
 .pub-section-title {
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
 }
 
-.pub-note {
-  margin: 0.4rem 0 0;
-  font-style: italic;
+.oral-note {
   color: #e74d3c;
+  font-weight: 600;
+}
+
+.me-highlight {
+  background-color: rgba(123, 198, 255, 0.35);
+  text-decoration: underline;
+  font-weight: 600;
+  padding: 0 0.15rem;
+  border-radius: 4px;
+}
+
+.awards-list p {
+  margin: 0.35rem 0;
 }
 
 .social-icons a{
