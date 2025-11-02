@@ -15,6 +15,7 @@ Hi! I’m Wonduk Seo, an AI researcher at <a class="about-link" href="https://ww
 ## News
 
 <div class="news-scroll">
+  <div class="news-scroll-indicator" aria-hidden="true">⇵ Scroll</div>
 <ul>
   <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (JCDL)</strong>.</li>
   <li><strong>[Oct. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for Oral Presentation 🇲🇴.</li>
@@ -23,7 +24,7 @@ Hi! I’m Wonduk Seo, an AI researcher at <a class="about-link" href="https://ww
   <li><strong>[Apr. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE Engineering in Medicine and Biology Society (EMBC)</strong> for Oral Presentation 🇩🇰.</li>
   <li><strong>[Apr. 2025]</strong> Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (RECOMB)</strong> 🇰🇷.</li>
   <li><strong>[Feb. 2025]</strong> One <strong>first author</strong> paper accepted by <strong>Quantitative Science Studies (QSS)</strong>.</li>
-  <li><strong>[Jan. 2025]</strong> Concluded my tenure as an LLM researcher at <a class="about-link" href="https://www.baidu.com/" target="_blank">Baidu Inc.</a>.</li>
+  <li><strong>[Jan. 2025]</strong> Concluded my role as an LLM researcher at <a class="about-link" href="https://www.baidu.com/" target="_blank">Baidu Inc.</a>.</li>
   <li><strong>[Jan. 2025]</strong> Rejoined <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> as an AI Research Scientist.</li>
   <li><strong>[Nov. 2024]</strong> Ranked 9th in the ACM'24 FinanceRAG Challenge as Team Leader.</li>
   <li><strong>[May. 2024]</strong> 🥉 Earned a bronze medal in Kaggle’s Enefit Predict Energy Behavior of Prosumers (Solo).</li>

@@ -45,6 +45,20 @@
   overflow-y: auto;
   padding-right: 0.5rem;
   margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.news-scroll-indicator {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.2rem;
+  font-size: 0.85rem;
+  color: #5f6f7f;
+  font-weight: 600;
+}
+
+.news-scroll:hover .news-scroll-indicator {
+  display: none;
 }
 
 .news-scroll ul {
