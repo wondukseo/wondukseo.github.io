@@ -35,6 +35,7 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
   <li><strong>[Oct. 2023]</strong> 🥉 Earned a bronze medal in Kaggle’s LLM Science Exam (Team).</li>
   <li><strong>[Aug. 2023]</strong> Completed my Data Scientist internship at <a class="about-link" href="https://www.lgchem.com/main/index" target="_blank">LG Chem</a>.</li>
   <li><strong>[Apr. 2023]</strong> Completed a Data Scientist internship at <a class="about-link" href="https://www.linkedin.com/company/betabrainco/" target="_blank">BetaBrain</a>.</li>
+  <li><strong>[Apr. 2022]</strong> Began a long-term collaboration with <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&hl=en" target="_blank">Prof. Yi Bu</a>.</li>
   <li><strong>[Dec. 2020]</strong> Began my AI journey, diving into machine learning research and engineering.</li>
 </ul>
 </div>
