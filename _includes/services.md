@@ -18,7 +18,7 @@
 - <a class="about-link" href="https://idealabunt.github.io/home/haihua-chen.html" target="_blank">Prof. Haihua Chen</a>, University of North Texas (09/2025 – Present)
 - <a class="about-link" href="https://www.yindawei.com/" target="_blank">Dawei Yin</a>, Head of Search Science, Baidu (04/2024 – 01/2025)
 - <a class="about-link" href="https://yingding.ischool.utexas.edu/" target="_blank">Prof. Ying Ding</a>, University of North Texas (06/2024 – 08/2024)
-- <a class="about-link" href="https://scholar.google.com/citations?user=gGcRkpYAAAAJ" target="_blank">Xiangru Tang</a> (09/2023 – 11/2023)
+- <a class="about-link" href="https://scholar.google.com/citations?user=gGcRkpYAAAAJ" target="_blank">Xiangru Tang</a>, Yale University (09/2023 – 11/2023)
 
 ### Collaborators
 
