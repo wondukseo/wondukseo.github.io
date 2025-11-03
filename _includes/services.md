@@ -23,7 +23,6 @@
 ### Collaborators
 
 - <a class="about-link" href="https://scholar.google.com/citations?user=CJGMRvoAAAAJ&hl=ko" target="_blank">Hyunjin An</a>, Enhans (02/2025 – Present)
-- <a class="about-link" href="https://www.linkedin.com/in/juhyeon-lee-056886256/" target="_blank">Juhyeon Lee</a>, Peking University (03/2025 – Present)
 - <a class="about-link" href="https://www.linkedin.com/in/terry-taehan-kim/" target="_blank">Taehan Kim</a>, UC Berkeley (04/2024 – 09/2025)
 - Zonghao Yuan, Tsinghua University (11/2024 – 04/2025)
 
