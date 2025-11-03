@@ -6,7 +6,7 @@
   <p>🥉 Kaggle – Harvard Medical School Brain Activity Classification (Team Leader), 04/2024</p>
   <p>🥈 Kaggle – CAFA 5 Protein Function Prediction (Solo), 12/2023</p>
   <p>🥉 Kaggle – LLM Science Exam (Team), 10/2023</p>
-  <p>Dacon – Jeju Product Price Prediction (Top 1% among 1.4K participants), 10/2023</p>
+  <p>Dacon – Jeju Product Price Prediction (Solo; Top 1% among 1.4K participants), 10/2023</p>
 </div>
 
 <div style="height: 1.5rem;"></div>
