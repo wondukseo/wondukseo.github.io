@@ -82,6 +82,12 @@
         </a>
         {% endif %}
 
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}" rel="me noopener" target="_blank">
+          <i class="ai ai-orcid" style="font-size:1.2rem;"></i>
+        </a>
+        {% endif %}
+
         {% if site.linkedin %}
         <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>
