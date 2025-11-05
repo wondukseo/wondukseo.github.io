@@ -50,9 +50,8 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
   <p class="map-note">Visitor snapshots courtesy of <a class="about-link" href="https://mapmyvisitors.com/" target="_blank" rel="noopener">MapMyVisitors</a>.</p>
   <div class="visitors-embed">
     <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=5Glog92nqV1zHsEHfmFBfGkIHQGYLJuN9ibwv3Fycw8"></script>
-    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=v9cynR41Fvt_8U_fyDRbbIay7gaJyJAOk0W4NDNjwdg&cl=ffffff&w=a"></script>
   </div>
 </div>
 <noscript>
-  <p class="map-note">Enable JavaScript to display the interactive visitor globe and map.</p>
+  <p class="map-note">Enable JavaScript to display the interactive visitor globe.</p>
 </noscript>
