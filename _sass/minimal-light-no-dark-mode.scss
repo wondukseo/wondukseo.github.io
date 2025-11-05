@@ -125,47 +125,28 @@ autocolor{
   margin-top: 0.6rem;
 }
 
-.clustrmaps-container {
-  margin-top: 1.2rem;
-  border-radius: 12px;
+.visitors-container {
+  margin-top: 1.4rem;
+  padding: 1.5rem;
   border: 1px solid #d4dde6;
+  border-radius: 12px;
   box-shadow: 0 8px 24px rgba(45, 76, 114, 0.08);
-  overflow: hidden;
   background: #f7f9fc;
+  text-align: center;
 }
 
-.clustrmaps-wrapper {
-  min-height: 320px;
-  width: 100%;
+.visitors-embed {
+  margin-top: 1rem;
   display: flex;
-  align-items: stretch;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
   justify-content: center;
 }
 
-.clustrmaps-wrapper a {
-  display: block;
-  width: 100%;
-}
-
-.clustrmaps-wrapper img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.clustrmaps-placeholder {
-  margin-top: 1.2rem;
-  padding: 1.4rem;
-  border: 1px dashed #b7c5d6;
-  border-radius: 12px;
-  background-color: #f5f8fc;
-  color: #4f5d6d;
-}
-
 @media (max-width: 640px) {
-  .clustrmaps-wrapper {
-    min-height: 260px;
+  .visitors-container {
+    padding: 1.25rem;
   }
 }
 

@@ -46,47 +46,13 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
 
 ## Visitors
 
-{% assign clustrmaps_base_color = site.clustrmaps_color | default: "ffffff" %}
-{% assign clustrmaps_width = site.clustrmaps_width | default: 600 %}
-{% assign clustrmaps_url = site.clustrmaps_url | default: site.url %}
-{% if site.baseurl and site.baseurl != "" %}
-  {% assign clustrmaps_url = clustrmaps_url | append: site.baseurl %}
-{% endif %}
-{% assign clustrmaps_link = nil %}
-{% if site.clustrmaps_site_id %}
-  {% capture clustrmaps_link %}
-https://clustrmaps.com/site/{{ site.clustrmaps_site_id }}
-  {% endcapture %}
-{% elsif clustrmaps_url %}
-  {% capture clustrmaps_link %}
-https://clustrmaps.com/counter/maps.php?url={{ clustrmaps_url | uri_escape }}
-  {% endcapture %}
-{% endif %}
-{% assign clustrmaps_img = nil %}
-{% if site.clustrmaps_map_hash %}
-  {% capture clustrmaps_img %}
-//clustrmaps.com/map_v2.png?d={{ site.clustrmaps_map_hash }}&cl={{ clustrmaps_base_color }}&w={{ clustrmaps_width }}
-  {% endcapture %}
-{% elsif clustrmaps_url %}
-  {% capture clustrmaps_img %}
-//clustrmaps.com/map_v2.png?url={{ clustrmaps_url | uri_escape }}&cl={{ clustrmaps_base_color }}&w={{ clustrmaps_width }}
-  {% endcapture %}
-{% endif %}
-{% if clustrmaps_img %}
-<div class="clustrmaps-container">
-  <div class="clustrmaps-wrapper">
-    {% if clustrmaps_link %}
-    <a href="{{ clustrmaps_link | strip }}" target="_blank" rel="noopener">
-      <img src="{{ clustrmaps_img | strip }}" alt="ClustrMaps visitor overview" loading="lazy">
-    </a>
-    {% else %}
-      <img src="{{ clustrmaps_img | strip }}" alt="ClustrMaps visitor overview" loading="lazy">
-    {% endif %}
+<div class="visitors-container">
+  <p class="map-note">Visitor snapshots courtesy of <a class="about-link" href="https://mapmyvisitors.com/" target="_blank" rel="noopener">MapMyVisitors</a>.</p>
+  <div class="visitors-embed">
+    <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=5Glog92nqV1zHsEHfmFBfGkIHQGYLJuN9ibwv3Fycw8"></script>
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=v9cynR41Fvt_8U_fyDRbbIay7gaJyJAOk0W4NDNjwdg&cl=ffffff&w=a"></script>
   </div>
 </div>
-<p class="map-note">Visitors are tracked via <a class="about-link" href="https://clustrmaps.com/" target="_blank" rel="noopener">ClustrMaps</a>. Update <code>clustrmaps_map_hash</code>, <code>clustrmaps_site_id</code>, or <code>clustrmaps_url</code> in <code>_config.yml</code> with the values from your ClustrMaps dashboard.</p>
-{% else %}
-<div class="clustrmaps-placeholder">
-  <p>Provide your ClustrMaps embed settings (<code>clustrmaps_map_hash</code> or <code>clustrmaps_url</code>) in <code>_config.yml</code> to activate the visitor map.</p>
-</div>
-{% endif %}
+<noscript>
+  <p class="map-note">Enable JavaScript to display the interactive visitor globe and map.</p>
+</noscript>
