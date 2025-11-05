@@ -43,3 +43,32 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+## Visitors
+
+{% assign clustrmaps_url = site.clustrmaps_url | default: site.url %}
+{% if site.baseurl and site.baseurl != "" %}
+  {% assign clustrmaps_url = clustrmaps_url | append: site.baseurl %}
+{% endif %}
+{%- capture clustrmaps_query -%}
+cl={{ site.clustrmaps_color | default: "0f3863" }}&w=a&t=tt{% if site.clustrmaps_id %}&d={{ site.clustrmaps_id }}{% elsif clustrmaps_url %}&url={{ clustrmaps_url | uri_escape }}{% endif %}
+{%- endcapture -%}
+{% if site.clustrmaps_id or clustrmaps_url %}
+<div class="clustrmaps-container">
+  <div class="clustrmaps-wrapper">
+    <script type="text/javascript" id="clustrmaps-script" src="https://clustrmaps.com/map_v2.js?{{ clustrmaps_query | strip }}"></script>
+  </div>
+</div>
+<p class="map-note">Visitors are tracked via <a class="about-link" href="https://clustrmaps.com/" target="_blank" rel="noopener">ClustrMaps</a>. Update <code>clustrmaps_id</code> or <code>clustrmaps_url</code> in <code>_config.yml</code> as needed.</p>
+<noscript>
+  {% if site.clustrmaps_id %}
+  <p class="map-note">View the visitor map on <a class="about-link" href="https://clustrmaps.com/site/{{ site.clustrmaps_id }}" target="_blank" rel="noopener">ClustrMaps</a>.</p>
+  {% elsif clustrmaps_url %}
+  <p class="map-note">View the visitor map on <a class="about-link" href="https://clustrmaps.com/counter/maps.php?url={{ clustrmaps_url | uri_escape }}" target="_blank" rel="noopener">ClustrMaps</a>.</p>
+  {% endif %}
+</noscript>
+{% else %}
+<div class="clustrmaps-placeholder">
+  <p>Set <code>clustrmaps_url</code> or <code>clustrmaps_id</code> in <code>_config.yml</code> to activate the visitor map.</p>
+</div>
+{% endif %}

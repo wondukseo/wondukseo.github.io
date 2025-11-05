@@ -50,16 +50,6 @@
   scrollbar-color: #97a9bc #f1f3f5;
 }
 
-.news-scroll::after {
-  content: "\2195";
-  position: absolute;
-  top: 0.35rem;
-  right: 0.2rem;
-  font-size: 0.85rem;
-  color: #5f6f7f;
-  pointer-events: none;
-}
-
 .news-scroll::-webkit-scrollbar {
   width: 8px;
 }
@@ -85,6 +75,44 @@
 
 .news-scroll li {
   margin-bottom: 0.35rem;
+}
+
+.map-note {
+  font-size: 0.9rem;
+  color: #4f5d6d;
+  margin-top: 0.6rem;
+}
+
+.clustrmaps-container {
+  margin-top: 1.2rem;
+  border-radius: 12px;
+  border: 1px solid #d4dde6;
+  box-shadow: 0 8px 24px rgba(45, 76, 114, 0.08);
+  overflow: hidden;
+  background: #f7f9fc;
+}
+
+.clustrmaps-wrapper {
+  min-height: 320px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.clustrmaps-placeholder {
+  margin-top: 1.2rem;
+  padding: 1.4rem;
+  border: 1px dashed #b7c5d6;
+  border-radius: 12px;
+  background-color: #f5f8fc;
+  color: #4f5d6d;
+}
+
+@media (max-width: 640px) {
+  .clustrmaps-wrapper {
+    min-height: 260px;
+  }
 }
 
 .social-icons a{
@@ -263,6 +291,22 @@ papertitle {
 
     papertitle {
     color:#eeeff0;
+    }
+
+    .clustrmaps-container {
+      border-color: #324455;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+      background: #1b2430;
+    }
+
+    .clustrmaps-placeholder {
+      border-color: #3a4b5b;
+      background-color: rgba(59, 77, 99, 0.35);
+      color: #ccd8e7;
+    }
+
+    .map-note {
+      color: #a9b9c6;
     }
 
 }
