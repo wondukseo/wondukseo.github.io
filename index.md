@@ -44,10 +44,7 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
 
 {% include_relative _includes/services.md %}
 
-## Visitors
-
 <div class="visitors-container">
-  <p class="map-note">Visitor snapshots courtesy of <a class="about-link" href="https://mapmyvisitors.com/" target="_blank" rel="noopener">MapMyVisitors</a>.</p>
   <div class="visitors-embed">
     <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=5Glog92nqV1zHsEHfmFBfGkIHQGYLJuN9ibwv3Fycw8"></script>
   </div>
