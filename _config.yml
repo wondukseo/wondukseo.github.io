@@ -40,8 +40,11 @@ font: "Serif" # or "Sans Serif"
 
 # ClustrMaps integration
 clustrmaps_id:
-clustrmaps_color: 0f3863
 clustrmaps_url: https://wondukseo.github.io/
+clustrmaps_site_id:
+clustrmaps_map_hash:
+clustrmaps_color: ffffff
+clustrmaps_width: 600
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics

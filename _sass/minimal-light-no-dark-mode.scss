@@ -142,6 +142,18 @@ autocolor{
   justify-content: center;
 }
 
+.clustrmaps-wrapper a {
+  display: block;
+  width: 100%;
+}
+
+.clustrmaps-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .clustrmaps-placeholder {
   margin-top: 1.2rem;
   padding: 1.4rem;
