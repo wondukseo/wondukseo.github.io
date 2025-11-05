@@ -50,6 +50,27 @@
   scrollbar-color: #97a9bc #f1f3f5;
 }
 
+.news-scroll::after {
+  content: "\2195";
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d4dde6;
+  background: rgba(255, 255, 255, 0.95);
+  color: #5f6f7f;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(68, 88, 110, 0.12);
+  opacity: 0.88;
+}
+
 .news-scroll::-webkit-scrollbar {
   width: 8px;
 }
@@ -296,6 +317,14 @@ papertitle {
 
     papertitle {
     color:#eeeff0;
+    }
+
+    .news-scroll::after {
+      border-color: #2e3e4d;
+      background: rgba(32, 33, 43, 0.94);
+      color: #c8d6e5;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+      opacity: 0.96;
     }
 
     .visitors-container {

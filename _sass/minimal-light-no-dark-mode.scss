@@ -125,6 +125,27 @@ autocolor{
   margin-top: 0.6rem;
 }
 
+.news-scroll::after {
+  content: "\2195";
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d4dde6;
+  background: rgba(255, 255, 255, 0.95);
+  color: #5f6f7f;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(68, 88, 110, 0.12);
+  opacity: 0.88;
+}
+
 .visitors-container {
   margin: 1.4rem auto 0;
   padding: 1.2rem 1.4rem 1.5rem;
