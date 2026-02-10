@@ -8,10 +8,9 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
 
 ## Research Interests
 
-- **Socially Responsible and Interpretable AI:** Advancing interpretability and accuracy in large language models (LLMs) to ensure their use is consistent with social benefit, ethical standards, and real-world needs.
-- **Human Alignment and Interpretability:** Developing interpretability and feedback frameworks that combine retrieval-augmented reasoning, transparent evaluation, and human-in-the-loop refinement to align LLM behavior with subtle and context-dependent human expectations.
-- **Multi-Agent Reasoning and Interaction:** Developing collaborative agent architectures that support reasoning, prompt optimization, and hallucination-reduction while enabling interpretable decision-making in large-scale AI systems.
-- **Query Reformulation and Understanding:** Designing adaptive query reformulation and expansion pipelines that capture nuanced user intent and orchestrate multiple retrieval strategies, yielding more precise, transparent access to information in real-world systems.
+- **Socially Responsible, Interpretable, and Aligned AI:** Advancing interpretability and accuracy in LLMs through transparent evaluation, retrieval-augmented reasoning, and human-in-the-loop feedback to ensure socially beneficial and context-aware behavior.
+- **Multi-Agent Reasoning and Interaction:** Developing collaborative agent architectures that support reasoning, prompt optimization, and hallucination reduction while enabling interpretable decision-making at scale.
+- **Information Retrieval with LLMs:** Designing adaptive query reformulation and expansion pipelines that capture nuanced intent and orchestrate multiple retrieval strategies for precise, transparent access to information.
 
 ## News
 
