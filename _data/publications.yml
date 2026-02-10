@@ -61,7 +61,7 @@ working:
     image: ./images/working/prompt_optimization_via.png
 
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Seunghyun Lee, Taehan Kim, Zonghao Yuan, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Taehan Kim, Soohyuk Cho, Seungyong Lee, Minhyeong Yu, Jian Park, Yi Bu, Seunghyun Lee
     conference_short: W3
     conference: Under review.
     pdf: https://arxiv.org/abs/2502.11140
@@ -75,14 +75,14 @@ working:
     image: ./images/working/maric.png
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
-    authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee, Yi Bu
     conference_short: W5
     conference: Under revision.
     pdf: https://arxiv.org/abs/2503.23314
     image: ./images/working/spio.png
 
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
-    authors: <span class="me-highlight">Wonduk Seo</span> et al.
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Haojie Zhang*, Yueyang Zhang*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin
     conference_short: W6
     conference: Under revision.
     pdf: https://arxiv.org/abs/2409.10909
