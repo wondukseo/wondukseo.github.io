@@ -11,9 +11,9 @@
 
 <div style="height: 1.5rem;"></div>
 
-## Advisors and Collaborators
+## Advisors & Mentors and Collaborators
 
-### Advisors
+### Advisors & Mentors
 
 - <a class="about-link" href="https://scholar.google.com/citations?user=gGcRkpYAAAAJ" target="_blank">Xiangru Tang</a>, Yale University (09/2023 – 11/2023)
 - <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&hl=en&oi=ao" target="_blank">Prof. Yi Bu</a>, Peking University (03/2024 – Present)
