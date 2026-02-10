@@ -50,40 +50,47 @@ working:
     authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu
     conference_short: W1
     conference: Preprint.
-    pdf: #
+    pdf: https://arxiv.org/abs/2601.21700
     image: ./images/working/image.png
+
+  - title: "Prompt Optimization via Retrieved Reasoning Assets and Multi-Agent Analysis"
+    authors: <span class="me-highlight">Wonduk Seo</span>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen, Yi Bu
+    conference_short: W2
+    conference: Under review.
+    pdf: https://arxiv.org/abs/2510.16635
+    image: ./images/working/prompt_optimization_via.png
 
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
     authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Seunghyun Lee, Taehan Kim, Zonghao Yuan, Yi Bu
-    conference_short: W2
+    conference_short: W3
     conference: Under review.
     pdf: https://arxiv.org/abs/2502.11140
     image: ./images/working/automated_visualization.png
 
   - title: "MARIC: Multi-Agent Reasoning for Image Classification"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
-    conference_short: W3
+    conference_short: W4
     conference: Under review.
     pdf: https://arxiv.org/abs/2509.14860
     image: ./images/working/maric.png
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yi Bu
-    conference_short: W4
+    conference_short: W5
     conference: Under revision.
     pdf: https://arxiv.org/abs/2503.23314
     image: ./images/working/spio.png
 
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
     authors: <span class="me-highlight">Wonduk Seo</span> et al.
-    conference_short: W5
+    conference_short: W6
     conference: Under revision.
     pdf: https://arxiv.org/abs/2409.10909
     image: ./images/working/gencrf.png
 
   - title: "AIAP: A Multi Agent Workflow Builder with Visual Programming and Natural Language Prompts"
     authors: Hyunjin An, Yongwon Kim, <span class="me-highlight">Wonduk Seo</span>, Jian Park, Daye Kang, Changhoon Oh, Dokyun Kim, Seunghyun Lee
-    conference_short: W6
+    conference_short: W7
     conference: Under review.
     pdf: https://arxiv.org/abs/2508.02470
     image: ./images/working/aiap.png
