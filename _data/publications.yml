@@ -2,21 +2,21 @@ accepted:
 
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
     authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee
-    conference_short: WSDM
+    conference_short: WSDM'26
     conference: ACM International Conference on Web Search and Data Mining <strong>(WSDM)</strong>, 2026.<br>ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(SIGKDD-Agent4IR)</strong>, 2025. Oral Presentation
     pdf: https://arxiv.org/abs/2502.08557
     image: ./images/kdd.png
 
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
     authors: <span class="me-highlight">Wonduk Seo</span>, Zonghao Yuan, Yi Bu
-    conference_short: AAAI-AIES
+    conference_short: AAAI-AIES'25
     conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society <strong>(AAAI-AIES)</strong>, 2025.
     pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
     image: ./images/aies.png
 
   - title: "Question-to-Knowledge: Multi-Agent Generation of Inspectable Facts for Product Mapping"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee
-    conference_short: BigData
+    conference_short: BigData'25
     conference: 2025 IEEE International Conference on Big Data <strong>(BigData)</strong> Industry Track, 2025.
     pdf: https://arxiv.org/abs/2509.01182
     image: ./images/bigdata.png
@@ -31,7 +31,7 @@ accepted:
 
   - title: "Pesti-Gen: Unleashing a Generative Molecule Approach for Toxicity Aware Pesticide Design"
     authors: Taehan Kim*, <span class="me-highlight">Wonduk Seo*</span>
-    conference_short: EMBC
+    conference_short: EMBC'25
     conference: 47th International Conference of the IEEE Engineering in Medicine and Biology <strong>(EMBC)</strong>, 2025.
     pdf: https://arxiv.org/abs/2501.14469
     image: ./images/embc.png
@@ -40,7 +40,7 @@ accepted:
   - title: "Transforming Role Classification in Scientific Teams using LLMs and Advanced Predictive Analytics"
     authors: <span class="me-highlight">Wonduk Seo</span>, Yi Bu
     conference_short: QSS
-    conference: Quantitative Science Studies <strong>(QSS)</strong>, 2025.
+    conference: Quantitative Science Studies 6, 505-523.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific
     image: ./images/qss.png
 
