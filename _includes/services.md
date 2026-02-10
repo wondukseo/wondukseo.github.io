@@ -11,7 +11,7 @@
 
 <div style="height: 1.5rem;"></div>
 
-## Advisors & Mentors and Collaborators
+## Advisors and Collaborators
 
 ### Advisors & Mentors
 
