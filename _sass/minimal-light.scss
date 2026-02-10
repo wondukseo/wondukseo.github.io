@@ -543,6 +543,7 @@ a:hover small {
   margin:18px auto;
   padding:12px 18px;
   border:1px solid #e5e5e5;
+  border-top:0;
   border-radius:0;
   background:#fff;
   box-sizing:border-box;
@@ -863,6 +864,7 @@ html[data-theme="dark"] body {
 html[data-theme="dark"] .wrapper {
   border-color: #2d3a45;
   background: #1a1f26;
+  border-top:0;
 }
 
 html[data-theme="dark"] autocolor {
@@ -952,6 +954,7 @@ html[data-theme="light"] body {
 html[data-theme="light"] .wrapper {
   border-color: #e5e5e5;
   background: #ffffff;
+  border-top:0;
 }
 
 html[data-theme="light"] autocolor {
