@@ -17,6 +17,7 @@
 
 - <a class="about-link" href="https://scholar.google.com/citations?user=gGcRkpYAAAAJ" target="_blank">Xiangru Tang</a>, Yale University (09/2023 – 11/2023)
 - <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&hl=en&oi=ao" target="_blank">Prof. Yi Bu</a>, Peking University (03/2024 – Present)
+- <a class="about-link" href="https://scholar.google.com/citations?user=a58Lj_8AAAAJ&hl=en" target="_blank">Haojie Zhang</a>, Researcher, Baidu (04/2024 – 12/2024)
 - <a class="about-link" href="https://scholar.google.com/citations?hl=en&user=GuQ9bpAAAAAJ" target="_blank">Dawei Yin</a>, Head of Search Science, Baidu (04/2024 – 01/2025)
 - <a class="about-link" href="https://scholar.google.com/citations?user=riuIGwIAAAAJ&hl=en&oi=ao" target="_blank">Prof. Ying Ding</a>, University of Texas at Austin (06/2024 – 08/2024)
 - <a class="about-link" href="https://scholar.google.com/citations?user=URmnWAQAAAAJ&hl=en&oi=ao" target="_blank">Prof. Haihua Chen</a>, University of North Texas (09/2025 – Present)
