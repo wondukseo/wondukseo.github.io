@@ -27,8 +27,8 @@
 - <a class="about-link" href="https://www.linkedin.com/in/terry-taehan-kim/" target="_blank">Taehan Kim</a>, UC Berkeley (04/2024 – 09/2025)
 - Zonghao Yuan, Tsinghua University (11/2024 – 04/2025)
 - <a class="about-link" href="https://www.linkedin.com/in/gogoymh/" target="_blank">Minhyeong Yu</a>, Enhans (07/2025 – Present)
-- <a class="about-link" href="https://scholar.google.com/citations?hl=zh-CN&user=rtmmmfIAAAAJ&view_op=list_works" target="_blank">Yanjun Shao</a>, Yale University (12/2025 – Present)
 - <a class="about-link" href="https://soohyuk-cho.github.io/" target="_blank">SooHyuk Cho</a>, Princeton University (11/2025 – Present)
+- <a class="about-link" href="https://scholar.google.com/citations?hl=zh-CN&user=rtmmmfIAAAAJ&view_op=list_works" target="_blank">Yanjun Shao</a>, Yale University (12/2025 – Present)
 
 ### Mentees
 
