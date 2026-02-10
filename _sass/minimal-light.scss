@@ -425,23 +425,22 @@ h1 {
 .section-tabs {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin: 0 0 20px;
-  padding-bottom: 10px;
+  gap: 16px;
+  margin: 0 0 18px;
+  padding-bottom: 6px;
   border-bottom: 1px solid #e5e5e5;
+  font-weight: 500;
 }
 
 .section-tabs a {
-  font-size: 0.9rem;
-  padding: 6px 12px;
-  border: 1px solid #d9d9d9;
-  border-radius: 999px;
+  font-size: 0.95rem;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
   color: #043361;
-  background: #fff;
 }
 
 .section-tabs a:hover {
-  background: #f5f7fa;
+  border-bottom-color: #043361;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -451,12 +450,10 @@ h1 {
 
   .section-tabs a {
     color: rgb(62, 183, 240);
-    border-color: #2d3a45;
-    background: #141f27;
   }
 
   .section-tabs a:hover {
-    background: #1b2a35;
+    border-bottom-color: rgb(62, 183, 240);
   }
 }
 
