@@ -299,6 +299,11 @@ papertitle {
         color: #dadbdf;
     }
 
+    .wrapper {
+      border-color: #2d3a45;
+      background: #1a1f26;
+    }
+
     autocolor{
       color:#dadbdf;
     }
@@ -485,7 +490,12 @@ a:hover small {
 
 .wrapper {
   width:960px;
-  margin:0 auto;
+  margin:18px auto;
+  padding:12px 18px;
+  border:1px solid #e5e5e5;
+  border-radius:10px;
+  background:#fff;
+  box-sizing:border-box;
 }
 
 blockquote {
@@ -654,7 +664,8 @@ footer {
 
   div.wrapper {
     width:auto;
-    margin:0;
+    margin:12px auto;
+    padding:10px 14px;
   }
 
 
