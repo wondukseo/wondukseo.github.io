@@ -17,9 +17,9 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
 
 <div class="news-scroll">
 <ul>
-  <li><strong>[Feb. 2026]</strong> Released a new preprint: <strong>Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning</strong>.</li>
-  <li><strong>[Dec. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>ACM International Conference on Web Search and Data Mining (WSDM)</strong>!</li>
-  <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (JCDL)</strong>.</li>
+  <li><strong>[Feb. 2026]</strong> Released a new preprint: <strong>Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning</strong>. <a class="about-link" href="https://arxiv.org/abs/2601.21700" target="_blank">arXiv</a>.</li>
+  <li><strong>[Dec. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>ACM International Conference on Web Search and Data Mining (WSDM)</strong> 🇺🇸!</li>
+  <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (JCDL)</strong> 💻.</li>
   <li><strong>[Oct. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for Oral Presentation 🇲🇴.</li>
   <li><strong>[Jul. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>AAAI/ACM Conference on AI, Ethics, and Society (AIES) Main Track</strong> 🇪🇸.</li>
   <li><strong>[Jul. 2025]</strong> <mark><strong>Graduated from Peking University</strong></mark> (Bachelor in Information Management, Big Data Management &amp; Application) 🎉!</li>
