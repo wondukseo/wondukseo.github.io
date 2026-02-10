@@ -190,9 +190,54 @@
     */
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .social-icons {
   display: flex;
   align-items: center;
+}
+
+.theme-toggle {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  color: #043361;
+  border-radius: 999px;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid #2a8dde;
+  outline-offset: 2px;
+}
+
+.theme-toggle .icon-sun {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-toggle {
+  background: #141f27;
+  border-color: #2d3a45;
+  color: #3eb7f0;
+}
+
+html[data-theme="dark"] .theme-toggle .icon-moon {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-toggle .icon-sun {
+  display: inline-block;
 }
 
 .icon-button{
@@ -809,4 +854,184 @@ footer {
 .affiliation-link:hover,
 .about-link:hover {
   color: #1f6fb0;
+}
+
+html[data-theme="dark"] body {
+  background-color: #20212b;
+  color: #dadbdf;
+}
+
+html[data-theme="dark"] .wrapper {
+  border-color: #2d3a45;
+  background: #1a1f26;
+  border-top:0;
+}
+
+html[data-theme="dark"] autocolor {
+  color:#dadbdf;
+}
+
+html[data-theme="dark"] lightonly {
+  visibility: hidden;
+}
+
+html[data-theme="dark"] darkonly {
+  visibility: visible;
+}
+
+html[data-theme="dark"] papertitle {
+  color:#eeeff0;
+}
+
+html[data-theme="dark"] .news-scroll::after {
+  border-color: #2e3e4d;
+  background: rgba(32, 33, 43, 0.94);
+  color: #c8d6e5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+  opacity: 0.96;
+}
+
+html[data-theme="dark"] .visitors-container {
+  border-color: #324455;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  background: #1b2430;
+}
+
+html[data-theme="dark"] .map-note {
+  color: #a9b9c6;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color:rgb(62, 183, 240);
+}
+
+html[data-theme="dark"] h2 {
+  color:rgb(62, 183, 240);
+}
+
+html[data-theme="dark"] .section-tabs {
+  border-bottom: 1px solid #2d3a45;
+}
+
+html[data-theme="dark"] .section-tabs a {
+  color: rgb(62, 183, 240);
+}
+
+html[data-theme="dark"] .section-tabs a:hover {
+  border-bottom-color: rgb(62, 183, 240);
+}
+
+html[data-theme="dark"] a {
+  color:rgb(62, 183, 240);
+}
+
+html[data-theme="dark"] th,
+html[data-theme="dark"] dt {
+  color:rgb(62, 183, 240);
+}
+
+html[data-theme="dark"] strong {
+  color:#eeeff0;
+}
+
+html[data-theme="dark"] .social-icons a {
+  color: #3eb7f0 !important;
+}
+
+html[data-theme="dark"] .social-icons a:hover {
+  background-color:#20212b;
+}
+
+html[data-theme="light"] body {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+html[data-theme="light"] .wrapper {
+  border-color: #e5e5e5;
+  background: #ffffff;
+  border-top:0;
+}
+
+html[data-theme="light"] autocolor {
+  color:#595959;
+}
+
+html[data-theme="light"] lightonly {
+  visibility: visible;
+}
+
+html[data-theme="light"] darkonly {
+  visibility: hidden;
+}
+
+html[data-theme="light"] papertitle {
+  color: inherit;
+}
+
+html[data-theme="light"] .news-scroll::after {
+  border-color: #d4dde6;
+  background: rgba(255, 255, 255, 0.95);
+  color: #5f6f7f;
+  box-shadow: 0 4px 12px rgba(68, 88, 110, 0.12);
+  opacity: 0.88;
+}
+
+html[data-theme="light"] .visitors-container {
+  border-color: #d4dde6;
+  box-shadow: 0 8px 24px rgba(45, 76, 114, 0.08);
+  background: #f7f9fc;
+}
+
+html[data-theme="light"] .map-note {
+  color: #4f5d6d;
+}
+
+html[data-theme="light"] h1,
+html[data-theme="light"] h3,
+html[data-theme="light"] h4,
+html[data-theme="light"] h5,
+html[data-theme="light"] h6 {
+  color:#043361;
+}
+
+html[data-theme="light"] h2 {
+  color:#043361;
+}
+
+html[data-theme="light"] .section-tabs {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+html[data-theme="light"] .section-tabs a {
+  color: #043361;
+}
+
+html[data-theme="light"] .section-tabs a:hover {
+  border-bottom-color: #043361;
+}
+
+html[data-theme="light"] a {
+  color:#39c;
+}
+
+html[data-theme="light"] th,
+html[data-theme="light"] dt {
+  color:#444;
+}
+
+html[data-theme="light"] strong {
+  color:#222;
+}
+
+html[data-theme="light"] .social-icons a {
+  color:#043361 !important;
+}
+
+html[data-theme="light"] .social-icons a:hover {
+  background-color:white;
 }
