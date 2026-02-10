@@ -24,7 +24,7 @@ accepted:
 
   - title: "Better by Comparison: Retrieval-Augmented Contrastive Reasoning for Automatic Prompt Optimization"
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Hyunjin An, Seunghyun Lee, Yi Bu
-    conference_short: JCDL
+    conference_short: JCDL'25
     conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries <strong>(JCDL)</strong>, Short Paper, 2025.
     pdf: https://arxiv.org/abs/2509.02093
     image: ./images/jcdl.png
