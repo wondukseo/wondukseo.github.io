@@ -14,9 +14,11 @@
 ## Language Proficiency
 
 <div class="awards-list">
-  <p>Korean: Native proficiency</p>
-  <p>Chinese: Full professional proficiency (HSK 6 obtained in 2018, score 254/300)</p>
-  <p>English: Full professional proficiency (TOEFL obtained in 2026, score 100/120)</p>
+  <ul>
+    <li><strong>Korean</strong>: Native proficiency</li>
+    <li><strong>Chinese</strong>: Full professional proficiency (HSK 6 obtained in 2018, score 254/300)</li>
+    <li><strong>English</strong>: Full professional proficiency (TOEFL obtained in 2026, score 100/120)</li>
+  </ul>
 </div>
 
 <div style="height: 1.5rem;"></div>
