@@ -3,7 +3,7 @@ accepted:
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
     authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee
     conference_short: WSDM'26
-    conference: ACM International Conference on Web Search and Data Mining <strong>(WSDM)</strong>, 2026.<br>ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(SIGKDD-Agent4IR)</strong>, 2025. Oral Presentation
+    conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining <strong>(WSDM)</strong>, 2026.<br>ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(SIGKDD-Agent4IR)</strong>, 2025. Oral Presentation
     pdf: https://arxiv.org/abs/2502.08557
     image: ./images/kdd.png
 
@@ -25,7 +25,8 @@ accepted:
   - title: "Better by Comparison: Retrieval-Augmented Contrastive Reasoning for Automatic Prompt Optimization"
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Hyunjin An, Seunghyun Lee, Yi Bu
     conference_short: JCDL'25
-    conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries <strong>(JCDL)</strong>, Short Paper, 2025.
+    conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries <strong>(JCDL)</strong>, 2025.
+    notes: Oral Presentation
     pdf: https://arxiv.org/abs/2509.02093
     image: ./images/jcdl.png
 
@@ -58,7 +59,7 @@ working:
     conference_short: W2
     conference: Under review.
     pdf: https://arxiv.org/abs/2510.16635
-    image: ./images/working/prompt_optimization_via.png
+    image: ./images/working/image copy 2.png
 
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
     authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Taehan Kim, Soohyuk Cho, Seungyong Lee, Minhyeong Yu, Jian Park, Yi Bu, Seunghyun Lee
