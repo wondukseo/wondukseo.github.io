@@ -3,7 +3,8 @@ accepted:
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
     authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee
     conference_short: WSDM'26
-    conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining <strong>(WSDM)</strong>, 2026.<br>ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(SIGKDD-Agent4IR)</strong>, 2025. Oral Presentation
+    conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining <strong>(WSDM)</strong>, 2026.<br>ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(SIGKDD-Agent4IR)</strong>, 2025.
+    notes: Oral Presentation
     pdf: https://arxiv.org/abs/2502.08557
     image: ./images/kdd.png
 
