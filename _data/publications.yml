@@ -22,7 +22,7 @@ accepted:
     authors: <span class="me-highlight">Wonduk Seo*</span>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee
     conference_short: BigData'25
     conference: 2025 IEEE International Conference on Big Data <strong>(BigData)</strong> Industry Track, 2025.
-    pdf: https://arxiv.org/abs/2509.01182
+    pdf: ./images/q2k.pdf
     code: https://github.com/viralpick/paper-q2k-artifact
     video: https://www.computer.org/csdl/video-library/video/2dOyvFHlTuU
     image: ./images/bigdata.png
