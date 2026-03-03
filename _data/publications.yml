@@ -20,6 +20,8 @@ accepted:
     conference_short: BigData'25
     conference: 2025 IEEE International Conference on Big Data <strong>(BigData)</strong> Industry Track, 2025.
     pdf: https://arxiv.org/abs/2509.01182
+    code: https://github.com/viralpick/paper-q2k-artifact
+    video: https://www.computer.org/csdl/video-library/video/2dOyvFHlTuU
     image: ./images/bigdata.png
     notes: Oral Presentation
 
@@ -36,6 +38,7 @@ accepted:
     conference_short: EMBC'25
     conference: 47th International Conference of the IEEE Engineering in Medicine and Biology <strong>(EMBC)</strong>, 2025.
     pdf: https://arxiv.org/abs/2501.14469
+    code: https://github.com/winterrykim
     image: ./images/embc.png
     notes: Oral Presentation
 
@@ -44,6 +47,7 @@ accepted:
     conference_short: QSS
     conference: Quantitative Science Studies 6, 505-523.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific
+    slides: "https://www.dropbox.com/scl/fi/6i57ltqwdlp55m1t7y0b3/4-wonduk_seo.pdf?rlkey=gava9b8zltp9qs890zzugxmy3&e=1&st=7en4gkiq&dl=0"
     image: ./images/qss.png
 
 working:
@@ -53,6 +57,8 @@ working:
     conference_short: W1
     conference: Under Review.
     pdf: https://arxiv.org/abs/2601.21700
+    code: https://authorname55.github.io/OG-MAR/
+    demo: https://authorname55.github.io/OG-MAR/
     image: ./images/working/image.png
 
   - title: "Prompt Optimization via Retrieved Reasoning Assets and Multi-Agent Analysis"
@@ -60,6 +66,7 @@ working:
     conference_short: W2
     conference: Under review.
     pdf: https://arxiv.org/abs/2510.16635
+    code: https://anonymous.4open.science/r/MA-SAPO-F313
     image: ./images/working/image copy 2.png
 
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
@@ -88,6 +95,7 @@ working:
     conference_short: W6
     conference: Under review.
     pdf: https://arxiv.org/abs/2509.14860
+    code: https://github.com/gogoymh/MARIC
     image: ./images/working/maric.png
 
   - title: "AIAP: A Multi Agent Workflow Builder with Visual Programming and Natural Language Prompts"
