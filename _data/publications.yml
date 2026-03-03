@@ -42,6 +42,7 @@ accepted:
     conference: 47th International Conference of the IEEE Engineering in Medicine and Biology <strong>(EMBC)</strong>, 2025.
     pdf: https://arxiv.org/abs/2501.14469
     code: https://github.com/winterrykim
+    slides: ./images/pesti_gen_embc_slides.pptx
     image: ./images/embc.png
     notes: Oral Presentation
 
