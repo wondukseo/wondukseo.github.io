@@ -34,6 +34,7 @@ accepted:
     conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries <strong>(JCDL)</strong>, 2025.
     notes: Oral Presentation
     pdf: https://arxiv.org/abs/2509.02093
+    slides: ./images/jcdl_slides.pptx
     image: ./images/jcdl.png
 
   - title: "Pesti-Gen: Unleashing a Generative Molecule Approach for Toxicity Aware Pesticide Design"
