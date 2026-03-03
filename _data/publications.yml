@@ -6,6 +6,7 @@ accepted:
     conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining <strong>(WSDM)</strong>, 2026.<br>ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(SIGKDD-Agent4IR)</strong>, 2025.
     notes: Oral Presentation
     pdf: https://arxiv.org/abs/2502.08557
+    poster: ./images/wsdm_poster.pdf
     image: ./images/kdd.png
 
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
@@ -13,6 +14,7 @@ accepted:
     conference_short: AAAI-AIES'25
     conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society <strong>(AAAI-AIES)</strong>, 2025.
     pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
+    poster: ./images/valuesrag_poster.pdf
     image: ./images/aies.png
 
   - title: "Question-to-Knowledge: Multi-Agent Generation of Inspectable Facts for Product Mapping"

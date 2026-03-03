@@ -21,7 +21,7 @@
         <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
         <div class="author">{{ link.authors }}</div>
         <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
-        {% assign has_links = link.pdf or link.code or link.video or link.slides or link.demo %}
+        {% assign has_links = link.pdf or link.code or link.video or link.slides or link.poster or link.demo %}
         {% if has_links %}
         <div class="links">
           {% if link.pdf %}
@@ -35,6 +35,9 @@
           {% endif %}
           {% if link.slides %}
           <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Slides</a>
+          {% endif %}
+          {% if link.poster %}
+          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Poster</a>
           {% endif %}
           {% if link.demo %}
           <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Demo</a>
@@ -69,7 +72,7 @@
         <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
         <div class="author">{{ link.authors }}</div>
         <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
-        {% assign has_links = link.pdf or link.code or link.video or link.slides or link.demo %}
+        {% assign has_links = link.pdf or link.code or link.video or link.slides or link.poster or link.demo %}
         {% if has_links %}
         <div class="links">
           {% if link.pdf %}
@@ -83,6 +86,9 @@
           {% endif %}
           {% if link.slides %}
           <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Slides</a>
+          {% endif %}
+          {% if link.poster %}
+          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Poster</a>
           {% endif %}
           {% if link.demo %}
           <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Demo</a>
