@@ -10,6 +10,13 @@ accepted:
     poster: ./images/wsdm_poster.pdf
     image: ./images/kdd.png
 
+  - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
+    authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Taehan Kim, Soohyuk Cho, Seungyong Lee, Minhyeong Yu, Jian Park, Yi Bu, Seunghyun Lee
+    conference_short: ICPR'26
+    conference: Proceedings of the International Conference on Pattern Recognition <strong>(ICPR)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2502.11140
+    image: ./images/working/automated_visualization.png
+
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
     authors: <span class="me-highlight">Wonduk Seo</span>, Zonghao Yuan, Yi Bu
     conference_short: AAAI-AIES'25
@@ -73,13 +80,6 @@ working:
     pdf: https://arxiv.org/abs/2510.16635
     code: https://anonymous.4open.science/r/MA-SAPO-F313
     image: ./images/working/image copy 2.png
-
-  - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Taehan Kim, Soohyuk Cho, Seungyong Lee, Minhyeong Yu, Jian Park, Yi Bu, Seunghyun Lee
-    conference_short: W3
-    conference: Under review.
-    pdf: https://arxiv.org/abs/2502.11140
-    image: ./images/working/automated_visualization.png
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee, Yi Bu
