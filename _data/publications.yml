@@ -1,5 +1,12 @@
 accepted:
 
+  - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee, Yi Bu
+    conference_short: ACL'26 Main
+    conference: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2503.23314
+    image: ./images/working/spio.png
+
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
     authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee
     conference_short: WSDM'26
@@ -81,23 +88,16 @@ working:
     code: https://anonymous.4open.science/r/MA-SAPO-F313
     image: ./images/working/image copy 2.png
 
-  - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
-    authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee, Yi Bu
-    conference_short: W3
-    conference: Under revision.
-    pdf: https://arxiv.org/abs/2503.23314
-    image: ./images/working/spio.png
-
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Haojie Zhang*, Yueyang Zhang*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin
-    conference_short: W4
+    conference_short: W3
     conference: Under revision.
     pdf: https://arxiv.org/abs/2409.10909
     image: ./images/working/gencrf.png
 
   - title: "MARIC: Multi-Agent Reasoning for Image Classification"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
-    conference_short: W5
+    conference_short: W4
     conference: Under review.
     pdf: https://arxiv.org/abs/2509.14860
     code: https://github.com/gogoymh/MARIC
@@ -105,7 +105,7 @@ working:
 
   - title: "AIAP: A Multi Agent Workflow Builder with Visual Programming and Natural Language Prompts"
     authors: Hyunjin An, Yongwon Kim, <span class="me-highlight">Wonduk Seo</span>, Jian Park, Daye Kang, Changhoon Oh, Dokyun Kim, Seunghyun Lee
-    conference_short: W6
+    conference_short: W5
     conference: Under review.
     pdf: https://arxiv.org/abs/2508.02470
     image: ./images/working/aiap.png
