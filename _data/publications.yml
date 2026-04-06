@@ -3,7 +3,7 @@ accepted:
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee, Yi Bu
     conference_short: ACL'26 Main
-    conference: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    conference: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL Main)</strong>, 2026.
     pdf: https://arxiv.org/abs/2503.23314
     image: ./images/working/spio.png
 
