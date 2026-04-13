@@ -48,3 +48,11 @@
 - <a class="about-link" href="https://www.linkedin.com/in/juhyeon-lee-056886256/" target="_blank">Juhyeon Lee</a>, Peking University (03/2025 – Present)
 - <a class="about-link" href="https://www.linkedin.com/in/junseo-koh-8a6b33301/" target="_blank">Junseo Koh</a>, Peking University (08/2025 – Present)
 - Wonseok Choi, Peking University (10/2025 – Present)
+
+<div style="height: 1.5rem;"></div>
+
+## Academic Service
+
+### Conference Reviewers
+
+- Conference on Language Modeling (COLM 2026)
