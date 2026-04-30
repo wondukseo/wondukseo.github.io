@@ -1,5 +1,14 @@
 accepted:
 
+  - title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
+    authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu
+    conference_short: ICML'26
+    conference: Proceedings of the International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2601.21700
+    code: https://authorname55.github.io/OG-MAR/
+    demo: https://authorname55.github.io/OG-MAR/
+    image: ./images/working/image.png
+
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee, Yi Bu
     conference_short: ACL'26 Main
@@ -71,18 +80,9 @@ accepted:
 
 working:
 
-  - title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu
-    conference_short: W1
-    conference: Under Review.
-    pdf: https://arxiv.org/abs/2601.21700
-    code: https://authorname55.github.io/OG-MAR/
-    demo: https://authorname55.github.io/OG-MAR/
-    image: ./images/working/image.png
-
   - title: "Prompt Optimization via Retrieved Reasoning Assets and Multi-Agent Analysis"
     authors: <span class="me-highlight">Wonduk Seo</span>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen, Yi Bu
-    conference_short: W2
+    conference_short: W1
     conference: Under review.
     pdf: https://arxiv.org/abs/2510.16635
     code: https://anonymous.4open.science/r/MA-SAPO-F313
@@ -90,14 +90,14 @@ working:
 
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Haojie Zhang*, Yueyang Zhang*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin
-    conference_short: W3
+    conference_short: W2
     conference: Under revision.
     pdf: https://arxiv.org/abs/2409.10909
     image: ./images/working/gencrf.png
 
   - title: "MARIC: Multi-Agent Reasoning for Image Classification"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
-    conference_short: W4
+    conference_short: W3
     conference: Under review.
     pdf: https://arxiv.org/abs/2509.14860
     code: https://github.com/gogoymh/MARIC
@@ -105,7 +105,7 @@ working:
 
   - title: "AIAP: A Multi Agent Workflow Builder with Visual Programming and Natural Language Prompts"
     authors: Hyunjin An, Yongwon Kim, <span class="me-highlight">Wonduk Seo</span>, Jian Park, Daye Kang, Changhoon Oh, Dokyun Kim, Seunghyun Lee
-    conference_short: W5
+    conference_short: W4
     conference: Under review.
     pdf: https://arxiv.org/abs/2508.02470
     image: ./images/working/aiap.png
