@@ -18,6 +18,7 @@ Hi! I’m Wonduk Seo, an AI Research Scientist at <a class="about-link" href="ht
 <div class="news-scroll">
 <ul>
   <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>International Conference on Machine Learning (ICML)</strong> 🇰🇷.</li>
+  <li><strong>[Apr. 2026]</strong> Released a new preprint: <strong>RoTRAG: Rule of Thumb Reasoning for Conversation Harm Detection with Retrieval-Augmented Generation</strong>. <a class="about-link" href="https://arxiv.org/abs/2604.17301" target="_blank">arXiv</a>.</li>
   <li><strong>[Apr. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>Annual Meeting of the Association for Computational Linguistics (ACL) 2026 Main Conference</strong> 🇺🇸.</li>
   <li><strong>[Apr. 2026]</strong> One <strong>first author</strong> paper got accepted to <strong>International Conference on Pattern Recognition (ICPR)</strong> 🇫🇷.</li>
   <li><strong>[Feb. 2026]</strong> Released a new preprint: <strong>Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning</strong>. <a class="about-link" href="https://arxiv.org/abs/2601.21700" target="_blank">arXiv</a>.</li>
