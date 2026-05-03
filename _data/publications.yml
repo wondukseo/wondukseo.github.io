@@ -101,3 +101,9 @@ working:
     conference: Under review.
     pdf: https://arxiv.org/abs/2604.17301
     image: ./images/working/rot_framework.png
+
+  - title: "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce"
+    authors: Minhyeong Yu, <span class="me-highlight">Wonduk Seo†</span>
+    conference_short: W4
+    conference: Under review.
+    image: ./images/working/epm_rl.png

@@ -20,7 +20,7 @@
       {% endif %}
     </div>
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-        <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+        <div class="title">{% if link.pdf %}<a href="{{ link.pdf }}">{{ link.title }}</a>{% else %}<span>{{ link.title }}</span>{% endif %}</div>
         <div class="author">{{ link.authors }}</div>
         <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
         {% assign has_links = link.pdf or link.code or link.video or link.slides or link.poster or link.demo %}
@@ -71,7 +71,7 @@
       {% endif %}
     </div>
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-        <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+        <div class="title">{% if link.pdf %}<a href="{{ link.pdf }}">{{ link.title }}</a>{% else %}<span>{{ link.title }}</span>{% endif %}</div>
         <div class="author">{{ link.authors }}</div>
         <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
         {% assign has_links = link.pdf or link.code or link.video or link.slides or link.poster or link.demo %}
