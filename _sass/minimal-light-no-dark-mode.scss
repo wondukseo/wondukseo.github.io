@@ -8,6 +8,44 @@
   font-size: 0.95rem;
 }
 
+.venue-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.65rem;
+  max-width: 100%;
+  margin: 0.35rem 0 0.1rem;
+}
+
+.venue-logo-card {
+  display: inline-flex;
+  flex: 0 1 174px;
+  align-items: center;
+  justify-content: center;
+  width: 174px;
+  max-width: 100%;
+  padding: 0.3rem 0.45rem;
+  border: 1px solid #dbe7f3;
+  border-radius: 8px;
+  background: #f8fbff;
+  box-sizing: border-box;
+}
+
+.venue-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 54px;
+  object-fit: contain;
+}
+
+.venue-meta .periodical {
+  flex: 1 1 210px;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
 .social-icons a{
   display:inline-block;
   height:2.4rem;
@@ -586,6 +624,16 @@ footer {
       width: 85px;
       padding:22px;
   }
+
+  .venue-meta {
+    display: block;
+  }
+
+  .venue-logo-card {
+    max-width: 190px;
+    margin-bottom: 0.35rem;
+  }
+
   #head1o2 {
     visibility: hidden;
   }
