@@ -283,8 +283,8 @@ papertitle {
 
       .image.avatar img {
         border-radius: 12px;
-        width: 40%;
-        padding: 26px;
+        width: 120px;
+        padding: 24px;
         // border: 1px solid #ddd;
         // padding: 3px;
         // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
@@ -381,7 +381,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  width: calc(100% - 48px);
+  max-width:1320px;
   margin:18px auto;
   padding:12px 18px;
   border:none;
@@ -436,7 +437,7 @@ img {
 }
 
 header {
-  width:232px;
+  width:320px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -506,7 +507,7 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  width:calc(100% - 400px);
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
@@ -524,7 +525,7 @@ hr {
 }
 
 footer {
-  width:232px;
+  width:320px;
   float:left;
   position:fixed;
   bottom:30px;
