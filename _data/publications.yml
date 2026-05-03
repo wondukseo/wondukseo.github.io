@@ -8,8 +8,6 @@ accepted:
     code: https://authorname55.github.io/OG-MAR/
     demo: https://authorname55.github.io/OG-MAR/
     image: ./images/working/image.png
-    venue_logo: ./images/venues/icml.svg
-    venue_alt: ICML logo
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee†, Yi Bu†
