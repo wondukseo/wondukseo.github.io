@@ -246,7 +246,7 @@
 
 email {
     font-size: 14px;
-    font-family: "Ubuntu Mono";
+    font-family: inherit;
 }
 
 .icon-button i{
@@ -525,7 +525,7 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: inherit;
   color:#333;
 }
 
@@ -811,7 +811,7 @@ footer {
   margin-top: 10px;
   margin-left: 0px;
   display:none;
-  font-family: monospace;
+  font-family: inherit;
 }
 .affiliation-link,
 .about-link {
