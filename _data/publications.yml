@@ -3,7 +3,7 @@ accepted:
   - title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
     authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu†
     conference_short: ICML'26
-    conference: Proceedings of the International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
+    conference: Forty-Third International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
     pdf: https://arxiv.org/abs/2601.21700
     code: https://authorname55.github.io/OG-MAR/
     demo: https://authorname55.github.io/OG-MAR/
@@ -91,7 +91,7 @@ working:
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Haojie Zhang*, Yueyang Zhang*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin†
     conference_short: W2
-    conference: Under revision.
+    conference: Under review.
     pdf: https://arxiv.org/abs/2409.10909
     image: ./images/working/gencrf.png
 
