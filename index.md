@@ -6,6 +6,8 @@ layout: homepage
 
 Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> since January 2025 and a 2025 graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, he was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. His research focuses on scalable, transparent, and interpretable methods that keep LLMs grounded in human values, sustain behavioral consistency, and mitigate hallucinations in real-world deployments. He has published first-author papers at top AI venues such as ICML, ACL, WSDM, ICPR, and BigData.
 
+***
+
 ## Research Interests
 
 - **Socially Responsible, Interpretable, and Aligned AI:** Advancing interpretability and accuracy in LLMs through transparent evaluation, retrieval-augmented reasoning, and feedback loop to ensure socially beneficial and context-aware behavior.
@@ -15,6 +17,7 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
 
 ## News
 
+<div class="news-scroll-wrap is-scrollable">
 <div class="news-scroll">
 <ul>
   <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>International Conference on Machine Learning (ICML)</strong> 🇰🇷.</li>
@@ -43,6 +46,8 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
   <li><strong>[Apr. 2022]</strong> Began a long-term collaboration with <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&hl=en" target="_blank">Prof. Yi Bu</a>.</li>
   <li><strong>[Dec. 2020]</strong> Began my AI journey, diving into machine learning research and engineering.</li>
 </ul>
+</div>
+<span class="news-scrollbar" aria-hidden="true"><span class="news-scrollbar-thumb"></span></span>
 </div>
 
 {% include_relative _includes/publications.md %}
