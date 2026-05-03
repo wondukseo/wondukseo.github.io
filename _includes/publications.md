@@ -1,5 +1,7 @@
 <h2 id="publications" style="margin: 16px 0px 14px;">Publications</h2>
 
+<p class="pub-note">* denotes equal contribution; † denotes corresponding author.</p>
+
 {% assign sections = site.data.publications %}
 
 {% if sections.accepted %}

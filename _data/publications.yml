@@ -1,7 +1,7 @@
 accepted:
 
   - title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu†
     conference_short: ICML'26
     conference: Proceedings of the International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
     pdf: https://arxiv.org/abs/2601.21700
@@ -10,14 +10,14 @@ accepted:
     image: ./images/working/image.png
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
-    authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee†, Yi Bu†
     conference_short: ACL'26 Main
     conference: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL Main)</strong>, 2026.
     pdf: https://arxiv.org/abs/2503.23314
     image: ./images/working/spio.png
 
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee
+    authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee†
     conference_short: WSDM'26
     conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining <strong>(WSDM)</strong>, 2026.<br>ACM SIGKDD Workshop on AI Agent for Information Retrieval <strong>(SIGKDD-Agent4IR)</strong>, 2025.
     notes: Oral Presentation
@@ -27,14 +27,14 @@ accepted:
     image: ./images/kdd.png
 
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Taehan Kim, Soohyuk Cho, Seungyong Lee, Minhyeong Yu, Jian Park, Yi Bu, Seunghyun Lee
+    authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Taehan Kim, Soohyuk Cho, Seungyong Lee, Minhyeong Yu, Jian Park, Yi Bu†, Seunghyun Lee†
     conference_short: ICPR'26
     conference: Proceedings of the International Conference on Pattern Recognition <strong>(ICPR)</strong>, 2026.
     pdf: https://arxiv.org/abs/2502.11140
     image: ./images/working/automated_visualization.png
 
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Zonghao Yuan, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Zonghao Yuan, Yi Bu†
     conference_short: AAAI-AIES'25
     conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society <strong>(AAAI-AIES)</strong>, 2025.
     pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
@@ -42,7 +42,7 @@ accepted:
     image: ./images/aies.png
 
   - title: "Question-to-Knowledge: Multi-Agent Generation of Inspectable Facts for Product Mapping"
-    authors: <span class="me-highlight">Wonduk Seo*</span>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee†
     conference_short: BigData'25
     conference: 2025 IEEE International Conference on Big Data <strong>(BigData)</strong> Industry Track, 2025.
     pdf: https://arxiv.org/abs/2509.01182
@@ -52,7 +52,7 @@ accepted:
     notes: Oral Presentation
 
   - title: "Better by Comparison: Retrieval-Augmented Contrastive Reasoning for Automatic Prompt Optimization"
-    authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Hyunjin An, Seunghyun Lee, Yi Bu
+    authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Hyunjin An, Seunghyun Lee, Yi Bu†
     conference_short: JCDL'25
     conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries <strong>(JCDL)</strong>, 2025.
     notes: Oral Presentation
@@ -71,7 +71,7 @@ accepted:
     notes: Oral Presentation
 
   - title: "Transforming Role Classification in Scientific Teams using LLMs and Advanced Predictive Analytics"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Yi Bu†
     conference_short: QSS
     conference: Quantitative Science Studies 6, 505-523.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific
@@ -81,7 +81,7 @@ accepted:
 working:
 
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen, Yi Bu
+    authors: <span class="me-highlight">Wonduk Seo</span>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen†, Yi Bu†
     conference_short: W1
     conference: Under review.
     pdf: https://arxiv.org/abs/2510.16635
@@ -89,14 +89,14 @@ working:
     image: ./images/working/ma_sapo.png
 
   - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
-    authors: <span class="me-highlight">Wonduk Seo*</span>, Haojie Zhang*, Yueyang Zhang*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Haojie Zhang*, Yueyang Zhang*, Changhao Zhang, Songyao Duan, Lixin Su, Daiting Shi, Jiashu Zhao, Dawei Yin†
     conference_short: W2
     conference: Under revision.
     pdf: https://arxiv.org/abs/2409.10909
     image: ./images/working/gencrf.png
 
   - title: "RoTRAG: Rule of Thumb Reasoning for Conversation Harm Detection with Retrieval-Augmented Generation"
-    authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Junseo Koh, Seunghyun Lee, Haihua Chen, Yi Bu
+    authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Junseo Koh, Seunghyun Lee, Haihua Chen†, Yi Bu†
     conference_short: W3
     conference: Under review.
     pdf: https://arxiv.org/abs/2604.17301
