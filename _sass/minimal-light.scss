@@ -54,32 +54,11 @@
 .news-scroll {
   max-height: 18rem;
   overflow-y: auto;
-  padding-right: 2.6rem;
+  padding-right: 1.4rem;
   margin-bottom: 0;
   position: relative;
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
-
-.news-scroll::after {
-  content: "\2195";
-  position: absolute;
-  top: 0.35rem;
-  right: 1rem;
-  width: 1.6rem;
-  height: 1.6rem;
-  border-radius: 0.5rem;
-  border: 1px solid #d4dde6;
-  background: rgba(255, 255, 255, 0.95);
-  color: #5f6f7f;
-  font-size: 0.85rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-  box-shadow: 0 4px 12px rgba(68, 88, 110, 0.12);
-  opacity: 0.88;
 }
 
 .news-scroll::-webkit-scrollbar {
@@ -346,14 +325,6 @@ papertitle {
     color:#eeeff0;
     }
 
-    .news-scroll::after {
-      border-color: #2e3e4d;
-      background: rgba(32, 33, 43, 0.94);
-      color: #c8d6e5;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
-      opacity: 0.96;
-    }
-
     .news-scrollbar {
       background: #263442;
       box-shadow: inset 0 0 0 1px rgba(70, 92, 112, 0.55);
@@ -465,7 +436,8 @@ h1 {
 .section-tabs {
   display: flex;
   flex-wrap: nowrap;
-  gap: 8px;
+  justify-content: space-between;
+  gap: 12px;
   margin: 0 0 18px;
   padding-bottom: 6px;
   border-bottom: 1px solid #e5e5e5;
@@ -474,7 +446,7 @@ h1 {
 
 .section-tabs a {
   flex: 0 0 auto;
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
   color: #043361;
@@ -538,7 +510,7 @@ a:hover small {
 
 .wrapper {
   width: calc(100% - 48px);
-  max-width:1320px;
+  max-width:1460px;
   margin:18px auto;
   padding:12px 18px;
   border:none;
