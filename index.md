@@ -15,6 +15,8 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
 - **Information Retrieval with LLMs:** Designing adaptive query reformulation and expansion pipelines that capture nuanced intent and orchestrate multiple retrieval strategies for precise, transparent access to information.
 - **Evidence Inheritance in LLM Pipelines:** Developing methods to track how external evidence is inherited, transformed, and selectively used across multi-stage LLM systems, so that provenance remains interpretable and trustworthy, and integrating LLM post-training to improve evidence grounding, calibration, and traceable reasoning.
 
+***
+
 ## News
 
 <div class="news-scroll-wrap is-scrollable">
@@ -49,6 +51,8 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
 </div>
 <span class="news-scrollbar" aria-hidden="true"><span class="news-scrollbar-thumb"></span></span>
 </div>
+
+***
 
 {% include_relative _includes/publications.md %}
 

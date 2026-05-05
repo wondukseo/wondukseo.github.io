@@ -1,3 +1,5 @@
+***
+
 ## Competition Awards
 
 <div class="awards-list">
@@ -11,6 +13,8 @@
 
 <div style="height: 1.5rem;"></div>
 
+***
+
 ## Language Proficiency
 
 <div class="awards-list">
@@ -22,6 +26,8 @@
 </div>
 
 <div style="height: 1.5rem;"></div>
+
+***
 
 ## Advisors and Collaborators
 
@@ -50,6 +56,8 @@
 - Wonseok Choi, Peking University (10/2025 – Present)
 
 <div style="height: 1.5rem;"></div>
+
+***
 
 ## Academic Service
 
