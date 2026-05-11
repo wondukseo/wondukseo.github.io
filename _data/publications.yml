@@ -67,6 +67,7 @@ accepted:
     pdf: https://arxiv.org/abs/2501.14469
     code: https://github.com/winterrykim
     slides: ./images/pesti_gen_embc_slides.pptx
+    photo: ./images/pesti_gen_photo.jpeg
     image: ./images/embc.png
     notes: Oral Presentation
 
