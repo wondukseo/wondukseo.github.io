@@ -54,7 +54,7 @@
 
 - <a class="about-link" href="https://www.linkedin.com/in/juhyeon-lee-056886256/" target="_blank">Juhyeon Lee</a>, Peking University (03/2025 – Present)
 - <a class="about-link" href="https://www.linkedin.com/in/junseo-koh-8a6b33301/" target="_blank">Junseo Koh</a>, Peking University (08/2025 – Present)
-- Wonseok Choi, Peking University (10/2025 – Present)
+- <a class="about-link" href="https://scholar.google.com/citations?user=95hdXbgAAAAJ&hl=en" target="_blank">Wonseok Choi</a>, Peking University (10/2025 – Present)
 - <a class="about-link" href="https://www.linkedin.com/in/wooseok-han-487baa27b/" target="_blank">Wooseok Han</a>, Tsinghua University (04/2026 – Present)
 - <a class="about-link" href="https://www.linkedin.com/in/muryang-im-0b644a331/" target="_blank">Muryang Im</a>, Peking University (04/2026 – Present)
 
