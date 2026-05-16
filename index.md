@@ -23,7 +23,6 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
 <div class="news-scroll">
 <ul>
   <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (ICML)</strong> 🇰🇷.</li>
-  <li><strong>[Apr. 2026]</strong> Released a new preprint: <strong>RoTRAG: Rule of Thumb Reasoning for Conversation Harm Detection with Retrieval-Augmented Generation</strong>. <a class="about-link" href="https://arxiv.org/abs/2604.17301" target="_blank">arXiv</a>.</li>
   <li><strong>[Apr. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>Annual Meeting of the Association for Computational Linguistics (ACL) 2026 Main Conference</strong> 🇺🇸.</li>
   <li><strong>[Apr. 2026]</strong> One <strong>first author</strong> paper got accepted to <strong>International Conference on Pattern Recognition (ICPR)</strong> 🇫🇷.</li>
   <li><strong>[Dec. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>ACM International Conference on Web Search and Data Mining (WSDM)</strong> 🇺🇸!</li>
