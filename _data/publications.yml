@@ -34,7 +34,7 @@ accepted:
     image: ./images/working/automated_visualization.png
 
   - title: "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce"
-    authors: Minhyeong Yu, <span class="me-highlight">Wonduk Seo†</span>
+    authors: Minhyeong Yu, Seunghyun Lee, <span class="me-highlight">Wonduk Seo†</span>
     conference_short: AAAI-Symposium'26
     conference: <strong>AAAI Summer Symposium Series (Abstract Paper)</strong>, 2026.
     pdf: https://arxiv.org/abs/2604.23993
