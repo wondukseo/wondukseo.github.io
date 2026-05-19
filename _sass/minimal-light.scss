@@ -103,6 +103,28 @@
   margin-bottom: 0.35rem;
 }
 
+.publication-scroll-wrap {
+  margin-top: 0.4rem;
+  margin-bottom: 1.9rem;
+}
+
+.publication-scroll-wrap .publications {
+  margin-top: 0;
+}
+
+.publication-scroll {
+  max-height: 34rem;
+  padding-right: 1.7rem;
+}
+
+.publication-scroll-wrap-working .publication-scroll {
+  max-height: 27rem;
+}
+
+.publication-scroll ol.bibliography {
+  margin-bottom: 0;
+}
+
 .map-note {
   font-size: 0.9rem;
   color: #4f5d6d;
@@ -139,6 +161,14 @@
 
   .visitors-embed #mapmyvisitors {
     max-width: 100%;
+  }
+
+  .publication-scroll {
+    max-height: 30rem;
+  }
+
+  .publication-scroll-wrap-working .publication-scroll {
+    max-height: 24rem;
   }
 }
 

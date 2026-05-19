@@ -6,7 +6,8 @@
 
 {% if sections.accepted %}
 <h3 class="pub-section-title">Accepted Papers</h3>
-<div class="publications">
+<div class="publication-scroll-wrap publication-scroll-wrap-accepted news-scroll-wrap is-scrollable">
+<div class="publications publication-scroll news-scroll">
 <ol class="bibliography">
 {% for link in sections.accepted %}
   <li>
@@ -56,11 +57,14 @@
 {% endfor %}
 </ol>
 </div>
+<span class="news-scrollbar" aria-hidden="true"><span class="news-scrollbar-thumb"></span></span>
+</div>
 {% endif %}
 
 {% if sections.working %}
 <h3 class="pub-section-title">Working Papers</h3>
-<div class="publications">
+<div class="publication-scroll-wrap publication-scroll-wrap-working news-scroll-wrap is-scrollable">
+<div class="publications publication-scroll news-scroll">
 <ol class="bibliography">
 {% for link in sections.working %}
   <li>
@@ -109,5 +113,7 @@
   <br>
 {% endfor %}
 </ol>
+</div>
+<span class="news-scrollbar" aria-hidden="true"><span class="news-scrollbar-thumb"></span></span>
 </div>
 {% endif %}
