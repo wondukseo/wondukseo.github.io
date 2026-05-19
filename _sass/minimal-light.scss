@@ -105,8 +105,8 @@
 
 .publication-carousel {
   position: relative;
-  margin-top: 0.4rem;
-  margin-bottom: 1.9rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2.4rem;
 }
 
 .publication-carousel .publications {
@@ -115,7 +115,7 @@
 
 .publication-carousel-panel {
   position: relative;
-  min-height: 9.4rem;
+  min-height: 24rem;
 }
 
 .publication-carousel ol.bibliography {
@@ -135,43 +135,83 @@
   display: none !important;
 }
 
+.publication-carousel .pub-row {
+  display: grid;
+  grid-template-columns: clamp(300px, 45%, 540px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.publication-carousel .pub-row .abbr {
+  width: 100%;
+  height: clamp(250px, 27vw, 380px) !important;
+  min-height: 250px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.publication-carousel .pub-row .col-sm-9 {
+  width: 100%;
+  padding-left: 0 !important;
+}
+
+.publication-carousel .publications ol.bibliography li .teaser {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  object-fit: contain !important;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(35, 58, 85, 0.16);
+  background: #fff;
+}
+
+.publication-carousel .publications ol.bibliography li .abbr abbr {
+  top: 0.65rem;
+  left: 0.65rem;
+  z-index: 3;
+  border-radius: 4px;
+  padding: 0.28rem 0.8rem;
+  box-shadow: 0 3px 10px rgba(4, 51, 97, 0.24);
+}
+
 .pub-carousel-image-nav {
   position: absolute;
   top: 50%;
   z-index: 4;
-  width: 2.05rem;
-  height: 2.05rem;
-  border: 1px solid #d4dde6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 0;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.94);
-  color: #043361;
-  box-shadow: 0 4px 14px rgba(35, 58, 85, 0.16);
+  background: rgba(4, 51, 97, 0.86);
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(35, 58, 85, 0.22);
   cursor: pointer;
   font-family: inherit;
-  font-size: 1.35rem;
+  font-size: 2rem;
   line-height: 1;
   transform: translateY(-50%);
 }
 
 .pub-carousel-image-prev {
-  left: 0.4rem;
+  left: 0.75rem;
 }
 
 .pub-carousel-image-next {
-  right: 0.4rem;
+  right: 0.75rem;
 }
 
-.pub-carousel-image-nav:hover:not(:disabled),
-.pub-carousel-control:hover:not(:disabled),
-.pub-carousel-page:hover:not(:disabled) {
-  border-color: #043361;
-  color: #043361;
+.pub-carousel-image-nav:hover:not(:disabled) {
+  background: #043361;
+  transform: translateY(-50%) scale(1.04);
 }
 
-.pub-carousel-image-nav:disabled,
-.pub-carousel-control:disabled {
+.pub-carousel-image-nav:disabled {
   cursor: default;
-  opacity: 0.34;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .pub-carousel-pagination {
@@ -179,29 +219,40 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.3rem;
-  width: min(100%, 302px);
-  margin: 0.65rem 0 0;
-  padding-left: 15px;
+  gap: 0.22rem;
+  width: clamp(300px, 45%, 540px);
+  margin: 0.85rem 0 0;
+  padding: 0;
 }
 
 .pub-carousel-control,
 .pub-carousel-page {
-  min-width: 1.8rem;
-  height: 1.8rem;
-  padding: 0 0.45rem;
-  border: 1px solid #d4dde6;
-  border-radius: 6px;
-  background: #fff;
+  min-width: 1.75rem;
+  height: 1.75rem;
+  padding: 0 0.4rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
   color: #043361;
   cursor: pointer;
   font-family: inherit;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
+  font-weight: 600;
   line-height: 1;
 }
 
+.pub-carousel-control:hover:not(:disabled),
+.pub-carousel-page:hover:not(:disabled) {
+  background: #edf4fb;
+  color: #043361;
+}
+
+.pub-carousel-control:disabled {
+  cursor: default;
+  opacity: 0.26;
+}
+
 .pub-carousel-page.is-active {
-  border-color: #043361;
   background: #043361;
   color: #fff;
 }
@@ -254,17 +305,36 @@
     max-width: 100%;
   }
 
+  .publication-carousel-panel {
+    min-height: 0;
+  }
+
+  .publication-carousel .pub-row {
+    display: block;
+  }
+
+  .publication-carousel .pub-row .abbr {
+    height: auto !important;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+    margin-bottom: 1rem !important;
+  }
+
+  .publication-carousel .pub-row .col-sm-9 {
+    padding-right: 0 !important;
+  }
+
   .pub-carousel-pagination {
     width: 100%;
     padding-left: 0;
   }
 
   .pub-carousel-image-prev {
-    left: 0.25rem;
+    left: 0.6rem;
   }
 
   .pub-carousel-image-next {
-    right: 0.25rem;
+    right: 0.6rem;
   }
 }
 
@@ -470,12 +540,20 @@ papertitle {
       color: #a9b9c6;
     }
 
-    .pub-carousel-image-nav,
     .pub-carousel-control,
     .pub-carousel-page {
       border-color: #324455;
       background: #1b2430;
       color: #3eb7f0;
+    }
+
+    .pub-carousel-image-nav {
+      background: rgba(62, 183, 240, 0.88);
+      color: #1a1f26;
+    }
+
+    .pub-carousel-image-nav:hover:not(:disabled) {
+      background: #3eb7f0;
     }
 
     .pub-carousel-page.is-active {
