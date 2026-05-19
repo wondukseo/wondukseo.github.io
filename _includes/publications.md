@@ -6,11 +6,11 @@
 
 {% if sections.accepted %}
 <h3 class="pub-section-title">Accepted Papers</h3>
-<div class="publication-scroll-wrap publication-scroll-wrap-accepted news-scroll-wrap is-scrollable">
-<div class="publications publication-scroll news-scroll">
+<div class="publication-carousel" data-publication-carousel>
+<div class="publications publication-carousel-panel">
 <ol class="bibliography">
 {% for link in sections.accepted %}
-  <li>
+  <li{% if forloop.first %} class="is-active"{% endif %}>
   <div class="pub-row">
     <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
       {% if link.image %}
@@ -19,6 +19,8 @@
       <abbr class="badge">{{ link.conference_short }}</abbr>
       {% endif %}
       {% endif %}
+      <button class="pub-carousel-image-nav pub-carousel-image-prev" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
+      <button class="pub-carousel-image-nav pub-carousel-image-next" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
     </div>
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
         <div class="title">{% if link.pdf %}<a href="{{ link.pdf }}">{{ link.title }}</a>{% else %}<span>{{ link.title }}</span>{% endif %}</div>
@@ -53,21 +55,26 @@
     </div>
   </div>
   </li>
-  <br>
 {% endfor %}
 </ol>
 </div>
-<span class="news-scrollbar" aria-hidden="true"><span class="news-scrollbar-thumb"></span></span>
+<nav class="pub-carousel-pagination" aria-label="Accepted papers navigation">
+  <button class="pub-carousel-control" type="button" data-carousel-action="first" aria-label="First paper">&lt;&lt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lt;</button>
+  <span class="pub-carousel-pages"></span>
+  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&gt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="last" aria-label="Last paper">&gt;&gt;</button>
+</nav>
 </div>
 {% endif %}
 
 {% if sections.working %}
 <h3 class="pub-section-title">Working Papers</h3>
-<div class="publication-scroll-wrap publication-scroll-wrap-working news-scroll-wrap is-scrollable">
-<div class="publications publication-scroll news-scroll">
+<div class="publication-carousel" data-publication-carousel>
+<div class="publications publication-carousel-panel">
 <ol class="bibliography">
 {% for link in sections.working %}
-  <li>
+  <li{% if forloop.first %} class="is-active"{% endif %}>
   <div class="pub-row">
     <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
       {% if link.image %}
@@ -76,6 +83,8 @@
       <abbr class="badge">{{ link.conference_short }}</abbr>
       {% endif %}
       {% endif %}
+      <button class="pub-carousel-image-nav pub-carousel-image-prev" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
+      <button class="pub-carousel-image-nav pub-carousel-image-next" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
     </div>
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
         <div class="title">{% if link.pdf %}<a href="{{ link.pdf }}">{{ link.title }}</a>{% else %}<span>{{ link.title }}</span>{% endif %}</div>
@@ -110,10 +119,15 @@
     </div>
   </div>
   </li>
-  <br>
 {% endfor %}
 </ol>
 </div>
-<span class="news-scrollbar" aria-hidden="true"><span class="news-scrollbar-thumb"></span></span>
+<nav class="pub-carousel-pagination" aria-label="Working papers navigation">
+  <button class="pub-carousel-control" type="button" data-carousel-action="first" aria-label="First paper">&lt;&lt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lt;</button>
+  <span class="pub-carousel-pages"></span>
+  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&gt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="last" aria-label="Last paper">&gt;&gt;</button>
+</nav>
 </div>
 {% endif %}
