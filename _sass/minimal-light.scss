@@ -115,7 +115,7 @@
 
 .publication-carousel-panel {
   position: relative;
-  min-height: 24rem;
+  min-height: 18rem;
 }
 
 .publication-carousel ol.bibliography {
@@ -137,15 +137,15 @@
 
 .publication-carousel .pub-row {
   display: grid;
-  grid-template-columns: clamp(300px, 45%, 540px) minmax(0, 1fr);
-  gap: 2rem;
+  grid-template-columns: clamp(280px, 36%, 420px) minmax(0, 1fr);
+  gap: 1.8rem;
   align-items: center;
 }
 
 .publication-carousel .pub-row .abbr {
   width: 100%;
-  height: clamp(250px, 27vw, 380px) !important;
-  min-height: 250px;
+  height: clamp(210px, 21vw, 285px) !important;
+  min-height: 210px;
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -220,7 +220,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.22rem;
-  width: clamp(300px, 45%, 540px);
+  width: clamp(280px, 36%, 420px);
   margin: 0.85rem 0 0;
   padding: 0;
 }
