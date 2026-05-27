@@ -110,3 +110,11 @@ working:
     conference: Under review.
     pdf: https://arxiv.org/abs/2604.17301
     image: ./images/working/rot_framework.png
+
+  - title: "MARIC: Multi-Agent Reasoning for Image Classification"
+    authors: <span class="me-highlight">Wonduk Seo*</span>, Minhyeong Yu*, Hyunjin An, Seunghyun Lee
+    conference_short: W4
+    conference: Under review.
+    pdf: https://arxiv.org/abs/2509.14860
+    code: https://github.com/gogoymh/MARIC
+    image: ./images/working/maric.png
