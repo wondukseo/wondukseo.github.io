@@ -7,6 +7,7 @@ accepted:
     pdf: https://arxiv.org/abs/2601.21700
     code: https://authorname55.github.io/OG-MAR/
     demo: https://authorname55.github.io/OG-MAR/
+    model: https://huggingface.co/CulturalAlignmentPKU/WVS-DeBERTa-v2-xxlarge
     image: ./images/working/image.png
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
