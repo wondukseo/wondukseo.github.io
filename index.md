@@ -22,6 +22,7 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
 <div class="news-scroll-wrap is-scrollable">
 <div class="news-scroll">
 <ul>
+  <li><strong>[Jun. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (ICTIR)</strong> 🇦🇺.</li>
   <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (ICML)</strong> 🇰🇷.</li>
   <li><strong>[May 2026]</strong> One <strong>corresponding author</strong> abstract paper got accepted to the <strong>AAAI Summer Symposium Series</strong> 🇰🇷.</li>
   <li><strong>[Apr. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>Annual Meeting of the Association for Computational Linguistics (ACL) 2026 Main Conference</strong> 🇺🇸.</li>
