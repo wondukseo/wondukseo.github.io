@@ -6,14 +6,57 @@ layout: homepage
 
 Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> since January 2025 and a 2025 graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, he was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. His research focuses on scalable, transparent, and interpretable methods that keep LLMs grounded in human values, sustain behavioral consistency, and mitigate hallucinations in real-world deployments. He has published <strong>first-author papers</strong> at top AI venues such as <span class="venue-abbr">ICML</span>, <span class="venue-abbr">ACL</span>, <span class="venue-abbr">WSDM</span>, <span class="venue-abbr">SIGIR-ICTIR</span>, <span class="venue-abbr">ICPR</span>, and <span class="venue-abbr">BigData</span>.
 
+<div class="education-card" aria-label="Education">
+  <div class="education-card-heading"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Education</span></div>
+  <div class="education-entry">
+    <img class="education-logo" src="./images/profile/pku_logo.png" alt="Peking University logo">
+    <div class="education-main">
+      <div class="education-topline">
+        <strong>Peking University</strong>
+        <span>Sep. 2019 - Jun. 2025</span>
+      </div>
+      <div class="education-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Beijing, China</span></div>
+      <div class="education-degree">Bachelor in Information Management</div>
+      <div class="education-advisor">Advisor: Prof. Yi Bu</div>
+    </div>
+  </div>
+</div>
+
 ***
 
 ## Research Interests
 
-- **Socially Responsible, Interpretable, and Aligned AI:** Advancing interpretability and accuracy in LLMs through transparent evaluation, retrieval-augmented reasoning, and feedback loop to ensure socially beneficial and context-aware behavior.
-- **Multi-Agent Reasoning and Interaction:** Developing collaborative agent architectures that support reasoning, prompt optimization, and hallucination reduction while enabling interpretable decision-making at scale.
-- **Information Retrieval with LLMs:** Designing adaptive query reformulation and expansion pipelines that capture nuanced intent and orchestrate multiple retrieval strategies for precise, transparent access to information.
-- **Evidence Inheritance in LLM Pipelines:** Developing methods to track how external evidence is inherited, transformed, and selectively used across multi-stage LLM systems, so that provenance remains interpretable and trustworthy, and integrating LLM post-training to improve evidence grounding, calibration, and traceable reasoning.
+<ul class="research-interest-list">
+  <li>
+    <p><strong class="research-interest-lead">Socially Responsible, Interpretable, and Aligned AI:</strong> Advancing interpretability and accuracy in LLMs through transparent evaluation, retrieval-augmented reasoning, and feedback loop to ensure socially beneficial and context-aware behavior.</p>
+    <div class="research-pub-tags" aria-label="Representative publications">
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2601.21700" target="_blank" rel="noopener noreferrer">Seo et al., <span>ICML'26</span></a>
+      <a class="research-pub-chip" href="https://ojs.aaai.org/index.php/AIES/article/view/36717" target="_blank" rel="noopener noreferrer">Seo et al., <span>AAAI-AIES'25</span></a>
+    </div>
+  </li>
+  <li>
+    <p><strong class="research-interest-lead">Multi-Agent Reasoning and Interaction:</strong> Developing collaborative agent architectures that support reasoning, prompt optimization, and hallucination reduction while enabling interpretable decision-making at scale.</p>
+    <div class="research-pub-tags" aria-label="Representative publications">
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2503.23314" target="_blank" rel="noopener noreferrer">Seo et al., <span>ACL'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2502.11140" target="_blank" rel="noopener noreferrer">Seo et al., <span>ICPR'26</span></a>
+    </div>
+  </li>
+  <li>
+    <p><strong class="research-interest-lead">Information Retrieval with LLMs:</strong> Designing adaptive query reformulation and expansion pipelines that capture nuanced intent and orchestrate multiple retrieval strategies for precise, transparent access to information.</p>
+    <div class="research-pub-tags" aria-label="Representative publications">
+      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3773966.3779360" target="_blank" rel="noopener noreferrer">Seo et al., <span>WSDM'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2604.17301" target="_blank" rel="noopener noreferrer">Lee* and Seo* et al., <span>SIGIR-ICTIR'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2509.01182" target="_blank" rel="noopener noreferrer">Seo et al., <span>BigData'25</span></a>
+    </div>
+  </li>
+  <li>
+    <p><strong class="research-interest-lead">Evidence Inheritance in LLM Pipelines:</strong> Developing methods to track how external evidence is inherited, transformed, and selectively used across multi-stage LLM systems, so that provenance remains interpretable and trustworthy, and integrating LLM post-training to improve evidence grounding, calibration, and traceable reasoning.</p>
+    <div class="research-pub-tags" aria-label="Representative publications">
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2604.23993" target="_blank" rel="noopener noreferrer">Seo<sup>†</sup>, <span>AAAI-Symposium'26</span></a>
+      <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer">Seo et al., <span>Quantitative Science Studies</span></a>
+    </div>
+  </li>
+</ul>
 
 ***
 

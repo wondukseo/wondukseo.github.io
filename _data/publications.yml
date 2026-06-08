@@ -98,7 +98,7 @@ accepted:
 
   - title: "Transforming Role Classification in Scientific Teams using LLMs and Advanced Predictive Analytics"
     authors: <span class="me-highlight">Wonduk Seo</span>, Yi Bu†
-    conference_short: QSS
+    conference_short: Quantitative Science Studies
     venue_group: qss
     conference: Quantitative Science Studies (<span class="venue-abbr">QSS</span>) 6, 505-523.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific

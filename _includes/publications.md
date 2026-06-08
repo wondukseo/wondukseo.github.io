@@ -5,7 +5,8 @@
 {% assign sections = site.data.publications %}
 
 {% if sections.accepted %}
-<h3 class="pub-section-title">Accepted Papers</h3>
+<div class="pub-category-card pub-category-card-accepted">
+<h3 class="pub-section-title pub-section-title-accepted"><span>Accepted Papers</span><small>Accepted / published</small></h3>
 <div class="pub-venue-filter" data-publication-filter="accepted-paper-carousel" aria-label="Filter accepted papers by venue">
   <button class="pub-venue-chip is-active" type="button" data-venue-filter="all" aria-pressed="true">All</button>
   <button class="pub-venue-chip" type="button" data-venue-filter="icml" aria-pressed="false">ICML</button>
@@ -82,10 +83,12 @@
   <button class="pub-carousel-control" type="button" data-carousel-action="last" aria-label="Last paper">&gt;&gt;</button>
 </nav>
 </div>
+</div>
 {% endif %}
 
 {% if sections.working %}
-<h3 class="pub-section-title">Working Papers</h3>
+<div class="pub-category-card pub-category-card-working">
+<h3 class="pub-section-title pub-section-title-working"><span>Working Papers</span><small>Under review / preprint</small></h3>
 <div class="publication-carousel" data-publication-carousel>
 <div class="publications publication-carousel-panel">
 <ol class="bibliography">
@@ -148,5 +151,6 @@
   <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&gt;</button>
   <button class="pub-carousel-control" type="button" data-carousel-action="last" aria-label="Last paper">&gt;&gt;</button>
 </nav>
+</div>
 </div>
 {% endif %}
