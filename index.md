@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> since January 2025 and a 2025 graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, he was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. His research focuses on scalable, transparent, and interpretable methods that keep LLMs grounded in human values, sustain behavioral consistency, and mitigate hallucinations in real-world deployments. He has published <strong>first-author papers</strong> at top AI venues such as <strong>ICML, ACL, WSDM, SIGIR-ICTIR, ICPR, and BigData</strong>.
+Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> since January 2025 and a 2025 graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, he was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. His research focuses on scalable, transparent, and interpretable methods that keep LLMs grounded in human values, sustain behavioral consistency, and mitigate hallucinations in real-world deployments. He has published <strong>first-author papers</strong> at top AI venues such as <span class="venue-abbr">ICML</span>, <span class="venue-abbr">ACL</span>, <span class="venue-abbr">WSDM</span>, <span class="venue-abbr">SIGIR-ICTIR</span>, <span class="venue-abbr">ICPR</span>, and <span class="venue-abbr">BigData</span>.
 
 ***
 
@@ -22,20 +22,20 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
 <div class="news-scroll-wrap is-scrollable">
 <div class="news-scroll">
 <ul>
-  <li><strong>[Jun. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (ICTIR)</strong> 🇦🇺.</li>
-  <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (ICML)</strong> 🇰🇷.</li>
-  <li><strong>[May 2026]</strong> One <strong>corresponding author</strong> abstract paper got accepted to the <strong>AAAI Summer Symposium Series</strong> 🇰🇷.</li>
-  <li><strong>[Apr. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>Annual Meeting of the Association for Computational Linguistics (ACL) 2026 Main Conference</strong> 🇺🇸.</li>
-  <li><strong>[Apr. 2026]</strong> One <strong>first author</strong> paper got accepted to <strong>International Conference on Pattern Recognition (ICPR)</strong> 🇫🇷.</li>
-  <li><strong>[Dec. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>ACM International Conference on Web Search and Data Mining (WSDM)</strong> 🇺🇸!</li>
-  <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (JCDL)</strong> 💻.</li>
+  <li><strong>[Jun. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>)</strong> 🇦🇺.</li>
+  <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>)</strong> 🇰🇷.</li>
+  <li><strong>[May 2026]</strong> One <strong>corresponding author</strong> abstract paper got accepted to the <strong><span class="venue-abbr">AAAI</span> Summer Symposium Series</strong> 🇰🇷.</li>
+  <li><strong>[Apr. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>Annual Meeting of the Association for Computational Linguistics (<span class="venue-abbr">ACL</span>) 2026 Main Conference</strong> 🇺🇸.</li>
+  <li><strong>[Apr. 2026]</strong> One <strong>first author</strong> paper got accepted to <strong>International Conference on Pattern Recognition (<span class="venue-abbr">ICPR</span>)</strong> 🇫🇷.</li>
+  <li><strong>[Dec. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>)</strong> 🇺🇸!</li>
+  <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (<span class="venue-abbr">JCDL</span>)</strong> 💻.</li>
   <li><strong>[Oct. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for Oral Presentation 🇲🇴.</li>
-  <li><strong>[Jul. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>AAAI/ACM Conference on AI, Ethics, and Society (AIES) Main Track</strong> 🇪🇸.</li>
+  <li><strong>[Jul. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>AAAI/ACM Conference on AI, Ethics, and Society (<span class="venue-abbr">AIES</span>) Main Track</strong> 🇪🇸.</li>
   <li><strong>[Jul. 2025]</strong> <mark><strong>Graduated from Peking University</strong></mark> (Bachelor in Information Management, Big Data Management &amp; Application) 🎉!</li>
-  <li><strong>[Jun. 2025]</strong> One <strong>first author</strong> paper accepted for Oral Presentation at the <strong>ACM SIGKDD 2025 Workshop on AI Agent for Information Retrieval</strong> 🇨🇦.</li>
-  <li><strong>[Apr. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE Engineering in Medicine and Biology Society (EMBC)</strong> for Oral Presentation 🇩🇰.</li>
-  <li><strong>[Apr. 2025]</strong> Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (RECOMB)</strong> 🇰🇷.</li>
-  <li><strong>[Feb. 2025]</strong> One <strong>first author</strong> paper accepted by <strong>Quantitative Science Studies (QSS)</strong>.</li>
+  <li><strong>[Jun. 2025]</strong> One <strong>first author</strong> paper accepted for Oral Presentation at the <strong>ACM <span class="venue-abbr">SIGKDD</span> 2025 Workshop on AI Agent for Information Retrieval</strong> 🇨🇦.</li>
+  <li><strong>[Apr. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE Engineering in Medicine and Biology Society (<span class="venue-abbr">EMBC</span>)</strong> for Oral Presentation 🇩🇰.</li>
+  <li><strong>[Apr. 2025]</strong> Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (<span class="venue-abbr">RECOMB</span>)</strong> 🇰🇷.</li>
+  <li><strong>[Feb. 2025]</strong> One <strong>first author</strong> paper accepted by <strong>Quantitative Science Studies (<span class="venue-abbr">QSS</span>)</strong>.</li>
   <li><strong>[Jan. 2025]</strong> Concluded my role as an LLM researcher at <a class="about-link" href="https://www.baidu.com/" target="_blank">Baidu Inc.</a>.</li>
   <li><strong>[Jan. 2025]</strong> Rejoined <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> as an AI Research Scientist.</li>
   <li><strong>[Nov. 2024]</strong> Ranked 9th in the ACM'24 FinanceRAG Challenge as Team Leader.</li>

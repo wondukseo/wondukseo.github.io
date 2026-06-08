@@ -100,6 +100,15 @@
         </a>
         {% endif %}
         </div>
+        <nav class="profile-nav" aria-label="Profile navigation">
+          <a class="is-active" href="#about-me"><i class="fa-solid fa-user"></i><span>About</span></a>
+          <a href="#research-interests"><i class="fa-solid fa-lightbulb"></i><span>Research</span></a>
+          <a href="#news"><i class="fa-solid fa-newspaper"></i><span>News</span></a>
+          <a href="#publications"><i class="fa-solid fa-book-open"></i><span>Publications</span></a>
+          <a href="#competition-awards"><i class="fa-solid fa-trophy"></i><span>Awards</span></a>
+          <a href="#advisors-and-collaborators"><i class="fa-solid fa-users"></i><span>Collaborators</span></a>
+          <a href="#academic-service"><i class="fa-solid fa-clipboard-check"></i><span>Service</span></a>
+        </nav>
         <br>
 
       </header>
@@ -129,6 +138,7 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/section-panels.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/news-scrollbar.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/publication-carousel.js" | relative_url }}"></script>
     {% if site.google_analytics %}

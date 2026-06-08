@@ -66,4 +66,4 @@
 
 ### Conference Reviewers
 
-- Conference on Language Modeling (COLM 2026)
+- Conference on Language Modeling (<span class="venue-abbr">COLM</span> 2026)

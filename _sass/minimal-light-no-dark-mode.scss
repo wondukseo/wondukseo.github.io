@@ -8,6 +8,62 @@
   font-size: 0.95rem;
 }
 
+.venue-abbr {
+  color: #262626;
+  font-weight: 700;
+}
+
+.section-content-panel {
+  margin: 0.05rem 0 1.75rem;
+  padding: 1.02rem 1.15rem 0.92rem;
+  border: 1px solid rgba(4, 51, 97, 0.07);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(252, 254, 255, 0.98), rgba(247, 250, 253, 0.92));
+  box-shadow: 0 8px 22px rgba(4, 51, 97, 0.025);
+}
+
+.section-content-panel > :last-child {
+  margin-bottom: 0;
+}
+
+section > h2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.7rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.42rem;
+}
+
+section > h2::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.34rem;
+  height: 1.18rem;
+  border-radius: 999px;
+  background: #043361;
+}
+
+section > h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4.1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #043361, rgba(4, 51, 97, 0.16));
+}
+
+section > h2:first-of-type {
+  margin-top: 0;
+}
+
+section > hr.section-boundary {
+  display: none;
+}
+
 .social-icons a{
   display:inline-block;
   height:2.4rem;
@@ -122,7 +178,7 @@ email {
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
-  color:#595959;
+  color:#303030;
 }
 
 .map-note {
@@ -546,7 +602,8 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
-#about-me + p {
+#about-me + p,
+#about-me + .section-content-panel p:first-child {
   font-size: 1.08rem;
   line-height: 1.58;
 }
@@ -560,37 +617,57 @@ h1 {
 }
 
 .section-tabs {
-  display: flex;
+  display: none;
   flex-wrap: nowrap;
   justify-content: space-between;
-  gap: 12px;
-  margin: 0 0 18px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid #e5e5e5;
+  gap: 0.22rem;
+  margin: 0 0 1.35rem;
+  padding: 0.35rem;
+  border: 1px solid rgba(4, 51, 97, 0.07);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(252, 254, 255, 0.98), rgba(247, 250, 253, 0.92));
+  box-shadow: 0 8px 22px rgba(4, 51, 97, 0.025);
   font-weight: 500;
 }
 
 .section-tabs a {
   flex: 0 0 auto;
-  font-size: 1.1rem;
-  padding-bottom: 4px;
-  border-bottom: 2px solid transparent;
+  font-size: 1.02rem;
+  line-height: 1.1;
+  padding: 0.42rem 0.54rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
   color: #043361;
   white-space: nowrap;
+  transition: background 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
 }
 
-.section-tabs a:hover {
-  border-bottom-color: #043361;
+.section-tabs a:hover,
+.section-tabs a:focus-visible {
+  border-color: rgba(4, 51, 97, 0.1);
+  background: rgba(4, 51, 97, 0.055);
+  box-shadow: 0 3px 10px rgba(4, 51, 97, 0.04);
 }
 
 @media print, screen and (max-width: 680px) {
   .section-tabs {
     flex-wrap: wrap;
-    gap: 12px;
+    justify-content: flex-start;
+    gap: 0.3rem;
   }
 
   .section-tabs a {
-    font-size: 1.05rem;
+    font-size: 0.98rem;
+    padding: 0.38rem 0.5rem;
+  }
+
+  .section-content-panel {
+    border-radius: 12px;
+    padding: 0.9rem 0.9rem 0.8rem;
+  }
+
+  section > h2 {
+    gap: 0.45rem;
   }
 }
 
@@ -918,4 +995,169 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: inherit;
+}
+
+header {
+  box-sizing: border-box;
+  margin-top: 4.4em;
+  padding: 1.15rem 0.9rem 0.95rem;
+  border: 1px solid rgba(4, 51, 97, 0.07);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(252, 254, 255, 0.98), rgba(247, 250, 253, 0.92));
+  box-shadow: 0 8px 22px rgba(4, 51, 97, 0.025);
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+header::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+header .image.avatar {
+  width: 142px;
+  height: 142px;
+  margin: 0 auto 1.05rem;
+  border: 3px solid rgba(42, 141, 222, 0.42);
+  border-radius: 18px;
+  box-shadow: 0 8px 18px rgba(42, 141, 222, 0.14);
+}
+
+header .image.avatar img {
+  border-radius: 14px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0d4e8c;
+  margin-bottom: 0.72rem;
+}
+
+header location,
+header position,
+header email {
+  display: block;
+  color: #303030;
+  line-height: 1.42;
+}
+
+header location {
+  font-size: 0.9rem !important;
+  margin-bottom: 0.14rem;
+}
+
+header position {
+  max-width: 13.5rem;
+  margin: 0 auto 0.12rem;
+  font-size: 0.94rem !important;
+}
+
+header .affiliation-link {
+  display: inline-block;
+  margin: 0.03rem 0 0.18rem;
+  font-size: 0.96rem;
+}
+
+header email {
+  font-size: 0.86rem;
+}
+
+header br {
+  display: none;
+}
+
+header .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.42rem;
+  margin-top: 0.82rem;
+}
+
+header .social-icons a {
+  width: 1.92rem;
+  height: 1.92rem;
+  margin: 0 !important;
+  border: 1px solid rgba(4, 51, 97, 0.08);
+  background: rgba(4, 51, 97, 0.035);
+  color: #043361 !important;
+  line-height: 1.98rem;
+  transition: background 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease, color 0.16s ease, transform 0.16s ease;
+}
+
+header .social-icons a:hover,
+header .social-icons a:focus-visible {
+  border-color: #043361;
+  background: #043361;
+  color: #fff !important;
+  box-shadow: 0 5px 14px rgba(4, 51, 97, 0.16);
+  transform: translateY(-1px);
+}
+
+.profile-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+  margin-top: 0.68rem;
+  text-align: left;
+}
+
+.profile-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.54rem;
+  padding: 0.38rem 0.56rem;
+  border: 1px solid rgba(4, 51, 97, 0.08);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #20242a;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.15;
+  transition: background 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease, color 0.16s ease, transform 0.16s ease;
+}
+
+.profile-nav a i {
+  width: 1rem;
+  color: #043361;
+  text-align: center;
+  font-size: 0.84rem;
+}
+
+.profile-nav a:hover,
+.profile-nav a:focus-visible {
+  border-color: rgba(4, 51, 97, 0.18);
+  background: rgba(4, 51, 97, 0.06);
+  color: #043361;
+}
+
+.profile-nav a.is-active {
+  border-color: #043361;
+  background: #043361;
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(4, 51, 97, 0.18);
+}
+
+.profile-nav a.is-active i {
+  color: #fff;
+}
+
+@media print, screen and (max-width: 960px) {
+  .section-tabs {
+    display: flex;
+  }
+
+  header {
+    max-width: 360px;
+    margin: 0 auto 1.25rem;
+    padding: 1.15rem 1rem;
+    max-height: none;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  header {
+    border-radius: 14px;
+  }
 }
