@@ -6,11 +6,24 @@
 
 {% if sections.accepted %}
 <h3 class="pub-section-title">Accepted Papers</h3>
-<div class="publication-carousel" data-publication-carousel>
+<div class="pub-venue-filter" data-publication-filter="accepted-paper-carousel" aria-label="Filter accepted papers by venue">
+  <button class="pub-venue-chip is-active" type="button" data-venue-filter="all" aria-pressed="true">All</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="icml" aria-pressed="false">ICML</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="acl" aria-pressed="false">ACL</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="wsdm" aria-pressed="false">WSDM</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="sigir" aria-pressed="false">SIGIR Series</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="aaai" aria-pressed="false">AAAI Series</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="icpr" aria-pressed="false">ICPR</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="bigdata" aria-pressed="false">BigData</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="jcdl" aria-pressed="false">JCDL</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="embc" aria-pressed="false">EMBC</button>
+  <button class="pub-venue-chip" type="button" data-venue-filter="qss" aria-pressed="false">QSS</button>
+</div>
+<div id="accepted-paper-carousel" class="publication-carousel" data-publication-carousel>
 <div class="publications publication-carousel-panel">
 <ol class="bibliography">
 {% for link in sections.accepted %}
-  <li{% if forloop.first %} class="is-active"{% endif %}>
+  <li{% if forloop.first %} class="is-active"{% endif %} data-venue-group="{{ link.venue_group | default: 'all' }}">
   <div class="pub-row">
     <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
       {% if link.image %}

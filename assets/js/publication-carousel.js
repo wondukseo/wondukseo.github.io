@@ -46,22 +46,47 @@
     var items = Array.prototype.slice.call(root.querySelectorAll("ol.bibliography > li"));
     var pagesContainer = root.querySelector(".pub-carousel-pages");
     var activeIndex = 0;
+    var activeFilter = "all";
+    var filterControls = root.id
+      ? Array.prototype.slice.call(document.querySelectorAll('[data-publication-filter="' + root.id + '"] [data-venue-filter]'))
+      : [];
 
     if (!items.length || !pagesContainer) {
       return;
     }
 
-    root.classList.toggle("is-single-paper", items.length === 1);
+    function filteredItems() {
+      if (activeFilter === "all") {
+        return items.slice();
+      }
+
+      return items.filter(function (item) {
+        return item.getAttribute("data-venue-group") === activeFilter;
+      });
+    }
+
+    function updateFilterControls() {
+      filterControls.forEach(function (button) {
+        var isActive = button.getAttribute("data-venue-filter") === activeFilter;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+      });
+    }
 
     function goTo(index) {
-      activeIndex = clamp(index, 0, items.length - 1);
+      var visibleItems = filteredItems();
+      activeIndex = clamp(index, 0, Math.max(visibleItems.length - 1, 0));
       update();
     }
 
-    function renderPages() {
+    function renderPages(visibleItems) {
       pagesContainer.innerHTML = "";
 
-      pageWindow(activeIndex, items.length).forEach(function (page) {
+      if (!visibleItems.length) {
+        return;
+      }
+
+      pageWindow(activeIndex, visibleItems.length).forEach(function (page) {
         var element;
 
         if (page === "ellipsis") {
@@ -86,29 +111,39 @@
       });
     }
 
-    function updateButtons() {
+    function updateButtons(visibleItems) {
       var atStart = activeIndex === 0;
-      var atEnd = activeIndex === items.length - 1;
+      var atEnd = activeIndex >= visibleItems.length - 1;
+      var isDisabled = visibleItems.length <= 1;
 
       root.querySelectorAll('[data-carousel-action="first"], [data-carousel-action="prev"]').forEach(function (button) {
-        setDisabled(button, atStart);
+        setDisabled(button, isDisabled || atStart);
       });
 
       root.querySelectorAll('[data-carousel-action="next"], [data-carousel-action="last"]').forEach(function (button) {
-        setDisabled(button, atEnd);
+        setDisabled(button, isDisabled || atEnd);
       });
     }
 
     function update() {
+      var visibleItems = filteredItems();
+
+      if (activeIndex > visibleItems.length - 1) {
+        activeIndex = 0;
+      }
+
       items.forEach(function (item, index) {
-        var isActive = index === activeIndex;
+        var isActive = visibleItems[activeIndex] === item;
         item.hidden = !isActive;
         item.classList.toggle("is-active", isActive);
         item.setAttribute("aria-hidden", isActive ? "false" : "true");
       });
 
-      renderPages();
-      updateButtons();
+      root.classList.toggle("is-empty", visibleItems.length === 0);
+      root.classList.toggle("is-single-paper", visibleItems.length <= 1);
+      updateFilterControls();
+      renderPages(visibleItems);
+      updateButtons(visibleItems);
     }
 
     root.addEventListener("click", function (event) {
@@ -138,6 +173,14 @@
           goTo(items.length - 1);
           break;
       }
+    });
+
+    filterControls.forEach(function (button) {
+      button.addEventListener("click", function () {
+        activeFilter = button.getAttribute("data-venue-filter") || "all";
+        activeIndex = 0;
+        update();
+      });
     });
 
     update();

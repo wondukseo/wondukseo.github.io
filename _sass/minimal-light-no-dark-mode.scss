@@ -211,6 +211,39 @@ autocolor{
   display: none !important;
 }
 
+.pub-venue-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.32rem;
+  margin: 0.1rem 0 1.05rem;
+}
+
+.pub-venue-chip {
+  border: 1px solid #c9d5e2;
+  border-radius: 999px;
+  background: #fff;
+  color: #043361;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.15;
+  padding: 0.31rem 0.58rem;
+  transition: background 0.16s ease, border-color 0.16s ease, color 0.16s ease, box-shadow 0.16s ease;
+}
+
+.pub-venue-chip:hover {
+  border-color: #043361;
+  background: #f3f7fb;
+}
+
+.pub-venue-chip.is-active {
+  border-color: #043361;
+  background: #043361;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(4, 51, 97, 0.16);
+}
+
 .publication-carousel .pub-row {
   display: grid;
   grid-template-columns: clamp(220px, 25%, 280px) minmax(0, 1fr);
@@ -378,6 +411,15 @@ autocolor{
 
   .publication-carousel-panel {
     min-height: 0;
+  }
+
+  .pub-venue-filter {
+    gap: 0.3rem;
+  }
+
+  .pub-venue-chip {
+    font-size: 0.8rem;
+    padding: 0.28rem 0.5rem;
   }
 
   .publication-carousel .pub-row {
