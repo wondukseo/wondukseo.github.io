@@ -67,13 +67,13 @@
 }
 
 .pub-section-title-accepted::before {
-  background: #6b7280;
+  background: #2563eb;
 }
 
 .pub-section-title-accepted small {
-  border-color: #dfe3e8;
-  background: transparent;
-  color: #111;
+  border-color: rgba(37, 99, 235, 0.18);
+  background: #eff6ff;
+  color: #1d4ed8;
 }
 
 .pub-section-title-working {
@@ -83,13 +83,13 @@
 }
 
 .pub-section-title-working::before {
-  background: #6b7280;
+  background: #0f766e;
 }
 
 .pub-section-title-working small {
-  border-color: #dfe3e8;
-  background: transparent;
-  color: #111;
+  border-color: rgba(15, 118, 110, 0.18);
+  background: #ecfdf5;
+  color: #0f766e;
 }
 
 .venue-abbr {
@@ -1559,9 +1559,16 @@ html.theme-light .venue-abbr {
 }
 
 html.theme-light .pub-section-title::before,
-html.theme-light .pub-section-title-accepted::before,
-html.theme-light .pub-section-title-working::before {
+html.theme-light .pub-section-title::before {
   background: #6b7280;
+}
+
+html.theme-light .pub-section-title-accepted::before {
+  background: #2563eb;
+}
+
+html.theme-light .pub-section-title-working::before {
+  background: #0f766e;
 }
 
 html.theme-light .pub-category-card,
@@ -1570,6 +1577,18 @@ html.theme-light .theme-toggle,
 html.theme-light .theme-toggle i {
   border-color: #dfe3e8;
   background: #fff;
+}
+
+html.theme-light .pub-section-title-accepted small {
+  border-color: rgba(37, 99, 235, 0.18);
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+html.theme-light .pub-section-title-working small {
+  border-color: rgba(15, 118, 110, 0.18);
+  background: #ecfdf5;
+  color: #0f766e;
 }
 
 html.theme-light .section-content-panel {
@@ -1720,17 +1739,34 @@ html.theme-dark pre {
 }
 
 html.theme-dark .pub-section-title::before,
-html.theme-dark .pub-section-title-accepted::before,
-html.theme-dark .pub-section-title-working::before {
+html.theme-dark .pub-section-title::before {
   background: #8c96a3;
 }
 
+html.theme-dark .pub-section-title-accepted::before {
+  background: #60a5fa;
+}
+
+html.theme-dark .pub-section-title-working::before {
+  background: #34d399;
+}
+
 html.theme-dark .pub-section-title small,
-html.theme-dark .pub-section-title-accepted small,
-html.theme-dark .pub-section-title-working small,
 html.theme-dark .pub-category-card {
   border-color: rgba(196, 200, 207, 0.22);
   background: rgba(22, 32, 42, 0.72);
+}
+
+html.theme-dark .pub-section-title-accepted small {
+  border-color: rgba(96, 165, 250, 0.28);
+  background: rgba(37, 99, 235, 0.14);
+  color: #bfdbfe;
+}
+
+html.theme-dark .pub-section-title-working small {
+  border-color: rgba(52, 211, 153, 0.28);
+  background: rgba(15, 118, 110, 0.18);
+  color: #a7f3d0;
 }
 
 html.theme-dark .section-content-panel {
