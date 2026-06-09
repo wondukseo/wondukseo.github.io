@@ -1356,6 +1356,24 @@ header .social-icons a {
   transition: background 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease, color 0.16s ease, transform 0.16s ease;
 }
 
+header .social-icons a.kaggle-social {
+  width: auto;
+  min-width: 3.54rem;
+  padding: 0 0.58rem;
+  border-radius: 999px;
+}
+
+header .social-icons .kaggle-wordmark {
+  display: inline-block;
+  color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: inherit;
+  transform: translateY(-0.01rem);
+}
+
 header .social-icons a:hover,
 header .social-icons a:focus-visible {
   border-color: #043361;

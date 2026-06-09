@@ -105,6 +105,12 @@
         </a>
         {% endif %}
 
+        {% if site.kaggle %}
+        <a class="kaggle-social" style="margin: 0 5px 0 0" href="{{ site.kaggle }}" rel="noopener" target="_blank" aria-label="Kaggle">
+          <span class="kaggle-wordmark" aria-hidden="true">Kaggle</span>
+        </a>
+        {% endif %}
+
         {% if site.linkedin %}
         <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>
