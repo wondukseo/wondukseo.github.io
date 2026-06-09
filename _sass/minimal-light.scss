@@ -1664,19 +1664,19 @@ header .social-icons a {
 }
 
 header .social-icons a.kaggle-social {
-  width: auto;
-  min-width: 3.54rem;
-  padding: 0 0.58rem;
-  border-radius: 999px;
+  width: 1.92rem;
+  min-width: 1.92rem;
+  padding: 0;
+  border-radius: 50%;
 }
 
-header .social-icons .kaggle-wordmark {
+header .social-icons .kaggle-mark {
   display: inline-block;
   color: inherit;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.68rem;
+  font-size: 1.08rem;
   font-weight: 700;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
   line-height: inherit;
   transform: translateY(-0.01rem);
 }
