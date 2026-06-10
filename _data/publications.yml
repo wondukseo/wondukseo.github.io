@@ -36,6 +36,7 @@ accepted:
     venue_group: sigir
     conference: International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>), 2026.
     pdf: https://arxiv.org/abs/2604.17301
+    code: https://github.com/GitLeo1/RoTRAG-Rule-of-Thumb-Reasoning-for-Conversation-Harm-Detection-with-Retrieval-Augmented-Generation
     model: https://huggingface.co/hgLeo12/RoTRAG_roberta_routing_classifier
     image: ./images/working/rot_framework.png
 
