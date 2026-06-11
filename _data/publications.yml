@@ -17,6 +17,7 @@ accepted:
     venue_group: acl
     conference: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<span class="venue-abbr">ACL Main</span>), 2026.
     pdf: https://arxiv.org/abs/2503.23314
+    poster: ./images/spio_poster.pdf
     image: ./images/working/spio.png
 
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
