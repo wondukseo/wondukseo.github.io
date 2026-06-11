@@ -52,7 +52,7 @@ accepted:
     authors: Minhyeong Yu, Seunghyun Lee, <span class="me-highlight">Wonduk Seo†</span>
     conference_short: AAAI-Symposium'26
     venue_group: aaai
-    conference: <span class="venue-abbr">AAAI</span> Summer Symposium Series (Abstract Paper), 2026.
+    conference: <span class="venue-abbr">AAAI</span> Summer Symposium Series (Extended Abstract Paper), 2026.
     pdf: https://arxiv.org/abs/2604.23993
     image: ./images/working/epm_rl.png
 
