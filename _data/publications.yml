@@ -37,6 +37,7 @@ accepted:
     conference_short: SIGIR-ICTIR'26
     venue_group: sigir
     conference: International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>), 2026.
+    notes: Oral Presentation
     pdf: https://arxiv.org/abs/2604.17301
     code: https://github.com/GitLeo1/RoTRAG-Rule-of-Thumb-Reasoning-for-Conversation-Harm-Detection-with-Retrieval-Augmented-Generation
     model: https://huggingface.co/hgLeo12/RoTRAG_roberta_routing_classifier
@@ -55,6 +56,7 @@ accepted:
     conference_short: AAAI-Symposium'26
     venue_group: aaai
     conference: <span class="venue-abbr">AAAI</span> Summer Symposium Series (Extended Abstract Paper), 2026.
+    notes: Oral Presentation
     pdf: https://arxiv.org/abs/2604.23993
     image: ./images/working/epm_rl.png
 
