@@ -472,6 +472,11 @@ autocolor{
   display: none;
 }
 
+.news-oral-note {
+  color: #0f766e;
+  font-weight: 700;
+}
+
 .publication-carousel {
   position: relative;
   margin-top: 0.8rem;
@@ -1836,6 +1841,10 @@ html.theme-dark .news-scrollbar {
 
 html.theme-dark .news-scrollbar-thumb {
   background: #667f99;
+}
+
+html.theme-dark .news-oral-note {
+  color: #34d399;
 }
 
 html.theme-dark .pub-venue-chip,
