@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>🤖 {{ site.title }} | AI Researcher</title>
+    <title>🐱 {{ site.title }} | AI Researcher</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,8 +31,8 @@
       })();
     </script>
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="{{ site.favicon_type | default: "image/png" }}" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="{{ site.favicon_type | default: "image/png" }}" />
     <script src="{{ "/assets/js/favicon-switcher.js" | relative_url }}?v={{ asset_version }}" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
