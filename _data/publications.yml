@@ -7,7 +7,7 @@ accepted:
     conference: Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>), 2026.
     pdf: https://arxiv.org/abs/2601.21700
     code: https://authorname55.github.io/OG-MAR/
-    demo: https://authorname55.github.io/OG-MAR/
+    video: https://recorder-v3.slideslive.com/?share=111155&s=4d295aaa-6b33-4ce2-8956-6e36495367fa
     model: https://huggingface.co/CulturalAlignmentPKU/WVS-DeBERTa-v2-xxlarge
     image: ./images/working/image.png
 
