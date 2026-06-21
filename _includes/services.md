@@ -66,4 +66,5 @@
 
 ### Conference Reviewers
 
-- Conference on Language Modeling (<span class="venue-abbr">COLM</span> 2026)
+- Conference on Neural Information Processing Systems (<span class="venue-abbr">NeurIPS</span>)
+- Conference on Language Modeling (<span class="venue-abbr">COLM</span>)
