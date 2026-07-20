@@ -15,7 +15,6 @@ Wonduk Seo is an incoming PhD student in Computer Science at University College 
         <strong>University College London</strong>
         <span>2026 - 2030</span>
       </div>
-      <div class="education-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>London, United Kingdom</span></div>
       <div class="education-degree">PhD in Computer Science</div>
       <div class="education-advisor">Advisor: Prof. Emine Yilmaz</div>
     </div>
@@ -25,9 +24,8 @@ Wonduk Seo is an incoming PhD student in Computer Science at University College 
     <div class="education-main">
       <div class="education-topline">
         <strong>Peking University</strong>
-        <span>Sep. 2019 - Jun. 2025</span>
+        <span>2019 - 2025</span>
       </div>
-      <div class="education-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Beijing, China</span></div>
       <div class="education-degree">Bachelor in Information Management</div>
       <div class="education-advisor">Advisor: Prof. Yi Bu</div>
     </div>
