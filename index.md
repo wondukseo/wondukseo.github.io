@@ -4,10 +4,22 @@ layout: homepage
 
 ## About Me
 
-Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> since January 2025 and a 2025 graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, he was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. His research focuses on scalable, transparent, and interpretable methods that keep LLMs grounded in human values, sustain behavioral consistency, and mitigate hallucinations in real-world deployments. He has published <strong>first-author papers</strong> at top AI venues such as <span class="venue-abbr">ICML</span>, <span class="venue-abbr">ACL</span>, <span class="venue-abbr">WSDM</span>, <span class="venue-abbr">SIGIR-ICTIR</span>, <span class="venue-abbr">ICPR</span>, and <span class="venue-abbr">BigData</span>.
+Wonduk Seo is an incoming PhD student in Computer Science at University College London, supervised by Prof. Emine Yilmaz, and a 2025 graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, he was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. His research focuses on scalable, transparent, and interpretable methods that keep LLMs grounded in human values, sustain behavioral consistency, and mitigate hallucinations in real-world deployments. He has published <strong>first-author papers</strong> at top AI venues such as <span class="venue-abbr">ICML</span>, <span class="venue-abbr">ACL</span>, <span class="venue-abbr">WSDM</span>, <span class="venue-abbr">SIGIR-ICTIR</span>, <span class="venue-abbr">ICPR</span>, and <span class="venue-abbr">BigData</span>.
 
 <div class="education-card" aria-label="Education">
   <div class="education-card-heading"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Education</span></div>
+  <div class="education-entry">
+    <img class="education-logo" src="./images/profile/ucl_logo.png" alt="University College London logo">
+    <div class="education-main">
+      <div class="education-topline">
+        <strong>University College London</strong>
+        <span>2026 - 2030</span>
+      </div>
+      <div class="education-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>London, United Kingdom</span></div>
+      <div class="education-degree">PhD in Computer Science</div>
+      <div class="education-advisor">Advisor: Prof. Emine Yilmaz</div>
+    </div>
+  </div>
   <div class="education-entry">
     <img class="education-logo" src="./images/profile/pku_logo.png" alt="Peking University logo">
     <div class="education-main">
@@ -103,6 +115,7 @@ Wonduk Seo is an AI Research Scientist at <a class="about-link" href="https://ww
 
 {% include_relative _includes/services.md %}
 
+<!-- Hidden MapMyVisitors counter for https://mapmyvisitors.com/web/1c0i6 -->
 <div style="display: none;" aria-hidden="true">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=iwX3eUGziMilYC0kEiggM2gTHAn_TpAHsuKFJIG_xJg&cl=ffffff&w=a"></script>
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=iwX3eUGziMilYC0kEiggM2gTHAn_TpAHsuKFJIG_xJg&amp;cl=ffffff&amp;w=a&amp;x=y"></script>
 </div>
