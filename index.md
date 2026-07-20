@@ -113,7 +113,7 @@ Wonduk Seo is an incoming PhD student in Computer Science at University College 
 
 {% include_relative _includes/services.md %}
 
-<!-- Hidden MapMyVisitors counter for https://mapmyvisitors.com/web/1c0i6 -->
+<!-- Hidden MapMyVisitors counter for https://mapmyvisitors.com/web/1c6pv -->
 <div style="display: none;" aria-hidden="true">
-  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=iwX3eUGziMilYC0kEiggM2gTHAn_TpAHsuKFJIG_xJg&amp;cl=ffffff&amp;w=a&amp;x=y"></script>
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=UGvI6T20CBe9UmZinNIDZCuR2HPwuyXYl1qbxDx9cxE&amp;cl=ffffff&amp;w=a"></script>
 </div>
