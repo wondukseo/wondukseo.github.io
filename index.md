@@ -75,7 +75,6 @@ Wonduk Seo is an incoming PhD student in Computer Science at University College 
 <div class="news-scroll-wrap is-scrollable">
 <div class="news-scroll">
 <ul>
-  <li><strong>[Jul. 2026]</strong> Concluded my role as an AI Researcher at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a>.</li>
   <li><strong>[Jun. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>)</strong> for <span class="news-oral-note">Oral Presentation</span> 🇦🇺.</li>
   <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>)</strong> 🇰🇷.</li>
   <li><strong>[May 2026]</strong> One <strong>corresponding author</strong> abstract paper got accepted to the <strong><span class="venue-abbr">AAAI</span> Summer Symposium Series</strong> for <span class="news-oral-note">Oral Presentation</span> 🇰🇷.</li>
@@ -91,7 +90,6 @@ Wonduk Seo is an incoming PhD student in Computer Science at University College 
   <li><strong>[Apr. 2025]</strong> Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (<span class="venue-abbr">RECOMB</span>)</strong> 🇰🇷.</li>
   <li><strong>[Feb. 2025]</strong> One <strong>first author</strong> paper accepted by <strong>Quantitative Science Studies (<span class="venue-abbr">QSS</span>)</strong>.</li>
   <li><strong>[Jan. 2025]</strong> Concluded my role as an LLM researcher at <a class="about-link" href="https://www.baidu.com/" target="_blank">Baidu Inc.</a>.</li>
-  <li><strong>[Jan. 2025]</strong> Rejoined <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> as an AI Research Scientist.</li>
   <li><strong>[Nov. 2024]</strong> Ranked 9th in the ACM'24 FinanceRAG Challenge as Team Leader.</li>
   <li><strong>[May. 2024]</strong> 🥉 Earned a bronze medal in Kaggle’s Enefit Predict Energy Behavior of Prosumers (Solo).</li>
   <li><strong>[Apr. 2024]</strong> 🥉 Earned a bronze medal in Kaggle’s Harvard Medical School Brain Activity Classification (Team Leader).</li>
