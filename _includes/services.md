@@ -66,5 +66,6 @@
 
 ### Conference Reviewers
 
-- Conference on Neural Information Processing Systems (<span class="venue-abbr">NeurIPS</span>)
-- Conference on Language Modeling (<span class="venue-abbr">COLM</span>)
+- Conference on Neural Information Processing Systems (<span class="venue-abbr">NeurIPS</span>), 2026
+- Conference on Language Modeling (<span class="venue-abbr">COLM</span>), 2026
+- The Pacific Rim International Conference on Artificial Intelligence (<span class="venue-abbr">PRICAI</span>), 2026
