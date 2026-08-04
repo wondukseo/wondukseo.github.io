@@ -45,6 +45,7 @@
   function initCarousel(root) {
     var items = Array.prototype.slice.call(root.querySelectorAll("ol.bibliography > li"));
     var pagesContainer = root.querySelector(".pub-carousel-pages");
+    var status = root.querySelector(".pub-carousel-status");
     var activeIndex = 0;
     var activeFilter = "all";
     var filterControls = root.id
@@ -116,11 +117,11 @@
       var atEnd = activeIndex >= visibleItems.length - 1;
       var isDisabled = visibleItems.length <= 1;
 
-      root.querySelectorAll('[data-carousel-action="first"], [data-carousel-action="prev"]').forEach(function (button) {
+      root.querySelectorAll('[data-carousel-action="prev"]').forEach(function (button) {
         setDisabled(button, isDisabled || atStart);
       });
 
-      root.querySelectorAll('[data-carousel-action="next"], [data-carousel-action="last"]').forEach(function (button) {
+      root.querySelectorAll('[data-carousel-action="next"]').forEach(function (button) {
         setDisabled(button, isDisabled || atEnd);
       });
     }
@@ -144,6 +145,12 @@
       updateFilterControls();
       renderPages(visibleItems);
       updateButtons(visibleItems);
+
+      if (status) {
+        status.textContent = visibleItems.length
+          ? "Paper " + String(activeIndex + 1) + " of " + String(visibleItems.length)
+          : "No papers match this filter";
+      }
     }
 
     root.addEventListener("click", function (event) {
@@ -160,17 +167,11 @@
       }
 
       switch (target.getAttribute("data-carousel-action")) {
-        case "first":
-          goTo(0);
-          break;
         case "prev":
           goTo(activeIndex - 1);
           break;
         case "next":
           goTo(activeIndex + 1);
-          break;
-        case "last":
-          goTo(items.length - 1);
           break;
       }
     });

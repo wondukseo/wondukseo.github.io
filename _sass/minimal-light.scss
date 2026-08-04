@@ -2325,3 +2325,219 @@ html.theme-dark .theme-toggle i {
 html.theme-dark body::before {
   background: rgba(196, 200, 207, 0.18);
 }
+
+/* Shared header and flat-section foundation. */
+.section-content-panel[data-section-panel="about-me"],
+.section-content-panel[data-section-panel="research-interests"] {
+  margin: 0.05rem 0 1.75rem;
+  padding: 0.16rem 0 0.34rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html.theme-light .section-content-panel[data-section-panel="about-me"],
+html.theme-light .section-content-panel[data-section-panel="research-interests"],
+html.theme-dark .section-content-panel[data-section-panel="about-me"],
+html.theme-dark .section-content-panel[data-section-panel="research-interests"] {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.profile-nav {
+  gap: 0.05rem;
+  margin-top: 0.85rem;
+  padding-top: 0.62rem;
+  border-top: 1px solid rgba(4, 51, 97, 0.1);
+}
+
+.profile-nav a {
+  position: relative;
+  padding: 0.42rem 0.48rem 0.42rem 0.68rem;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: #4f5d6d;
+  box-shadow: none;
+}
+
+.profile-nav a::before {
+  content: "";
+  position: absolute;
+  top: 0.34rem;
+  bottom: 0.34rem;
+  left: 0;
+  width: 3px;
+  border-radius: 999px;
+  background: transparent;
+}
+
+.profile-nav a:hover,
+.profile-nav a:focus-visible {
+  border-color: transparent;
+  background: rgba(4, 51, 97, 0.045);
+  color: #043361;
+  box-shadow: none;
+}
+
+.profile-nav a.is-active {
+  border-color: transparent;
+  background: rgba(4, 51, 97, 0.07);
+  color: #043361;
+  box-shadow: none;
+}
+
+.profile-nav a.is-active::before {
+  background: #043361;
+}
+
+.profile-nav a.is-active i {
+  color: #043361;
+}
+
+.theme-toggle {
+  position: static;
+  left: auto;
+  bottom: auto;
+  z-index: auto;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.92rem;
+  height: 1.92rem;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(4, 51, 97, 0.08);
+  border-radius: 999px;
+  background: rgba(4, 51, 97, 0.035);
+  color: #043361;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.theme-toggle [data-theme-label] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.theme-toggle i {
+  width: auto;
+  height: auto;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  border-color: #043361;
+  background: #043361;
+  color: #fff;
+  box-shadow: 0 5px 14px rgba(4, 51, 97, 0.16);
+  transform: translateY(-1px);
+}
+
+html.theme-light .profile-nav {
+  border-top-color: rgba(4, 51, 97, 0.1);
+}
+
+html.theme-light .profile-nav a,
+html.theme-light .profile-nav a.is-active {
+  border-color: transparent;
+  background: transparent;
+  color: #4f5d6d !important;
+  box-shadow: none;
+}
+
+html.theme-light .profile-nav a:hover,
+html.theme-light .profile-nav a:focus-visible,
+html.theme-light .profile-nav a.is-active {
+  background: rgba(4, 51, 97, 0.06);
+  color: #043361 !important;
+}
+
+html.theme-light .profile-nav a.is-active::before {
+  background: #043361;
+}
+
+html.theme-light .profile-nav a.is-active i {
+  color: #043361;
+}
+
+html.theme-light .theme-toggle {
+  border-color: rgba(4, 51, 97, 0.08);
+  background: rgba(4, 51, 97, 0.035);
+  color: #043361;
+}
+
+html.theme-light .theme-toggle i {
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+
+html.theme-light .theme-toggle:hover,
+html.theme-light .theme-toggle:focus-visible {
+  border-color: #043361;
+  background: #043361;
+  color: #fff;
+}
+
+html.theme-dark .profile-nav {
+  border-top-color: rgba(62, 183, 240, 0.14);
+}
+
+html.theme-dark .profile-nav a,
+html.theme-dark .profile-nav a.is-active {
+  border-color: transparent;
+  background: transparent;
+  color: #c4c8cf !important;
+  box-shadow: none;
+}
+
+html.theme-dark .profile-nav a:hover,
+html.theme-dark .profile-nav a:focus-visible,
+html.theme-dark .profile-nav a.is-active {
+  background: rgba(62, 183, 240, 0.08);
+  color: #3eb7f0 !important;
+}
+
+html.theme-dark .profile-nav a.is-active::before {
+  background: #3eb7f0;
+}
+
+html.theme-dark .profile-nav a.is-active i {
+  color: #3eb7f0;
+}
+
+html.theme-dark .theme-toggle {
+  border-color: rgba(62, 183, 240, 0.14);
+  background: rgba(62, 183, 240, 0.06);
+  color: #3eb7f0;
+}
+
+html.theme-dark .theme-toggle i {
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+
+html.theme-dark .theme-toggle:hover,
+html.theme-dark .theme-toggle:focus-visible {
+  border-color: #3eb7f0;
+  background: #3eb7f0;
+  color: #101722;
+}
+
+@import "dev-visual-refinement";

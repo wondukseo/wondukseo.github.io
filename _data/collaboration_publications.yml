@@ -1,0 +1,139 @@
+# Publication Collaboration Network
+#
+# HOW TO UPDATE THIS GRAPH
+# ------------------------
+# 1. Add one entry per publication under `publications`.
+# 2. Keep each author's display name identical across every entry. Exact names are
+#    used as stable identifiers, so "SooHyuk Cho" and "Soohyuk Cho" would be
+#    treated as different people.
+# 3. List each author only once per publication. Author order does not change the
+#    graph: node weight is the number of publications and edge weight is the
+#    number of publications shared by each pair of authors.
+# 4. Set `focus_person` to the person who should appear at the center.
+#
+# This file is intentionally separate from `_data/publications.yml`: that file's
+# author strings contain presentation HTML and contribution markers, while this
+# graph needs plain, normalized names.
+
+focus_person: Wonduk Seo
+
+publications:
+  - title: "GenCRF: Generative Clustering and Reformulation Framework for Enhanced Intent-Driven Information Retrieval"
+    authors:
+      - Wonduk Seo
+      - Haojie Zhang
+      - Yueyang Zhang
+      - Changhao Zhang
+      - Songyao Duan
+      - Lixin Su
+      - Daiting Shi
+      - Jiashu Zhao
+      - Dawei Yin
+
+  - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
+    authors:
+      - Wonduk Seo
+      - Zonghao Yuan
+      - Yi Bu
+
+  - title: "Transforming Role Classification in Scientific Teams Using LLMs and Advanced Predictive Analytics"
+    authors:
+      - Wonduk Seo
+      - Yi Bu
+
+  - title: "Pesti-Gen: Unleashing a Generative Molecule Approach for Toxicity Aware Pesticide Design"
+    authors:
+      - Taehan Kim
+      - Wonduk Seo
+
+  - title: "QA-Expand: Multi-Question Answer Generation for Enhanced Query Expansion in Information Retrieval"
+    authors:
+      - Wonduk Seo
+
+  - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization (VisPath)"
+    authors:
+      - Wonduk Seo
+      - Daye Kang
+      - Hyunjin An
+      - Taehan Kim
+      - Soohyuk Cho
+      - Seungyong Lee
+      - Minhyeong Yu
+      - Jian Park
+      - Yi Bu
+
+  - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
+    authors:
+      - Wonduk Seo
+      - Juhyeon Lee
+      - Yanjun Shao
+      - Qingshan Zhou
+      - Yi Bu
+
+  - title: "AIAP: A No-Code Workflow Builder for Non-Experts with Natural Language and Multi-Agent Collaboration"
+    authors:
+      - Hyunjin An
+      - Yongwon Kim
+      - Wonduk Seo
+      - Joonil Park
+      - Daye Kang
+      - Changhoon Oh
+
+  - title: "Question-to-Knowledge (Q2K): Multi-Agent Generation of Inspectable Facts for Product Mapping"
+    authors:
+      - Wonduk Seo
+      - Taesub Shin
+      - Hyunjin An
+
+  - title: "Better by Comparison: Retrieval-Augmented Contrastive Reasoning for Automatic Prompt Optimization"
+    authors:
+      - Juhyeon Lee
+      - Wonduk Seo
+      - Hyunjin An
+      - Yi Bu
+
+  - title: "MARIC: Multi-Agent Reasoning for Image Classification"
+    authors:
+      - Wonduk Seo
+      - Minhyeong Yu
+      - Hyunjin An
+
+  - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
+    authors:
+      - Wonduk Seo
+      - Juhyeon Lee
+      - Junseo Koh
+      - Hyunjin An
+      - Jian Park
+      - Haihua Chen
+      - Yi Bu
+
+  - title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
+    authors:
+      - Wonduk Seo
+      - Wonseok Choi
+      - Junseo Koh
+      - Juhyeon Lee
+      - Hyunjin An
+      - Minhyeong Yu
+      - Jian Park
+      - Qingshan Zhou
+      - Yi Bu
+
+  - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
+    authors:
+      - Wonduk Seo
+      - Hyunjin An
+
+  - title: "RoTRAG: Rule of Thumb Reasoning for Conversation Harm Detection with Retrieval-Augmented Generation"
+    authors:
+      - Juhyeon Lee
+      - Wonduk Seo
+      - Junseo Koh
+      - Haihua Chen
+      - Yi Bu
+
+  - title: "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce"
+    authors:
+      - Minhyeong Yu
+      - Wonduk Seo

@@ -44,28 +44,28 @@
         {% if has_links %}
         <div class="links">
           {% if link.pdf %}
-          <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">PDF</a>
           {% endif %}
           {% if link.code %}
-          <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          <a href="{{ link.code }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Code</a>
           {% endif %}
           {% if link.model %}
-          <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Model</a>
+          <a href="{{ link.model }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Model</a>
           {% endif %}
           {% if link.video %}
-          <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Video</a>
+          <a href="{{ link.video }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Video</a>
           {% endif %}
           {% if link.slides %}
-          <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Slides</a>
+          <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Slides</a>
           {% endif %}
           {% if link.photo %}
-          <a href="{{ link.photo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Photo</a>
+          <a href="{{ link.photo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Photo</a>
           {% endif %}
           {% if link.poster %}
-          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Poster</a>
+          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Poster</a>
           {% endif %}
           {% if link.demo %}
-          <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Demo</a>
+          <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Demo</a>
           {% endif %}
         </div>
         {% endif %}
@@ -76,11 +76,10 @@
 </ol>
 </div>
 <nav class="pub-carousel-pagination" aria-label="Accepted papers navigation">
-  <button class="pub-carousel-control" type="button" data-carousel-action="first" aria-label="First paper">&lt;&lt;</button>
-  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
   <span class="pub-carousel-pages"></span>
-  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&gt;</button>
-  <button class="pub-carousel-control" type="button" data-carousel-action="last" aria-label="Last paper">&gt;&gt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
+  <span class="pub-carousel-status" role="status" aria-live="polite" aria-atomic="true"></span>
 </nav>
 </div>
 </div>
@@ -113,28 +112,28 @@
         {% if has_links %}
         <div class="links">
           {% if link.pdf %}
-          <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">PDF</a>
           {% endif %}
           {% if link.code %}
-          <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          <a href="{{ link.code }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Code</a>
           {% endif %}
           {% if link.model %}
-          <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Model</a>
+          <a href="{{ link.model }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Model</a>
           {% endif %}
           {% if link.video %}
-          <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Video</a>
+          <a href="{{ link.video }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Video</a>
           {% endif %}
           {% if link.slides %}
-          <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Slides</a>
+          <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Slides</a>
           {% endif %}
           {% if link.photo %}
-          <a href="{{ link.photo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Photo</a>
+          <a href="{{ link.photo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Photo</a>
           {% endif %}
           {% if link.poster %}
-          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Poster</a>
+          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Poster</a>
           {% endif %}
           {% if link.demo %}
-          <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Demo</a>
+          <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Demo</a>
           {% endif %}
         </div>
         {% endif %}
@@ -145,11 +144,10 @@
 </ol>
 </div>
 <nav class="pub-carousel-pagination" aria-label="Working papers navigation">
-  <button class="pub-carousel-control" type="button" data-carousel-action="first" aria-label="First paper">&lt;&lt;</button>
-  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
   <span class="pub-carousel-pages"></span>
-  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&gt;</button>
-  <button class="pub-carousel-control" type="button" data-carousel-action="last" aria-label="Last paper">&gt;&gt;</button>
+  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
+  <span class="pub-carousel-status" role="status" aria-live="polite" aria-atomic="true"></span>
 </nav>
 </div>
 </div>

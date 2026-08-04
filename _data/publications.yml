@@ -5,7 +5,7 @@ accepted:
     conference_short: ICML'26
     venue_group: icml
     conference: Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>), 2026.
-    pdf: https://arxiv.org/abs/2601.21700
+    pdf: https://openreview.net/pdf?id=hhpU1JMhKR
     code: https://authorname55.github.io/OG-MAR/
     video: https://recorder-v3.slideslive.com/?share=111155&s=4d295aaa-6b33-4ce2-8956-6e36495367fa
     model: https://huggingface.co/CulturalAlignmentPKU/WVS-DeBERTa-v2-xxlarge
@@ -38,7 +38,7 @@ accepted:
     venue_group: sigir
     conference: International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>), 2026.
     notes: Oral Presentation
-    pdf: https://arxiv.org/abs/2604.17301
+    pdf: https://dl.acm.org/doi/10.1145/3805713.3820397
     code: https://github.com/GitLeo1/RoTRAG-Rule-of-Thumb-Reasoning-for-Conversation-Harm-Detection-with-Retrieval-Augmented-Generation
     model: https://huggingface.co/hgLeo12/RoTRAG_roberta_routing_classifier
     image: ./images/working/rot_framework.png

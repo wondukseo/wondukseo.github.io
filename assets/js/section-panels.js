@@ -65,9 +65,11 @@
 
     function updateActiveNav() {
       var activeId = headings.length ? headings[0].id : "";
+      var siteHeader = document.querySelector("[data-site-header]");
+      var activeThreshold = (siteHeader ? siteHeader.offsetHeight : 0) + Math.min(120, window.innerHeight * 0.12);
 
       headings.forEach(function (heading) {
-        if (heading.getBoundingClientRect().top <= 150) {
+        if (heading.getBoundingClientRect().top <= activeThreshold) {
           activeId = heading.id;
         }
       });
@@ -77,7 +79,18 @@
       }
 
       navLinks.forEach(function (link) {
-        link.classList.toggle("is-active", link.getAttribute("href") === "#" + activeId);
+        var isActive = link.getAttribute("href") === "#" + activeId;
+        link.classList.toggle("is-active", isActive);
+
+        if (isActive) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+
+      document.querySelectorAll(".site-nav-group").forEach(function (group) {
+        group.classList.toggle("has-active-link", Boolean(group.querySelector("a.is-active")));
       });
     }
 
