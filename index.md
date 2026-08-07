@@ -47,30 +47,30 @@ Hi, I'm Wonduk, an incoming PhD student in Computer Science at University Colleg
   <li>
     <p><strong class="research-interest-lead">Socially Responsible, Interpretable, and Aligned AI:</strong> Advancing interpretability and accuracy in LLMs through transparent evaluation, retrieval-augmented reasoning, and feedback loop to ensure socially beneficial and context-aware behavior.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://openreview.net/pdf?id=hhpU1JMhKR" target="_blank" rel="noopener noreferrer">Seo et al., <span>ICML'26</span></a>
-      <a class="research-pub-chip" href="https://ojs.aaai.org/index.php/AIES/article/view/36717" target="_blank" rel="noopener noreferrer">Seo et al., <span>AAAI-AIES'25</span></a>
+      <a class="research-pub-chip" href="https://openreview.net/pdf?id=hhpU1JMhKR" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ICML'26</span></a>
+      <a class="research-pub-chip" href="https://ojs.aaai.org/index.php/AIES/article/view/36717" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>AAAI-AIES'25</span></a>
     </div>
   </li>
   <li>
     <p><strong class="research-interest-lead">Multi-Agent Reasoning and Interaction:</strong> Developing collaborative agent architectures that support reasoning, prompt optimization, and hallucination reduction while enabling interpretable decision-making at scale.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2503.23314" target="_blank" rel="noopener noreferrer">Seo et al., <span>ACL'26</span></a>
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2502.11140" target="_blank" rel="noopener noreferrer">Seo et al., <span>ICPR'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2503.23314" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ACL'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2502.11140" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ICPR'26</span></a>
     </div>
   </li>
   <li>
     <p><strong class="research-interest-lead">Information Retrieval with LLMs:</strong> Designing adaptive query reformulation and expansion pipelines that capture nuanced intent and orchestrate multiple retrieval strategies for precise, transparent access to information.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3773966.3779360" target="_blank" rel="noopener noreferrer">Seo et al., <span>WSDM'26</span></a>
-      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3805713.3820397" target="_blank" rel="noopener noreferrer">Lee* and Seo* et al., <span>SIGIR-ICTIR'26</span></a>
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2509.01182" target="_blank" rel="noopener noreferrer">Seo et al., <span>BigData'25</span></a>
+      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3773966.3779360" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>WSDM'26</span></a>
+      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3805713.3820397" target="_blank" rel="noopener noreferrer">Lee* and <strong class="research-pub-author-me">Seo</strong>* et al., <span>SIGIR-ICTIR'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2509.01182" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>BigData'25</span></a>
     </div>
   </li>
   <li>
     <p><strong class="research-interest-lead">Evidence Inheritance in LLM Pipelines:</strong> Developing methods to track how external evidence is inherited, transformed, and selectively used across multi-stage LLM systems, so that provenance remains interpretable and trustworthy, and integrating LLM post-training to improve evidence grounding, calibration, and traceable reasoning.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2604.23993" target="_blank" rel="noopener noreferrer">Seo<sup>†</sup>, <span>AAAI-Symposium'26</span></a>
-      <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer">Seo et al., <span>Quantitative Science Studies</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2604.23993" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong><sup>†</sup>, <span>AAAI-Symposium'26</span></a>
+      <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>Quantitative Science Studies</span></a>
     </div>
   </li>
 </ul>
@@ -234,8 +234,3 @@ Hi, I'm Wonduk, an incoming PhD student in Computer Science at University Colleg
 </details>
 
 {% include_relative _includes/services.md %}
-
-<!-- Hidden MapMyVisitors counter for https://mapmyvisitors.com/web/1c6pv -->
-<div style="display: none;" aria-hidden="true">
-  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=UGvI6T20CBe9UmZinNIDZCuR2HPwuyXYl1qbxDx9cxE&amp;cl=ffffff&amp;w=a"></script>
-</div>

@@ -606,44 +606,7 @@ section > hr.section-boundary {
   display: none;
 }
 
-.map-note {
-  font-size: 0.9rem;
-  color: #4f5d6d;
-  margin-top: 0.6rem;
-}
-
-.visitors-container {
-  margin: 1.6rem auto 0;
-  padding: 1.1rem 1.4rem 1.4rem;
-  border: 1px solid #d4dde6;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(45, 76, 114, 0.08);
-  background: #f7f9fc;
-  text-align: center;
-  max-width: 680px;
-}
-
-.visitors-embed {
-  margin-top: 0.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.visitors-embed #mapmyvisitors {
-  width: 100%;
-  max-width: 620px;
-}
-
 @media (max-width: 680px) {
-  .visitors-container {
-    padding: 1rem 1rem 1.2rem;
-  }
-
-  .visitors-embed #mapmyvisitors {
-    max-width: 100%;
-  }
-
   .publication-carousel-panel {
     min-height: 0;
   }
@@ -883,16 +846,6 @@ papertitle {
 
     .news-scrollbar-thumb {
       background: #667f99;
-    }
-
-    .visitors-container {
-      border-color: #324455;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-      background: #1b2430;
-    }
-
-    .map-note {
-      color: #a9b9c6;
     }
 
     .pub-venue-chip {

@@ -171,7 +171,17 @@ section > h2 {
 
 .research-pub-chip {
   font-size: 0.86rem;
+  font-weight: 400;
   padding: 0.27rem 0.62rem;
+}
+
+.research-pub-chip span {
+  font-weight: 400;
+}
+
+.research-pub-chip .research-pub-author-me {
+  color: inherit;
+  font-weight: 700;
 }
 
 .experience-section-heading {
@@ -639,8 +649,7 @@ header .social-icons a.kaggle-social {
   bottom: 0.36rem;
 }
 
-.pub-note,
-.map-note {
+.pub-note {
   font-size: 0.92rem;
 }
 
@@ -657,8 +666,7 @@ html.theme-light section,
 html.theme-light header location,
 html.theme-light header position,
 html.theme-light header email,
-html.theme-light .pub-note,
-html.theme-light .map-note {
+html.theme-light .pub-note {
   color: #0b0f13;
 }
 
