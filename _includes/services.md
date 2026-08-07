@@ -36,7 +36,7 @@
     <div class="collaboration-graph-canvas">
       <svg class="collaboration-graph-svg" data-collaboration-svg viewBox="0 0 620 520" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false"></svg>
       <div class="collaboration-tooltip" data-collaboration-tooltip role="tooltip" hidden></div>
-      <p class="collaboration-graph-fallback" data-collaboration-fallback>The interactive network is unavailable; the collaborator lists above remain accessible.</p>
+      <p class="collaboration-graph-fallback" data-collaboration-fallback>The interactive publication collaboration network is currently unavailable.</p>
     </div>
 
     <aside class="collaboration-details" aria-label="Selected collaborator details">
