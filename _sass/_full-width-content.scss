@@ -1,0 +1,9 @@
+/* Let text-heavy sections use the full main content column. */
+#about-me + .section-content-panel p:first-child,
+.research-interest-list p,
+.news-list,
+.award-list,
+#academic-service + .section-content-panel,
+#language-proficiency + .section-content-panel {
+  max-width: none;
+}
