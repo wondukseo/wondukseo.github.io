@@ -1,15 +1,15 @@
 # Basic Information 
 title: Wonduk Seo
 position: Incoming PhD Student in Computer Science, UCL
-email: 1duck2dpdy@gmail.com / seowonduk@pku.edu.cn
-location: Seoul, South Korea
+email: wonduk.seo.26@ucl.ac.uk
+location: London, United Kingdom
 url: https://wondukseo.github.io
 baseurl: ""
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+keywords: Wonduk Seo, language models, information retrieval, multi-agent reasoning
+description: Wonduk Seo is an incoming PhD student in Computer Science at UCL, researching language models, information retrieval, and multi-agent reasoning.
 canonical: https://wondukseo.github.io/
 
 # Links 
@@ -38,14 +38,6 @@ auto_dark_mode: true
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
 
 # The following files will be removed from the generated website.
 exclude:

@@ -1,0 +1,37 @@
+{% assign paper = include.paper %}
+<li data-venue-group="{{ paper.venue_group | default: 'all' }}">
+  <article class="pub-row{% unless include.working %} pub-row--published{% endunless %}">
+    {% unless include.working %}
+    {% assign venue = site.data.publication_venues[paper.conference_short] %}
+    <div class="publication-venue">
+      {% if venue.logo %}
+      <a class="publication-venue-logo" href="{{ venue.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ paper.conference_short | escape }} official website" style="--venue-mark-width: {{ venue.display_width | default: 116 }}px; --venue-mark-height: {{ venue.display_height | default: 40 }}px;">
+        <img src="{{ venue.logo | relative_url }}" alt="{{ venue.alt | escape }}" loading="lazy" width="{{ venue.display_width | default: 116 }}" height="{{ venue.display_height | default: 40 }}">
+      </a>
+      {% endif %}
+      <span class="publication-venue-label">{{ paper.conference_short }}</span>
+    </div>
+    {% endunless %}
+    <div class="publication-copy">
+      <h4 class="title">{% if paper.pdf %}<a href="{{ paper.pdf }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h4>
+      <div class="author">{{ paper.authors }}</div>
+      <div class="periodical">{{ paper.conference }}{% if paper.notes %} <span class="oral-note">{{ paper.notes }}</span>{% endif %}</div>
+      {% if paper.pdf or paper.code or paper.model or paper.video or paper.slides or paper.photo or paper.poster or paper.demo %}
+      <div class="links" aria-label="Resources for {{ paper.title | escape }}">
+        {% assign resources = 'pdf,code,model,video,slides,photo,poster,demo' | split: ',' %}
+        {% for resource in resources %}
+          {% if paper[resource] %}<a href="{{ paper[resource] }}" target="_blank" rel="noopener noreferrer">{% if resource == 'pdf' %}Paper{% else %}{{ resource | capitalize }}{% endif %}</a>{% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% if paper.image %}
+    <div class="abbr">
+      <a class="publication-figure-link" href="{{ paper.image | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View full-size figure for {{ paper.title | escape }}" title="View full-size figure">
+        <img src="{{ paper.image | relative_url }}" class="teaser" alt="" loading="lazy" width="300" height="200">
+        <span class="publication-figure-caption" aria-hidden="true">View full size <span>↗</span></span>
+      </a>
+    </div>
+    {% endif %}
+  </article>
+</li>

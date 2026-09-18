@@ -19,6 +19,8 @@
       return;
     }
 
+    header.classList.add("is-ready");
+
     function focusDestination(link) {
       var hash = link.getAttribute("href");
       var destination = hash && hash.charAt(0) === "#" ? document.getElementById(hash.slice(1)) : null;

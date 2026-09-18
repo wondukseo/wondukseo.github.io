@@ -9,7 +9,7 @@
   }
 
   onReady(function () {
-    var disclosures = {};
+    var disclosures = Object.create(null);
 
     document.querySelectorAll("[data-profile-collapsible]").forEach(function (heading) {
       var panel = heading.nextElementSibling;
@@ -48,7 +48,7 @@
         window.dispatchEvent(new Event("resize"));
       }
 
-      setOpen(false);
+      setOpen(true);
       button.addEventListener("click", function () {
         setOpen(button.getAttribute("aria-expanded") !== "true");
       });

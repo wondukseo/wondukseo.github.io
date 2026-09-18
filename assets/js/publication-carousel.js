@@ -45,12 +45,23 @@
   function initCarousel(root) {
     var items = Array.prototype.slice.call(root.querySelectorAll("ol.bibliography > li"));
     var pagesContainer = root.querySelector(".pub-carousel-pages");
+    var position = root.querySelector(".pub-carousel-position");
     var status = root.querySelector(".pub-carousel-status");
     var activeIndex = 0;
     var activeFilter = "all";
     var filterControls = root.id
       ? Array.prototype.slice.call(document.querySelectorAll('[data-publication-filter="' + root.id + '"] [data-venue-filter]'))
       : [];
+    var filterRegion = root.id
+      ? document.querySelector('[data-publication-filter="' + root.id + '"]')
+      : null;
+    var filterToggle = root.id
+      ? document.querySelector('[data-publication-filter-toggle="' + root.id + '"]')
+      : null;
+    var filterSelection = filterToggle
+      ? filterToggle.querySelector("[data-publication-filter-selection]")
+      : null;
+    var mobileQuery = window.matchMedia("(max-width: 680px)");
 
     if (!items.length || !pagesContainer) {
       return;
@@ -71,7 +82,24 @@
         var isActive = button.getAttribute("data-venue-filter") === activeFilter;
         button.classList.toggle("is-active", isActive);
         button.setAttribute("aria-pressed", isActive ? "true" : "false");
+
+        if (isActive && filterSelection) {
+          filterSelection.textContent = button.textContent.trim();
+        }
       });
+    }
+
+    function setFilterExpanded(expanded) {
+      if (!filterToggle || !filterRegion) {
+        return;
+      }
+
+      filterToggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+      filterRegion.classList.toggle("is-mobile-collapsed", !expanded && mobileQuery.matches);
+    }
+
+    function syncFilterDisclosure() {
+      setFilterExpanded(!mobileQuery.matches);
     }
 
     function goTo(index) {
@@ -151,6 +179,12 @@
           ? "Paper " + String(activeIndex + 1) + " of " + String(visibleItems.length)
           : "No papers match this filter";
       }
+
+      if (position) {
+        position.textContent = visibleItems.length
+          ? String(activeIndex + 1) + " of " + String(visibleItems.length)
+          : "0 of 0";
+      }
     }
 
     root.addEventListener("click", function (event) {
@@ -181,8 +215,28 @@
         activeFilter = button.getAttribute("data-venue-filter") || "all";
         activeIndex = 0;
         update();
+
+        if (mobileQuery.matches) {
+          setFilterExpanded(false);
+          filterToggle.focus();
+        }
       });
     });
+
+    if (filterToggle && filterRegion) {
+      filterToggle.classList.add("is-ready");
+      filterToggle.addEventListener("click", function () {
+        setFilterExpanded(filterToggle.getAttribute("aria-expanded") !== "true");
+      });
+
+      if (typeof mobileQuery.addEventListener === "function") {
+        mobileQuery.addEventListener("change", syncFilterDisclosure);
+      } else if (typeof mobileQuery.addListener === "function") {
+        mobileQuery.addListener(syncFilterDisclosure);
+      }
+
+      syncFilterDisclosure();
+    }
 
     update();
   }

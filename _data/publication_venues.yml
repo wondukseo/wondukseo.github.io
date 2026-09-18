@@ -1,0 +1,66 @@
+"ICML'26":
+  logo: /images/venues/icml.svg
+  display_width: 116
+  display_height: 40
+  alt: ICML logo
+  url: https://icml.cc/Conferences/2026
+"ACL'26 Main":
+  logo: /images/venues/acl.png
+  display_width: 144
+  display_height: 34
+  alt: ACL 2026 logo
+  url: https://2026.aclweb.org/
+"WSDM'26":
+  logo: /images/venues/wsdm.png
+  display_width: 108
+  display_height: 42
+  alt: WSDM logo
+  url: https://wsdm-conference.org/2026/
+"SIGIR-ICTIR'26":
+  logo: /images/venues/ictir.png
+  display_width: 104
+  display_height: 36
+  alt: ACM SIGIR logo
+  url: https://sigir-ictir.github.io/ictir2026/
+"ICPR'26":
+  logo: /images/venues/icpr.svg
+  display_width: 88
+  display_height: 54
+  alt: ICPR 2026 logo
+  url: https://icpr2026.org/
+"AAAI-Symposium'26":
+  logo: /images/venues/aaai.png
+  display_width: 132
+  display_height: 42
+  alt: AAAI logo
+  url: https://aaai.org/conference/summer-symposia/suss26/
+"AAAI-AIES'25":
+  logo: /images/venues/aies.png
+  display_width: 136
+  display_height: 44
+  alt: AAAI ACM AIES logo
+  url: https://www.aies-conference.com/2025/
+"BigData'25":
+  logo: /images/venues/bigdata.jpg
+  display_width: 124
+  display_height: 40
+  alt: IEEE BigData 2025 logo
+  url: https://bigdataieee.org/BigData2025/
+"JCDL'25":
+  logo: /images/venues/jcdl.png
+  display_width: 54
+  display_height: 54
+  alt: ACM IEEE JCDL 2025 logo
+  url: https://2025.jcdl.org/
+"EMBC'25":
+  logo: /images/venues/embc.png
+  display_width: 116
+  display_height: 56
+  alt: IEEE Engineering in Medicine and Biology Society (EMBS) logo
+  url: https://embc.embs.org/2025/
+"Quantitative Science Studies":
+  logo: /images/venues/qss.png
+  display_width: 38
+  display_height: 50
+  alt: Quantitative Science Studies logo
+  url: https://direct.mit.edu/qss

@@ -55,6 +55,10 @@
       }
     });
 
+    document.querySelectorAll("section").forEach(function (section) {
+      if (section.querySelector(":scope > .section-content-panel")) section.classList.add("has-section-panels");
+    });
+
     var navLinks = Array.prototype.slice.call(document.querySelectorAll(".profile-nav a[href^='#']"));
     var navIds = navLinks.map(function (link) {
       return link.getAttribute("href").slice(1);

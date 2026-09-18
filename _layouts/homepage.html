@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>🐱 {{ site.title }} | AI Researcher</title>
+    <title>{{ site.title }} — AI Researcher</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,20 +37,8 @@
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="{{ site.favicon_type | default: "image/png" }}" />
     <script src="{{ "/assets/js/favicon-switcher.js" | relative_url }}?v={{ asset_version }}" type="application/javascript"></script>
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="{{ "/assets/css/font_sans_serif.css" | relative_url }}?v={{ asset_version }}">
-    {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}?v={{ asset_version }}">
-    {% endif %}
-    {% if site.auto_dark_mode %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ asset_version }}">
-    <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}?v={{ asset_version }}">
-    {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/style-no-dark-mode.css" | relative_url }}?v={{ asset_version }}">
-    <link rel="stylesheet" href="{{ "/assets/css/publications-no-dark-mode.css" | relative_url }}?v={{ asset_version }}">
-    {% endif %}
 
   </head>
   <body class="site-header-layout" id="top">
@@ -60,26 +48,25 @@
       <div class="site-header-inner">
         <a class="site-brand" href="#top" aria-label="{{ site.title }} — back to top">
           <span class="site-brand-name">{{ site.title }}</span>
-          <span class="site-brand-note">AI · IR · LLMs</span>
         </a>
 
         <nav class="profile-nav site-nav" id="site-navigation" aria-label="Primary navigation" data-site-navigation>
-          <a class="is-active" href="#about-me"><span class="site-nav-index" aria-hidden="true">01</span><span>About</span></a>
-          <a href="#research-interests"><span class="site-nav-index" aria-hidden="true">02</span><span>Research</span></a>
-          <a href="#publications"><span class="site-nav-index" aria-hidden="true">03</span><span>Publications</span></a>
+          <a class="is-active" href="#about-me"><span>About</span></a>
+          <a href="#research-interests"><span>Research</span></a>
+          <a href="#publications"><span>Publications</span></a>
 
           <details class="site-nav-group">
-            <summary><span class="site-nav-index" aria-hidden="true">04</span><span>Experience</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <summary><span>Experience</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
             <div class="site-nav-menu">
               <a href="#research-experience"><i class="fa-solid fa-flask" aria-hidden="true"></i><span>Research Experience</span></a>
               <a href="#industry-experience"><i class="fa-solid fa-building" aria-hidden="true"></i><span>Industry Experience</span></a>
             </div>
           </details>
 
-          <a href="#news"><span class="site-nav-index" aria-hidden="true">05</span><span>News</span></a>
+          <a href="#news"><span>News</span></a>
 
           <details class="site-nav-group">
-            <summary><span class="site-nav-index" aria-hidden="true">06</span><span>More</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <summary><span>More</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
             <div class="site-nav-menu">
               <a href="#research-community"><i class="fa-solid fa-users" aria-hidden="true"></i><span>Research Community</span></a>
               <a href="#academic-service"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i><span>Academic Service</span></a>
@@ -112,6 +99,7 @@
             <position>{{ site.position }}</position>
             {% endif %}
 
+            <div class="profile-contact">
             {% if site.location %}
             <location><i class="fa-solid fa-location-dot" aria-hidden="true"></i>{{ site.location }}</location>
             {% endif %}
@@ -121,52 +109,10 @@
             {% endif %}
 
             {% if site.email %}
-            <email><i class="fa-regular fa-envelope" aria-hidden="true"></i>{{ site.email }}</email>
-            {% endif %}
-
-            <div class="social-icons" aria-label="Profile links">
-            {% if site.google_scholar %}
-            <a href="{{ site.google_scholar }}" aria-label="Google Scholar">
-              <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-            </a>
-            {% endif %}
-
-            {% if site.cv_link %}
-            <a href="{{ site.cv_link }}" aria-label="Curriculum vitae">
-              <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-            </a>
-            {% endif %}
-
-            {% if site.orcid %}
-            <a href="{{ site.orcid }}" rel="me noopener" target="_blank" aria-label="ORCID">
-              <i class="ai ai-orcid" style="font-size:1.2rem;"></i>
-            </a>
-            {% endif %}
-
-            {% if site.github_link %}
-            <a href="{{ site.github_link }}" aria-label="GitHub">
-              <i class="fab fa-github"></i>
-            </a>
-            {% endif %}
-
-            {% if site.kaggle %}
-            <a class="kaggle-social" href="{{ site.kaggle }}" rel="noopener" target="_blank" aria-label="Kaggle">
-              <span class="kaggle-mark" aria-hidden="true">K</span>
-            </a>
-            {% endif %}
-
-            {% if site.linkedin %}
-            <a href="{{ site.linkedin }}" aria-label="LinkedIn">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            {% endif %}
-
-            {% if site.twitter %}
-            <a href="{{ site.twitter }}" aria-label="X">
-              <i class="fab fa-x-twitter"></i>
-            </a>
+            <email>{% assign emails = site.email | split: " / " %}{% for address in emails %}<a href="mailto:{{ address | strip }}">{{ address | strip }}</a>{% unless forloop.last %}<span class="email-divider"> · </span>{% endunless %}{% endfor %}</email>
             {% endif %}
             </div>
+
           </div>
 
           {% if site.avatar %}
@@ -174,38 +120,52 @@
             <span class="image avatar"><img src="{{ site.avatar }}" alt="Portrait of {{ site.title }}" /></span>
           </div>
           {% endif %}
+
+          <div class="social-icons" aria-label="Profile links">
+            {% if site.google_scholar %}
+            <a href="{{ site.google_scholar }}" aria-label="Google Scholar">Google Scholar</a>
+            {% endif %}
+
+            {% if site.cv_link %}
+            <a href="{{ site.cv_link }}" aria-label="Curriculum vitae">Curriculum vitae</a>
+            {% endif %}
+
+            {% if site.github_link %}
+            <a href="{{ site.github_link }}" aria-label="GitHub">GitHub</a>
+            {% endif %}
+
+            {% if site.linkedin %}
+            <a href="{{ site.linkedin }}" aria-label="LinkedIn">LinkedIn</a>
+            {% endif %}
+
+            {% if site.orcid %}
+            <a href="{{ site.orcid }}" rel="me noopener" target="_blank" aria-label="ORCID">ORCID</a>
+            {% endif %}
+
+            {% if site.kaggle %}
+            <a class="kaggle-social" href="{{ site.kaggle }}" rel="noopener" target="_blank" aria-label="Kaggle">Kaggle</a>
+            {% endif %}
+
+            {% if site.twitter %}
+            <a href="{{ site.twitter }}" aria-label="X">X</a>
+            {% endif %}
+            </div>
         </div>
 
       {{ content }}
 
-      <br>
-
-      {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
-      {% endif %}
-
       </section>
-      <footer>
-        
+      <footer class="site-footer">
+        <p>{{ site.title }}</p>
+        {% if site.enable_footnote %}<p><small>Built with Jekyll &amp; <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a>.</small></p>{% endif %}
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/section-panels.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/experience-collapse.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/profile-subsection-collapse.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/collaboration-graph.js" | relative_url }}?v={{ asset_version }}"></script>
-    <script src="{{ "/assets/js/publication-carousel.js" | relative_url }}?v={{ asset_version }}"></script>
+    <script src="{{ "/assets/js/publications-list.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/theme-toggle.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/site-header.js" | relative_url }}?v={{ asset_version }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
   </body>
 </html>

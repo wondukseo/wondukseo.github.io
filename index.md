@@ -4,10 +4,10 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Wonduk, an incoming PhD student in Computer Science at University College London, supervised by Prof. Emine Yilmaz, and a 2025 graduate of Peking University (Bachelor in Information Management, Big Data Management &amp; Application). Previously, I was advised by <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&amp;hl=en" target="_blank">Prof. Yi Bu</a> at Peking University. My research focuses on scalable, transparent, and interpretable methods that keep LLMs grounded in human values, sustain behavioral consistency, and mitigate hallucinations in real-world deployments. I have published <strong>first-author papers</strong> at top AI venues such as <span class="about-venue">ICML</span>, <span class="about-venue">ACL</span>, <span class="about-venue">WSDM</span>, <span class="about-venue">SIGIR-ICTIR</span>, <span class="about-venue">ICPR</span>, and <span class="about-venue">BigData</span>.
+I'm an incoming PhD student in Computer Science at University College London, working with Prof. Emine Yilmaz. I study how language models reason, use evidence, and stay aligned with human values. Previously, I studied at Peking University, advised by Prof. Yi Bu. My first-author work has appeared at ICML, ACL, WSDM, SIGIR-ICTIR, ICPR, and BigData.
 
 <div class="education-card" aria-label="Education">
-  <div class="education-card-heading"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Education</span></div>
+  <h3 class="education-card-heading" id="education">Education</h3>
   <div class="education-entry">
     <img class="education-logo" src="./images/profile/ucl_logo.png" alt="University College London logo">
     <div class="education-main">
@@ -34,6 +34,7 @@ Hi, I'm Wonduk, an incoming PhD student in Computer Science at University Colleg
         <span>Sep. 2019 - Jun. 2025</span>
       </div>
       <div class="education-degree">Bachelor in Information Management</div>
+      <div class="education-advisor">Big Data Management &amp; Application</div>
       <div class="education-advisor">Advisor: Prof. Yi Bu</div>
     </div>
   </div>
@@ -45,21 +46,21 @@ Hi, I'm Wonduk, an incoming PhD student in Computer Science at University Colleg
 
 <ul class="research-interest-list">
   <li>
-    <p><strong class="research-interest-lead">Socially Responsible, Interpretable, and Aligned AI:</strong> Advancing interpretability and accuracy in LLMs through transparent evaluation, retrieval-augmented reasoning, and feedback loop to ensure socially beneficial and context-aware behavior.</p>
+    <p><strong class="research-interest-lead">Alignment &amp; interpretability</strong> Evaluating and aligning language models with human values through transparent reasoning and feedback.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
       <a class="research-pub-chip" href="https://openreview.net/pdf?id=hhpU1JMhKR" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ICML'26</span></a>
       <a class="research-pub-chip" href="https://ojs.aaai.org/index.php/AIES/article/view/36717" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>AAAI-AIES'25</span></a>
     </div>
   </li>
   <li>
-    <p><strong class="research-interest-lead">Multi-Agent Reasoning and Interaction:</strong> Developing collaborative agent architectures that support reasoning, prompt optimization, and hallucination reduction while enabling interpretable decision-making at scale.</p>
+    <p><strong class="research-interest-lead">Multi-agent reasoning</strong> Building agent systems that reason together, optimize prompts, and reduce hallucinations.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
       <a class="research-pub-chip" href="https://arxiv.org/abs/2503.23314" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ACL'26</span></a>
       <a class="research-pub-chip" href="https://arxiv.org/abs/2502.11140" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ICPR'26</span></a>
     </div>
   </li>
   <li>
-    <p><strong class="research-interest-lead">Information Retrieval with LLMs:</strong> Designing adaptive query reformulation and expansion pipelines that capture nuanced intent and orchestrate multiple retrieval strategies for precise, transparent access to information.</p>
+    <p><strong class="research-interest-lead">Information retrieval</strong> Enhancing information retrieval through query reformulation, retrieval fusion, and model training.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
       <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3773966.3779360" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>WSDM'26</span></a>
       <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3805713.3820397" target="_blank" rel="noopener noreferrer">Lee* and <strong class="research-pub-author-me">Seo</strong>* et al., <span>SIGIR-ICTIR'26</span></a>
@@ -67,7 +68,7 @@ Hi, I'm Wonduk, an incoming PhD student in Computer Science at University Colleg
     </div>
   </li>
   <li>
-    <p><strong class="research-interest-lead">Evidence Inheritance in LLM Pipelines:</strong> Developing methods to track how external evidence is inherited, transformed, and selectively used across multi-stage LLM systems, so that provenance remains interpretable and trustworthy, and integrating LLM post-training to improve evidence grounding, calibration, and traceable reasoning.</p>
+    <p><strong class="research-interest-lead">Evidence in LLM pipelines</strong> Tracing how evidence is used across multi-stage systems, with post-training for better grounding and calibration.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
       <a class="research-pub-chip" href="https://arxiv.org/abs/2604.23993" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong><sup>†</sup>, <span>AAAI-Symposium'26</span></a>
       <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>Quantitative Science Studies</span></a>
@@ -193,11 +194,11 @@ Hi, I'm Wonduk, an incoming PhD student in Computer Science at University Colleg
 ## News
 
 <ul class="news-list news-list-recent">
-  <li><strong>[Jun. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>)</strong> for <span class="news-oral-note">Oral Presentation</span> 🇦🇺.</li>
-  <li><strong>[May 2026]</strong> One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>)</strong> 🇰🇷.</li>
-  <li><strong>[May 2026]</strong> One <strong>corresponding author</strong> abstract paper got accepted to the <strong><span class="venue-abbr">AAAI</span> Summer Symposium Series</strong> for <span class="news-oral-note">Oral Presentation</span> 🇰🇷.</li>
-  <li><strong>[Apr. 2026]</strong> One <strong>co-first author</strong> paper got accepted to the <strong>Annual Meeting of the Association for Computational Linguistics (<span class="venue-abbr">ACL</span>) 2026 Main Conference</strong> 🇺🇸.</li>
-  <li><strong>[Apr. 2026]</strong> One <strong>first author</strong> paper got accepted to <strong>International Conference on Pattern Recognition (<span class="venue-abbr">ICPR</span>)</strong> 🇫🇷.</li>
+  <li><strong>[Jun. 2026]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to the <strong>International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>)</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
+  <li><strong>[May 2026]</strong><div class="news-copy">One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>)</strong>.</div></li>
+  <li><strong>[May 2026]</strong><div class="news-copy">One <strong>corresponding author</strong> abstract paper got accepted to the <strong><span class="venue-abbr">AAAI</span> Summer Symposium Series</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
+  <li><strong>[Apr. 2026]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to the <strong>Annual Meeting of the Association for Computational Linguistics (<span class="venue-abbr">ACL</span>) 2026 Main Conference</strong>.</div></li>
+  <li><strong>[Apr. 2026]</strong><div class="news-copy">One <strong>first author</strong> paper got accepted to <strong>International Conference on Pattern Recognition (<span class="venue-abbr">ICPR</span>)</strong>.</div></li>
 </ul>
 
 <details class="news-archive">
@@ -210,27 +211,32 @@ Hi, I'm Wonduk, an incoming PhD student in Computer Science at University Colleg
     <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
   </summary>
   <ul class="news-list news-list-older">
-  <li><strong>[Dec. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>)</strong> 🇺🇸!</li>
-  <li><strong>[Nov. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (<span class="venue-abbr">JCDL</span>)</strong> 💻.</li>
-  <li><strong>[Oct. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for <span class="news-oral-note">Oral Presentation</span> 🇲🇴.</li>
-  <li><strong>[Jul. 2025]</strong> One <strong>first author</strong> paper got accepted to <strong>AAAI/ACM Conference on AI, Ethics, and Society (<span class="venue-abbr">AIES</span>) Main Track</strong> 🇪🇸.</li>
-  <li><strong>[Jul. 2025]</strong> <mark><strong>Graduated from Peking University</strong></mark> (Bachelor in Information Management, Big Data Management &amp; Application) 🎉!</li>
-  <li><strong>[Jun. 2025]</strong> One <strong>first author</strong> paper accepted for <span class="news-oral-note">Oral Presentation</span> at the <strong>ACM <span class="venue-abbr">SIGKDD</span> 2025 Workshop on AI Agent for Information Retrieval</strong> 🇨🇦.</li>
-  <li><strong>[Apr. 2025]</strong> One <strong>co-first author</strong> paper got accepted to <strong>IEEE Engineering in Medicine and Biology Society (<span class="venue-abbr">EMBC</span>)</strong> for <span class="news-oral-note">Oral Presentation</span> 🇩🇰.</li>
-  <li><strong>[Apr. 2025]</strong> Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (<span class="venue-abbr">RECOMB</span>)</strong> 🇰🇷.</li>
-  <li><strong>[Feb. 2025]</strong> One <strong>first author</strong> paper accepted by <strong>Quantitative Science Studies (<span class="venue-abbr">QSS</span>)</strong>.</li>
-  <li><strong>[Jan. 2025]</strong> Concluded my role as an LLM researcher at <a class="about-link" href="https://www.baidu.com/" target="_blank">Baidu Inc.</a>.</li>
-  <li><strong>[Nov. 2024]</strong> Ranked 9th in the ACM'24 FinanceRAG Challenge as Team Leader.</li>
-  <li><strong>[May. 2024]</strong> 🥉 Earned a bronze medal in Kaggle’s Enefit Predict Energy Behavior of Prosumers (Solo).</li>
-  <li><strong>[Apr. 2024]</strong> 🥉 Earned a bronze medal in Kaggle’s Harvard Medical School Brain Activity Classification (Team Leader).</li>
-  <li><strong>[Feb. 2024]</strong> Wrapped up my role as a Machine Learning Engineer at <a class="about-link" href="https://www.enhans.ai/" target="_blank">Enhans AI</a> to pursue research-focused opportunities.</li>
-  <li><strong>[Dec. 2023]</strong> 🥈 Earned a silver medal in Kaggle’s CAFA 5 Protein Function Prediction (Solo).</li>
-  <li><strong>[Oct. 2023]</strong> 🥉 Earned a bronze medal in Kaggle’s LLM Science Exam (Team).</li>
-  <li><strong>[Aug. 2023]</strong> Completed my Data Scientist internship at <a class="about-link" href="https://www.lgchem.com/main/index" target="_blank">LG Chem</a>.</li>
-  <li><strong>[Apr. 2023]</strong> Completed a Data Scientist internship at <a class="about-link" href="https://www.linkedin.com/company/betabrainco/" target="_blank">BetaBrain</a>.</li>
-  <li><strong>[Apr. 2022]</strong> Began a long-term collaboration with <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&hl=en" target="_blank">Prof. Yi Bu</a>.</li>
-  <li><strong>[Dec. 2020]</strong> Began my AI journey, diving into machine learning research and engineering.</li>
+  <li><strong>[Dec. 2025]</strong><div class="news-copy">One <strong>first author</strong> paper got accepted to <strong>ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>)</strong> !</div></li>
+  <li><strong>[Nov. 2025]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (<span class="venue-abbr">JCDL</span>)</strong>.</div></li>
+  <li><strong>[Oct. 2025]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
+  <li><strong>[Jul. 2025]</strong><div class="news-copy">One <strong>first author</strong> paper got accepted to <strong>AAAI/ACM Conference on AI, Ethics, and Society (<span class="venue-abbr">AIES</span>) Main Track</strong>.</div></li>
+  <li><strong>[Jul. 2025]</strong><div class="news-copy"><strong>Graduated from Peking University</strong> (Bachelor in Information Management, Big Data Management &amp; Application)!</div></li>
+  <li><strong>[Jun. 2025]</strong><div class="news-copy">One <strong>first author</strong> paper accepted for <span class="news-oral-note">Oral Presentation</span> at the <strong>ACM <span class="venue-abbr">SIGKDD</span> 2025 Workshop on AI Agent for Information Retrieval</strong>.</div></li>
+  <li><strong>[Apr. 2025]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to <strong>IEEE Engineering in Medicine and Biology Society (<span class="venue-abbr">EMBC</span>)</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
+  <li><strong>[Apr. 2025]</strong><div class="news-copy">Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (<span class="venue-abbr">RECOMB</span>)</strong>.</div></li>
+  <li><strong>[Feb. 2025]</strong><div class="news-copy">One <strong>first author</strong> paper accepted by <strong>Quantitative Science Studies (<span class="venue-abbr">QSS</span>)</strong>.</div></li>
+  <li><strong>[Jan. 2025]</strong><div class="news-copy">Concluded my role as an LLM researcher at <a class="about-link" href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer">Baidu Inc.</a>.</div></li>
+  <li><strong>[Nov. 2024]</strong><div class="news-copy">Ranked 9th in the ACM'24 FinanceRAG Challenge as Team Leader.</div></li>
+  <li><strong>[May 2024]</strong><div class="news-copy">Earned a bronze medal in Kaggle’s Enefit Predict Energy Behavior of Prosumers (Solo).</div></li>
+  <li><strong>[Apr. 2024]</strong><div class="news-copy">Earned a bronze medal in Kaggle’s Harvard Medical School Brain Activity Classification (Team Leader).</div></li>
+  <li><strong>[Feb. 2024]</strong><div class="news-copy">Wrapped up my role as a Machine Learning Engineer at <a class="about-link" href="https://www.enhans.ai/" target="_blank" rel="noopener noreferrer">Enhans AI</a> to pursue research-focused opportunities.</div></li>
+  <li><strong>[Dec. 2023]</strong><div class="news-copy">Earned a silver medal in Kaggle’s CAFA 5 Protein Function Prediction (Solo).</div></li>
+  <li><strong>[Oct. 2023]</strong><div class="news-copy">Earned a bronze medal in Kaggle’s LLM Science Exam (Team).</div></li>
+  <li><strong>[Aug. 2023]</strong><div class="news-copy">Completed my Data Scientist internship at <a class="about-link" href="https://www.lgchem.com/main/index" target="_blank" rel="noopener noreferrer">LG Chem</a>.</div></li>
+  <li><strong>[Apr. 2023]</strong><div class="news-copy">Completed a Data Scientist internship at <a class="about-link" href="https://www.linkedin.com/company/betabrainco/" target="_blank" rel="noopener noreferrer">BetaBrain</a>.</div></li>
+  <li><strong>[Apr. 2022]</strong><div class="news-copy">Began a long-term collaboration with <a class="about-link" href="https://scholar.google.com/citations?user=bSUm6ikAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Prof. Yi Bu</a>.</div></li>
+  <li><strong>[Dec. 2020]</strong><div class="news-copy">Began my AI journey, diving into machine learning research and engineering.</div></li>
   </ul>
 </details>
 
 {% include_relative _includes/services.md %}
+
+<!-- MapMyVisitors statistics: https://mapmyvisitors.com/web/1c6pv -->
+<div hidden aria-hidden="true" style="display: none !important;">
+  <img src="https://mapmyvisitors.com/map.png?d=UGvI6T20CBe9UmZinNIDZCuR2HPwuyXYl1qbxDx9cxE&amp;cl=ffffff" alt="" width="1" height="1" referrerpolicy="strict-origin-when-cross-origin">
+</div>

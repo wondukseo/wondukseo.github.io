@@ -9,7 +9,7 @@
   }
 
   onReady(function () {
-    var disclosures = {};
+    var disclosures = Object.create(null);
 
     document.querySelectorAll("[data-experience-collapsible]").forEach(function (heading) {
       var panel = heading.nextElementSibling;

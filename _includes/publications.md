@@ -1,154 +1,54 @@
 <h2 id="publications">Publications</h2>
+<p class="pub-note">* Equal contribution &nbsp; † Corresponding author</p>
 
-<p class="pub-note">* denotes equal contribution; † denotes corresponding author.</p>
-
-{% assign sections = site.data.publications %}
-
-{% if sections.accepted %}
-<div class="pub-category-card pub-category-card-accepted">
-<h3 class="pub-section-title pub-section-title-accepted"><span>Accepted Papers</span><small>Accepted / published</small></h3>
-<div class="pub-venue-filter" data-publication-filter="accepted-paper-carousel" aria-label="Filter accepted papers by venue">
-  <button class="pub-venue-chip is-active" type="button" data-venue-filter="all" aria-pressed="true">All</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="icml" aria-pressed="false">ICML</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="acl" aria-pressed="false">ACL</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="wsdm" aria-pressed="false">WSDM</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="sigir" aria-pressed="false">SIGIR Series</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="aaai" aria-pressed="false">AAAI Series</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="icpr" aria-pressed="false">ICPR</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="bigdata" aria-pressed="false">BigData</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="jcdl" aria-pressed="false">JCDL</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="embc" aria-pressed="false">EMBC</button>
-  <button class="pub-venue-chip" type="button" data-venue-filter="qss" aria-pressed="false">QSS</button>
-</div>
-<div id="accepted-paper-carousel" class="publication-carousel" data-publication-carousel>
-<div class="publications publication-carousel-panel">
-<ol class="bibliography">
-{% for link in sections.accepted %}
-  <li{% if forloop.first %} class="is-active"{% endif %} data-venue-group="{{ link.venue_group | default: 'all' }}">
-  <div class="pub-row">
-    <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-      {% if link.image %}
-      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1">
-      {% if link.conference_short %}
-      <abbr class="badge">{{ link.conference_short }}</abbr>
-      {% endif %}
-      {% endif %}
-      <button class="pub-carousel-image-nav pub-carousel-image-prev" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
-      <button class="pub-carousel-image-nav pub-carousel-image-next" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
+{% assign papers = site.data.publications %}
+{% if papers.accepted.size > 0 %}
+<div class="publication-list" data-publication-list data-preview-count="4">
+  <div class="publication-toolbar">
+    <div class="publication-toolbar-heading">
+      <h3>Accepted papers <span class="publication-count">{{ papers.accepted.size }}</span></h3>
+      <p class="publication-summary" data-publication-summary hidden></p>
     </div>
-    <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-        <div class="title">{% if link.pdf %}<a href="{{ link.pdf }}">{{ link.title }}</a>{% else %}<span>{{ link.title }}</span>{% endif %}</div>
-        <div class="author">{{ link.authors }}</div>
-        <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
-        {% assign has_links = link.pdf or link.code or link.model or link.video or link.slides or link.photo or link.poster or link.demo %}
-        {% if has_links %}
-        <div class="links">
-          {% if link.pdf %}
-          <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">PDF</a>
-          {% endif %}
-          {% if link.code %}
-          <a href="{{ link.code }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Code</a>
-          {% endif %}
-          {% if link.model %}
-          <a href="{{ link.model }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Model</a>
-          {% endif %}
-          {% if link.video %}
-          <a href="{{ link.video }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Video</a>
-          {% endif %}
-          {% if link.slides %}
-          <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Slides</a>
-          {% endif %}
-          {% if link.photo %}
-          <a href="{{ link.photo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Photo</a>
-          {% endif %}
-          {% if link.poster %}
-          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Poster</a>
-          {% endif %}
-          {% if link.demo %}
-          <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Demo</a>
-          {% endif %}
-        </div>
-        {% endif %}
-    </div>
+    <label class="publication-filter">Venue
+      <select data-publication-venue aria-label="Filter accepted papers by venue">
+        <option value="all">All venues</option>
+        <option value="icml">ICML</option>
+        <option value="acl">ACL</option>
+        <option value="wsdm">WSDM</option>
+        <option value="icpr">ICPR</option>
+        <option value="sigir">SIGIR series</option>
+        <option value="aaai">AAAI series</option>
+        <option value="bigdata">BigData</option>
+        <option value="jcdl">JCDL</option>
+        <option value="embc">EMBC</option>
+        <option value="qss">QSS</option>
+      </select>
+    </label>
   </div>
-  </li>
-{% endfor %}
-</ol>
-</div>
-<nav class="pub-carousel-pagination" aria-label="Accepted papers navigation">
-  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
-  <span class="pub-carousel-pages"></span>
-  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
-  <span class="pub-carousel-status" role="status" aria-live="polite" aria-atomic="true"></span>
-</nav>
-</div>
+  <div class="publications">
+    <ol class="bibliography" id="accepted-papers">
+      {% for paper in papers.accepted %}
+      {% include publication-item.html paper=paper %}
+      {% endfor %}
+    </ol>
+  </div>
+  <button class="publications-more" type="button" data-publications-more aria-controls="accepted-papers" aria-expanded="false">Show all {{ papers.accepted.size }} papers</button>
+  <p class="publication-list-status sr-only" role="status" aria-live="polite" data-publications-status></p>
 </div>
 {% endif %}
 
-{% if sections.working %}
-<div class="pub-category-card pub-category-card-working">
-<h3 class="pub-section-title pub-section-title-working"><span>Working Papers</span><small>Under review / preprint</small></h3>
-<div class="publication-carousel" data-publication-carousel>
-<div class="publications publication-carousel-panel">
-<ol class="bibliography">
-{% for link in sections.working %}
-  <li{% if forloop.first %} class="is-active"{% endif %}>
-  <div class="pub-row">
-    <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-      {% if link.image %}
-      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1">
-      {% if link.conference_short %}
-      <abbr class="badge">{{ link.conference_short }}</abbr>
-      {% endif %}
-      {% endif %}
-      <button class="pub-carousel-image-nav pub-carousel-image-prev" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
-      <button class="pub-carousel-image-nav pub-carousel-image-next" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
-    </div>
-    <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-        <div class="title">{% if link.pdf %}<a href="{{ link.pdf }}">{{ link.title }}</a>{% else %}<span>{{ link.title }}</span>{% endif %}</div>
-        <div class="author">{{ link.authors }}</div>
-        <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="oral-note">{{ link.notes }}</span>{% endif %}</div>
-        {% assign has_links = link.pdf or link.code or link.model or link.video or link.slides or link.photo or link.poster or link.demo %}
-        {% if has_links %}
-        <div class="links">
-          {% if link.pdf %}
-          <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">PDF</a>
-          {% endif %}
-          {% if link.code %}
-          <a href="{{ link.code }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Code</a>
-          {% endif %}
-          {% if link.model %}
-          <a href="{{ link.model }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Model</a>
-          {% endif %}
-          {% if link.video %}
-          <a href="{{ link.video }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Video</a>
-          {% endif %}
-          {% if link.slides %}
-          <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Slides</a>
-          {% endif %}
-          {% if link.photo %}
-          <a href="{{ link.photo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Photo</a>
-          {% endif %}
-          {% if link.poster %}
-          <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Poster</a>
-          {% endif %}
-          {% if link.demo %}
-          <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Demo</a>
-          {% endif %}
-        </div>
-        {% endif %}
-    </div>
+{% if papers.working.size > 0 %}
+<div class="publication-list working-publications">
+  <div class="publication-toolbar">
+    <h3>Working papers <span class="publication-count">{{ papers.working.size }}</span></h3>
+    <span class="working-note">Under review / preprint</span>
   </div>
-  </li>
-{% endfor %}
-</ol>
-</div>
-<nav class="pub-carousel-pagination" aria-label="Working papers navigation">
-  <button class="pub-carousel-control" type="button" data-carousel-action="prev" aria-label="Previous paper">&lsaquo;</button>
-  <span class="pub-carousel-pages"></span>
-  <button class="pub-carousel-control" type="button" data-carousel-action="next" aria-label="Next paper">&rsaquo;</button>
-  <span class="pub-carousel-status" role="status" aria-live="polite" aria-atomic="true"></span>
-</nav>
-</div>
+  <div class="publications">
+    <ol class="bibliography">
+      {% for paper in papers.working %}
+      {% include publication-item.html paper=paper working=true %}
+      {% endfor %}
+    </ol>
+  </div>
 </div>
 {% endif %}
