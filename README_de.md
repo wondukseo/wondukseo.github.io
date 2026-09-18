@@ -87,10 +87,6 @@ twitter: https://twitter.com/
 avatar: ./assets/img/avatar.png
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
-
-# Google Analytics ID
-# Bitte entfernen Sie dies, wenn Sie Google Analytics nicht verwenden
-google_analytics: UA-111540567-4
   ```
 ### Bearbeiten von `index.md`
 

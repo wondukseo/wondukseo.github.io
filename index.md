@@ -235,8 +235,3 @@ I'm an incoming PhD student in Computer Science at University College London, wo
 </details>
 
 {% include_relative _includes/services.md %}
-
-<!-- MapMyVisitors statistics: https://mapmyvisitors.com/web/1c6pv -->
-<div hidden aria-hidden="true" style="display: none !important;">
-  <img src="https://mapmyvisitors.com/map.png?d=UGvI6T20CBe9UmZinNIDZCuR2HPwuyXYl1qbxDx9cxE&amp;cl=ffffff" alt="" width="1" height="1" referrerpolicy="strict-origin-when-cross-origin">
-</div>

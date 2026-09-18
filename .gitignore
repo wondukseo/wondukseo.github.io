@@ -6,3 +6,10 @@ Gemfile.lock
 .jekyll-cache
 vendor/
 git-update.sh
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
