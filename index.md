@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm an incoming PhD student in Computer Science at University College London, working with Prof. Emine Yilmaz. I study how language models reason, use evidence, and stay aligned with human values. Previously, I studied at Peking University, advised by Prof. Yi Bu. My first-author work has appeared at ICML, ACL, WSDM, SIGIR-ICTIR, ICPR, and BigData.
+I'm an incoming PhD student in Computer Science at University College London, working with Prof. Emine Yilmaz. I study how language models reason, use evidence, and stay aligned with human values. Previously, I studied at Peking University, advised by Prof. Yi Bu. My first-author work has appeared at <span class="about-venue">ICML</span>, <span class="about-venue">ACL</span>, <span class="about-venue">WSDM</span>, <span class="about-venue">SIGIR-ICTIR</span>, <span class="about-venue">ICPR</span>, and <span class="about-venue">BigData</span>.
 
 <div class="education-card" aria-label="Education">
   <h3 class="education-card-heading" id="education">Education</h3>
@@ -48,30 +48,30 @@ I'm an incoming PhD student in Computer Science at University College London, wo
   <li>
     <p><strong class="research-interest-lead">Alignment &amp; interpretability</strong> Evaluating and aligning language models with human values through transparent reasoning and feedback.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://openreview.net/pdf?id=hhpU1JMhKR" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ICML'26</span></a>
-      <a class="research-pub-chip" href="https://ojs.aaai.org/index.php/AIES/article/view/36717" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>AAAI-AIES'25</span></a>
+      <a class="research-pub-chip" href="https://openreview.net/pdf?id=hhpU1JMhKR" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">ICML'26</span></a>
+      <a class="research-pub-chip" href="https://ojs.aaai.org/index.php/AIES/article/view/36717" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">AAAI-AIES'25</span></a>
     </div>
   </li>
   <li>
     <p><strong class="research-interest-lead">Multi-agent reasoning</strong> Building agent systems that reason together, optimize prompts, and reduce hallucinations.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2503.23314" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ACL'26</span></a>
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2502.11140" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>ICPR'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2503.23314" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">ACL'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2502.11140" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">ICPR'26</span></a>
     </div>
   </li>
   <li>
     <p><strong class="research-interest-lead">Information retrieval</strong> Enhancing information retrieval through query reformulation, retrieval fusion, and model training.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3773966.3779360" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>WSDM'26</span></a>
-      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3805713.3820397" target="_blank" rel="noopener noreferrer">Lee* and <strong class="research-pub-author-me">Seo</strong>* et al., <span>SIGIR-ICTIR'26</span></a>
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2509.01182" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>BigData'25</span></a>
+      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3773966.3779360" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">WSDM'26</span></a>
+      <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3805713.3820397" target="_blank" rel="noopener noreferrer">Lee* and <span class="research-pub-author-me">Seo</span>* et al., <span class="research-pub-venue">SIGIR-ICTIR'26</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2509.01182" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">BigData'25</span></a>
     </div>
   </li>
   <li>
     <p><strong class="research-interest-lead">Evidence in LLM pipelines</strong> Tracing how evidence is used across multi-stage systems, with post-training for better grounding and calibration.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
-      <a class="research-pub-chip" href="https://arxiv.org/abs/2604.23993" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong><sup>†</sup>, <span>AAAI-Symposium'26</span></a>
-      <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer"><strong class="research-pub-author-me">Seo</strong> et al., <span>Quantitative Science Studies</span></a>
+      <a class="research-pub-chip" href="https://arxiv.org/abs/2604.23993" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span><sup>†</sup>, <span class="research-pub-venue">AAAI-Symposium'26</span></a>
+      <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span>Quantitative Science Studies</span></a>
     </div>
   </li>
 </ul>
