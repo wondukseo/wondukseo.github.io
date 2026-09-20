@@ -9,7 +9,7 @@ I'm an incoming PhD student in Computer Science at University College London, wo
 <div class="education-card" aria-label="Education">
   <h3 class="education-card-heading" id="education">Education</h3>
   <div class="education-entry">
-    <img class="education-logo" src="./images/profile/ucl_logo.png" alt="University College London logo">
+    <img class="education-logo education-logo--ucl" src="./images/profile/ucl_logo.jpg" alt="University College London logo" width="645" height="363">
     <div class="education-main">
       <div class="education-topline">
         <div class="education-school">

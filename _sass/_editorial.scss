@@ -119,6 +119,7 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 .education-entry:last-child { margin-bottom: 0; }
 .education-main { min-width: 0; }
 .education-logo { display: block; width: 40px; height: 42px; object-fit: contain; margin-top: 3px; }
+.education-logo.education-logo--ucl { width: 44px; height: auto; max-height: none; }
 .education-topline, .experience-topline { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; column-gap: 24px; }
 .education-topline > span, .experience-dates { font-size: .875rem; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .education-topline > span { font-size: .9375rem; }
@@ -193,6 +194,7 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 .experience-logo-wrap { display: flex; align-items: flex-start; justify-content: center; padding-top: 4px; }
 .experience-logo { display: block; width: 40px; max-height: 42px; object-fit: contain; }
 html.theme-dark .experience-logo, html.theme-dark .education-logo { background: #fff; padding: 3px; border-radius: 3px; }
+html.theme-dark .education-logo--ucl { background: transparent; padding: 0; border-radius: 0; }
 .experience-main { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 24px; }
 .experience-topline { display: contents; }
 .experience-institution { grid-column: 1; grid-row: 1; font-weight: 600; font-size: 1rem; }
@@ -329,6 +331,7 @@ html.theme-dark .experience-logo, html.theme-dark .education-logo { background: 
   .education-degree, .education-advisor, .education-funding { grid-column: 1 / -1; }
   .education-degree { margin-top: 10px; }
   .education-logo, .experience-logo { width: 32px; max-height: 36px; }
+  .education-logo.education-logo--ucl { width: 34px; }
   .research-interest-list { grid-template-columns: 1fr; gap: 25px; }
   .research-interest-list li:nth-child(2) { border-top: 1px solid var(--rule); padding-top: 18px; }
   .research-interest-list p { margin-bottom: 12px; }
