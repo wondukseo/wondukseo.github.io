@@ -17,11 +17,7 @@
         return storedTheme;
       }
     } catch (error) {
-      // Ignore unavailable localStorage and fall back to the system setting.
-    }
-
-    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
+      // Ignore unavailable localStorage and keep the light default.
     }
 
     return "light";
@@ -68,27 +64,6 @@
 
         applyTheme(theme);
       });
-    }
-
-    if (window.matchMedia) {
-      var media = window.matchMedia("(prefers-color-scheme: dark)");
-      var syncWithSystem = function () {
-        try {
-          if (window.localStorage.getItem(storageKey)) {
-            return;
-          }
-        } catch (error) {
-          return;
-        }
-
-        applyTheme(media.matches ? "dark" : "light");
-      };
-
-      if (media.addEventListener) {
-        media.addEventListener("change", syncWithSystem);
-      } else if (media.addListener) {
-        media.addListener(syncWithSystem);
-      }
     }
   });
 })();

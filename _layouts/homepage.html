@@ -24,8 +24,7 @@
 
         try {
           var storedTheme = window.localStorage.getItem("site-theme");
-          var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-          var theme = storedTheme || (prefersDark ? "dark" : "light");
+          var theme = storedTheme === "dark" ? "dark" : "light";
           document.documentElement.classList.add("theme-" + theme);
         } catch (error) {
           document.documentElement.classList.add("theme-light");
