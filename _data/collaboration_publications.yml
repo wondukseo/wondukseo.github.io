@@ -96,8 +96,8 @@ publications:
 
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
     authors:
-      - Wonduk Seo
       - Juhyeon Lee
+      - Wonduk Seo
       - Junseo Koh
       - Hyunjin An
       - Jian Park

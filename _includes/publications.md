@@ -1,5 +1,5 @@
 <h2 id="publications">Publications</h2>
-<p class="pub-note">* Equal contribution &nbsp; † Corresponding author</p>
+<p class="pub-note">* Equal contribution &nbsp; <sup>†</sup> Corresponding author</p>
 
 {% assign papers = site.data.publications %}
 {% if papers.accepted.size > 0 %}
@@ -34,21 +34,5 @@
   </div>
   <button class="publications-more" type="button" data-publications-more aria-controls="accepted-papers" aria-expanded="false">Show all {{ papers.accepted.size }} papers</button>
   <p class="publication-list-status sr-only" role="status" aria-live="polite" data-publications-status></p>
-</div>
-{% endif %}
-
-{% if papers.working.size > 0 %}
-<div class="publication-list working-publications">
-  <div class="publication-toolbar">
-    <h3>Working papers <span class="publication-count">{{ papers.working.size }}</span></h3>
-    <span class="working-note">Under review / preprint</span>
-  </div>
-  <div class="publications">
-    <ol class="bibliography">
-      {% for paper in papers.working %}
-      {% include publication-item.html paper=paper working=true %}
-      {% endfor %}
-    </ol>
-  </div>
 </div>
 {% endif %}

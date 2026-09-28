@@ -14,7 +14,7 @@
     {% endunless %}
     <div class="publication-copy">
       <h4 class="title">{% if paper.pdf %}<a href="{{ paper.pdf }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h4>
-      <div class="author">{{ paper.authors }}</div>
+      <div class="author">{{ paper.authors | replace: '†', '<sup>†</sup>' }}</div>
       <div class="periodical">{{ paper.conference }}{% if paper.notes %} <span class="oral-note">{{ paper.notes }}</span>{% endif %}</div>
       {% if paper.pdf or paper.code or paper.model or paper.video or paper.slides or paper.photo or paper.poster or paper.demo %}
       <div class="links" aria-label="Resources for {{ paper.title | escape }}">

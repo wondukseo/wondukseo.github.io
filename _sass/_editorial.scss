@@ -83,7 +83,7 @@ summary::-webkit-details-marker { display: none; }
 .profile-intro { display: grid; grid-template-columns: minmax(0, 1fr) 232px; grid-template-rows: auto auto; column-gap: 80px; row-gap: 24px; align-items: start; padding: 60px 0; }
 .profile-intro-copy { padding-top: 4px; min-width: 0; }
 .profile-intro h1 { font-size: 3.5rem; line-height: 1.15; margin-bottom: 24px; }
-.profile-intro position { display: block; font-size: 1.125rem; max-width: 410px; line-height: 1.6; margin-bottom: 20px; }
+.profile-intro position { display: block; font-size: 1.125rem; line-height: 1.6; margin-bottom: 20px; }
 .profile-intro location, .profile-intro email { display: block; font-size: 1rem; color: var(--muted); line-height: 1.7; }
 .profile-intro location i, .profile-intro email i { display: none; }
 .profile-intro email a { color: var(--link); text-decoration: underline; text-decoration-color: var(--accent-rule); }
@@ -125,7 +125,7 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 .education-topline > span { font-size: .9375rem; }
 .education-location, .education-advisor, .education-funding { color: var(--text); font-size: .9375rem; }
 .education-location { color: var(--muted); }
-.education-degree { margin-top: 5px; font-size: 1.0625rem; }
+.education-degree { margin-top: 5px; font-size: .9375rem; }
 .research-interest-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 38px; }
 .research-interest-list li { margin: 0; min-width: 0; display: flex; flex-direction: column; padding-top: 18px; border-top: 1px solid var(--rule); }
 .research-interest-list li:nth-child(-n+2) { border-top: 0; padding-top: 0; }
@@ -137,6 +137,7 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 .research-pub-author-me, .research-pub-venue { color: var(--link-emphasis); font-weight: 400; }
 
 .pub-note { color: var(--muted); font-size: 1rem; margin-bottom: 25px; }
+.pub-note sup, .publications .author sup { font-size: .75em; line-height: 0; vertical-align: super; }
 .publication-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--rule); }
 .publication-toolbar h3 { display: flex; align-items: baseline; gap: 8px; font-size: 1.125rem; }
 .publication-toolbar-heading { min-width: 0; }

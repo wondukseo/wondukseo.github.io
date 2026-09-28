@@ -114,7 +114,7 @@ accepted:
 working:
 
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
-    authors: <span class="me-highlight">Wonduk Seo</span>, Juhyeon Lee, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen†, Yi Bu†
+    authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen†, Yi Bu†
     conference_short: W1
     conference: Under review.
     pdf: https://arxiv.org/abs/2510.16635

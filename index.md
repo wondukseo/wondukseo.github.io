@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm an incoming PhD student in Computer Science at University College London, working with Prof. Emine Yilmaz. I study how language models reason, use evidence, and stay aligned with human values. Previously, I studied at Peking University, advised by Prof. Yi Bu. My first-author work has appeared at <span class="about-venue">ICML</span>, <span class="about-venue">ACL</span>, <span class="about-venue">WSDM</span>, <span class="about-venue">SIGIR-ICTIR</span>, <span class="about-venue">ICPR</span>, and <span class="about-venue">BigData</span>.
+I'm a PhD student in Computer Science at University College London, working with Prof. Emine Yilmaz. I study how language models reason, use evidence, and stay aligned with human values. Previously, I studied at Peking University, advised by Prof. Yi Bu. My first-author work has appeared at <span class="about-venue">ICML</span>, <span class="about-venue">ACL</span>, <span class="about-venue">WSDM</span>, <span class="about-venue">SIGIR-ICTIR</span>, <span class="about-venue">ICPR</span>, and <span class="about-venue">BigData</span>.
 
 <div class="education-card" aria-label="Education">
   <h3 class="education-card-heading" id="education">Education</h3>
@@ -18,9 +18,9 @@ I'm an incoming PhD student in Computer Science at University College London, wo
         </div>
         <span>Oct. 2026 - Present</span>
       </div>
-      <div class="education-degree">PhD in Computer Science</div>
+      <div class="education-degree">PhD in Computer Science, Artificial Intelligence</div>
       <div class="education-advisor">Advisor: Prof. Emine Yilmaz</div>
-      <div class="education-funding"><i class="fa-solid fa-award" aria-hidden="true"></i><span>Four-year fully funded PhD scholarship</span></div>
+      <div class="education-funding"><i class="fa-solid fa-award" aria-hidden="true"></i><em>Four-year fully funded PhD scholarship</em></div>
     </div>
   </div>
   <div class="education-entry">
@@ -33,8 +33,7 @@ I'm an incoming PhD student in Computer Science at University College London, wo
         </div>
         <span>Sep. 2019 - Jun. 2025</span>
       </div>
-      <div class="education-degree">Bachelor in Information Management</div>
-      <div class="education-advisor">Big Data Management &amp; Application</div>
+      <div class="education-degree">Bachelor in Information Management, Data Science</div>
       <div class="education-advisor">Advisor: Prof. Yi Bu</div>
     </div>
   </div>
@@ -215,7 +214,7 @@ I'm an incoming PhD student in Computer Science at University College London, wo
   <li><strong>[Nov. 2025]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to <strong>ACM/IEEE Joint Conference on Digital Libraries (<span class="venue-abbr">JCDL</span>)</strong>.</div></li>
   <li><strong>[Oct. 2025]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to <strong>IEEE International Conference on Big Data 2025 Industry Track</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
   <li><strong>[Jul. 2025]</strong><div class="news-copy">One <strong>first author</strong> paper got accepted to <strong>AAAI/ACM Conference on AI, Ethics, and Society (<span class="venue-abbr">AIES</span>) Main Track</strong>.</div></li>
-  <li><strong>[Jul. 2025]</strong><div class="news-copy"><strong>Graduated from Peking University</strong> (Bachelor in Information Management, Big Data Management &amp; Application)!</div></li>
+  <li><strong>[Jul. 2025]</strong><div class="news-copy"><strong>Graduated from Peking University</strong> (Bachelor in Information Management, Data Science)!</div></li>
   <li><strong>[Jun. 2025]</strong><div class="news-copy">One <strong>first author</strong> paper accepted for <span class="news-oral-note">Oral Presentation</span> at the <strong>ACM <span class="venue-abbr">SIGKDD</span> 2025 Workshop on AI Agent for Information Retrieval</strong>.</div></li>
   <li><strong>[Apr. 2025]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to <strong>IEEE Engineering in Medicine and Biology Society (<span class="venue-abbr">EMBC</span>)</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
   <li><strong>[Apr. 2025]</strong><div class="news-copy">Gave a poster talk at the <strong>International Conference on Research in Computational Molecular Biology (<span class="venue-abbr">RECOMB</span>)</strong>.</div></li>

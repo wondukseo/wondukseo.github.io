@@ -1,6 +1,6 @@
 # Basic Information 
 title: Wonduk Seo
-position: Incoming PhD Student in Computer Science, UCL
+position: PhD student in Computer Science, University College London
 email: wonduk.seo.26@ucl.ac.uk
 location: London, United Kingdom
 url: https://wondukseo.github.io
@@ -9,7 +9,7 @@ baseurl: ""
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Wonduk Seo, language models, information retrieval, multi-agent reasoning
-description: Wonduk Seo is an incoming PhD student in Computer Science at UCL, researching language models, information retrieval, and multi-agent reasoning.
+description: Wonduk Seo is a PhD student in Computer Science at University College London, researching language models, information retrieval, and multi-agent reasoning.
 canonical: https://wondukseo.github.io/
 
 # Links 
