@@ -94,7 +94,8 @@ summary::-webkit-details-marker { display: none; }
 .social-icons { grid-column: 1; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; font-size: 1rem; }
 .social-icons a { color: var(--link); border-bottom: 1px solid var(--accent-rule); padding: 3px 0; white-space: nowrap; }
 .social-icons a:first-child { color: var(--link); border-color: var(--link); }
-.social-icons a:first-child::after { content: "\2197"; display: inline-block; margin-left: 6px; font-size: .8em; }
+.external-link-icon { display: inline-block; width: .85em; height: .85em; flex-shrink: 0; vertical-align: -.05em; }
+.social-icons .external-link-icon { margin-left: 6px; }
 .social-icons a:hover { color: var(--link); border-color: var(--link); text-decoration: none; }
 
 section > h2 { border-top: 1px solid var(--rule); margin: 0; padding-top: 38px; margin-bottom: 24px; font-size: 1.5rem; font-weight: 700; }
