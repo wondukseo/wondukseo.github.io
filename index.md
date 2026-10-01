@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm a PhD student in Computer Science at University College London, working with Prof. Emine Yilmaz. I study how language models reason, use evidence, and stay aligned with human values. Previously, I studied at Peking University, advised by Prof. Yi Bu. My first-author work has appeared at <span class="about-venue">ICML</span>, <span class="about-venue">ACL</span>, <span class="about-venue">WSDM</span>, <span class="about-venue">SIGIR-ICTIR</span>, <span class="about-venue">ICPR</span>, and <span class="about-venue">BigData</span>.
+I’m a PhD student in Computer Science at University College London, working with Prof. Emine Yilmaz. My research focuses on evaluating and improving language models’ reasoning, use of evidence, and alignment with human values. Previously, I was an undergraduate student at Peking University, where I was advised by Prof. Yi Bu. My first-author work has appeared at <span class="about-venue">ICML</span>, <span class="about-venue">ACL</span>, <span class="about-venue">WSDM</span>, <span class="about-venue">SIGIR-ICTIR</span>, <span class="about-venue">ICPR</span>, and <span class="about-venue">BigData</span>.
 
 <div class="education-card" aria-label="Education">
   <h3 class="education-card-heading" id="education">Education</h3>
