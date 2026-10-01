@@ -20,7 +20,7 @@ I'm a PhD student in Computer Science at University College London, working with
       </div>
       <div class="education-degree">PhD in Computer Science, Artificial Intelligence</div>
       <div class="education-advisor">Advisor: Prof. Emine Yilmaz</div>
-      <div class="education-funding"><i class="fa-solid fa-award" aria-hidden="true"></i><em>Four-year fully funded PhD scholarship</em></div>
+      <div class="education-funding"><i class="fa-solid fa-award" aria-hidden="true"></i><em>Four-year fully funded PhD studentship, funded by Amazon</em></div>
     </div>
   </div>
   <div class="education-entry">
