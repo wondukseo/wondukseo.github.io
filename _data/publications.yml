@@ -10,6 +10,7 @@ accepted:
     video: https://recorder-v3.slideslive.com/?share=111155&s=4d295aaa-6b33-4ce2-8956-6e36495367fa
     model: https://huggingface.co/CulturalAlignmentPKU/WVS-DeBERTa-v2-xxlarge
     image: ./images/working/image.png
+    compact_image: true
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee†, Yi Bu†
@@ -25,8 +26,7 @@ accepted:
     authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee†
     conference_short: WSDM'26
     venue_group: wsdm
-    conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>), 2026.<br>ACM <span class="venue-abbr">SIGKDD-Agent4IR</span> Workshop on AI Agent for Information Retrieval, 2025.
-    notes: Oral Presentation
+    conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>), 2026.
     pdf: https://dl.acm.org/doi/10.1145/3773966.3779360
     slides: ./images/agent4ir_slides.pptx
     poster: ./images/wsdm_poster.pdf
@@ -112,6 +112,15 @@ accepted:
     image: ./images/qss.png
 
 working:
+
+  - title: "F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering"
+    authors: Wooseok Han*, <span class="me-highlight">Wonduk Seo*†</span>, Lee Jung-Mok*, Juhyeon Lee, Junseo Koh, Yi Bu†
+    conference: Preprint, 2026.
+    local_page: /papers/f2act-vqa/
+    pdf: /papers/f2act-vqa/paper.pdf
+    code: https://github.com/hws2002/f2act-vqa-official
+    bibtex: /papers/f2act-vqa/citation.bib
+    show_on_homepage: true
 
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen†, Yi Bu†

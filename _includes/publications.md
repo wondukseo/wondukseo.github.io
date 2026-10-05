@@ -36,3 +36,21 @@
   <p class="publication-list-status sr-only" role="status" aria-live="polite" data-publications-status></p>
 </div>
 {% endif %}
+
+{% assign working_papers = papers.working | where: 'show_on_homepage', true %}
+{% if working_papers.size > 0 %}
+<div class="working-publications" aria-labelledby="working-papers-heading">
+  <div class="publication-toolbar">
+    <div class="publication-toolbar-heading">
+      <h3 id="working-papers-heading">Working Papers <span class="publication-count">{{ working_papers.size }}</span></h3>
+    </div>
+  </div>
+  <div class="publications">
+    <ol class="bibliography" id="working-papers">
+      {% for paper in working_papers %}
+      {% include publication-item.html paper=paper working=true %}
+      {% endfor %}
+    </ol>
+  </div>
+</div>
+{% endif %}

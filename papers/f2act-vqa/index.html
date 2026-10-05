@@ -1,0 +1,64 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering</title>
+    <meta name="description" content="F²ACT-VQA is a fusion-driven fact-centric multimodal framework for knowledge-intensive visual question answering. Read the full abstract and preprint.">
+    <meta name="citation_title" content="F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering">
+    <meta name="citation_author" content="Wooseok Han">
+    <meta name="citation_author" content="Wonduk Seo">
+    <meta name="citation_author" content="Lee Jung-Mok">
+    <meta name="citation_author" content="Juhyeon Lee">
+    <meta name="citation_author" content="Junseo Koh">
+    <meta name="citation_author" content="Yi Bu">
+    <meta name="citation_publication_date" content="2026">
+    <meta name="citation_pdf_url" content="https://wondukseo.github.io/papers/f2act-vqa/paper.pdf">
+    <link rel="canonical" href="https://wondukseo.github.io/papers/f2act-vqa/">
+    <link rel="icon" href="{{ site.favicon }}" type="{{ site.favicon_type | default: 'image/png' }}">
+    {% if site.github.build_revision %}
+    {% assign asset_version = site.github.build_revision %}
+    {% else %}
+    {% assign asset_version = site.time | date: '%s' %}
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/papers/f2act-vqa/style.css' | relative_url }}?v={{ asset_version }}">
+  </head>
+  <body class="paper-page">
+    <header class="paper-site-header">
+      <div class="paper-container">
+        <a class="paper-brand" href="{{ '/' | relative_url }}">Wonduk Seo</a>
+        <a class="paper-back" href="{{ '/' | relative_url }}#publications">All publications</a>
+      </div>
+    </header>
+    <main class="paper-container" id="main-content">
+      <article class="paper-article">
+        <header class="paper-header">
+          <p class="paper-status">Preprint · 2026</p>
+          <h1 class="paper-title">F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering</h1>
+          <p class="paper-authors"><span>Wooseok Han<sup>*</sup></span>, <span class="paper-author--me">Wonduk Seo<sup>*</sup></span>, <span>Lee Jung-Mok<sup>*</sup></span>, <span>Juhyeon Lee</span>, <span>Junseo Koh</span>, <span>Yi Bu</span></p>
+          <p class="paper-author-note"><sup>*</sup> Equal contribution</p>
+        </header>
+        <section class="paper-abstract" aria-labelledby="abstract">
+          <h2 id="abstract">Abstract</h2>
+          <p>Knowledge-intensive visual question answering requires identifying the subject in an image and retrieving question-relevant external knowledge. Existing approaches often make a hard entity decision before evidence retrieval or retrieve coarse document-level evidence, making them vulnerable to irreversible entity errors and irrelevant context. In this paper, we propose F²ACT-VQA, a novel fusion-driven fact-centric multimodal framework that performs global retrieval over atomic knowledge-base FACTs represented as Subject–Predicate–Object (SPO) triples. Instead of selecting an entity first, F²ACT-VQA converts the image–question pair into a structured multimodal retrieval intent and directly matches it against the entire FACT store. Weighted fusion combines the generated query FACT with the image; multimodal reranking and a category-aware inspector then produce a compact, diverse evidence set for grounded answer generation. Experiments on InfoSeek and Encyclopedic VQA demonstrate the effectiveness of F²ACT-VQA in both fact retrieval and downstream question answering.</p>
+        </section>
+        <nav class="paper-resources" aria-label="Paper resources">
+          <a href="paper.pdf">Read paper (PDF)</a>
+          <a href="https://github.com/hws2002/f2act-vqa-official">Code<svg class="external-link-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12 12 4M4 4h8v8" /></svg></a>
+          <a href="citation.bib">BibTeX</a>
+        </nav>
+        <section class="paper-citation" aria-labelledby="citation">
+          <h2 id="citation">Citation</h2>
+          {% capture bibtex %}{% include_relative citation.bib %}{% endcapture %}
+          <pre><code>{{ bibtex | strip | escape }}</code></pre>
+        </section>
+      </article>
+    </main>
+    <footer class="paper-footer paper-container">
+      <a href="{{ '/' | relative_url }}">Wonduk Seo</a>
+    </footer>
+  </body>
+</html>
