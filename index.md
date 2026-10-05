@@ -193,6 +193,7 @@ I’m a PhD student in Computer Science at University College London, working wi
 ## News
 
 <ul class="news-list news-list-recent">
+  <li><strong>[Oct. 2026]</strong><div class="news-copy">New <strong>co-first author</strong> preprint released! <a href="{{ '/papers/f2act-vqa/' | relative_url }}">F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering</a>.</div></li>
   <li><strong>[Jun. 2026]</strong><div class="news-copy">One <strong>co-first author</strong> paper got accepted to the <strong>International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>)</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
   <li><strong>[May 2026]</strong><div class="news-copy">One <strong>first author</strong> paper got accepted to the <strong>Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>)</strong>.</div></li>
   <li><strong>[May 2026]</strong><div class="news-copy">One <strong>corresponding author</strong> abstract paper got accepted to the <strong><span class="venue-abbr">AAAI</span> Summer Symposium Series</strong> for <span class="news-oral-note">Oral Presentation</span>.</div></li>
