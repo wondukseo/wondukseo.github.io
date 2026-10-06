@@ -114,7 +114,7 @@ accepted:
 working:
 
   - title: "F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering"
-    authors: Wooseok Han*, <span class="me-highlight">Wonduk Seo*†</span>, Lee Jung-Mok*, Juhyeon Lee, Junseo Koh, Yi Bu†
+    authors: Wooseok Han*, <span class="me-highlight">Wonduk Seo*</span>, Lee Jung-Mok*, Juhyeon Lee, Junseo Koh, Yi Bu†
     conference: Preprint, 2026.
     local_page: /papers/f2act-vqa/
     pdf: /papers/f2act-vqa/paper.pdf
