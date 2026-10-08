@@ -58,7 +58,11 @@
 
 ## Academic Service
 
-### Conference Reviewers
+### Program Committee (PC) Member
+
+- European Conference on Information Retrieval (<span class="venue-abbr">ECIR</span>), 2027
+
+### Reviewer
 
 - The Web Conference (<span class="venue-abbr">WWW</span>), 2027
 - Neural Information Processing Systems (<span class="venue-abbr">NeurIPS</span>), 2026
