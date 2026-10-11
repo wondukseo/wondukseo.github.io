@@ -120,6 +120,8 @@ working:
     pdf: /papers/f2act-vqa/paper.pdf
     code: https://github.com/hws2002/f2act-vqa-official
     bibtex: /papers/f2act-vqa/citation.bib
+    image: ./images/working/grid_search_heatmap_entity_recall.png
+    compact_image: true
     show_on_homepage: true
 
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
