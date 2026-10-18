@@ -239,6 +239,11 @@ html.theme-dark .education-logo--ucl { background: transparent; padding: 0; bord
 .award-item:first-child { padding-top: 0; }
 .award-item:last-child { border-bottom: 0; }
 .award-date { color: var(--muted); white-space: nowrap; font-size: .875rem; font-variant-numeric: tabular-nums; }
+.site-visitor-counter { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 8px 12px; padding-bottom: 16px; color: var(--muted); font: .875rem/1.4 var(--serif); }
+.site-visitor-counter-label { margin: 0; }
+.site-visitor-counter-link { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; padding: 4px; border: 1px solid var(--rule); border-radius: 3px; background: #fff; }
+.site-visitor-counter-link:hover { border-color: var(--link); }
+.site-visitor-counter-link img { display: block; max-width: 100%; height: auto; }
 .site-footer { margin: 16px 0 0; padding: 28px 0 36px; border-top: 1px solid var(--rule); font-size: .875rem; color: var(--muted); display: flex; justify-content: space-between; gap: 24px; }
 .site-footer p { margin: 0; }
 .site-footer p:first-child { font: 400 1.25rem/1.4 var(--serif); color: var(--ink); }
@@ -392,7 +397,7 @@ html.theme-dark .education-logo--ucl { background: transparent; padding: 0; bord
 }
 @media print {
   :root, html.theme-dark { --paper: #fff; --surface: #fff; --ink: #111; --text-emphasis: #000; --text: #222; --muted: #444; --rule: #ddd; --link: #111; --link-emphasis: #000; --accent-rule: #ddd; }
-  .site-header, .publication-filter, .publication-summary, .publication-figure-caption, .publications-more, .skip-link, .experience-toggle-chevron, .profile-subsection-chevron { display: none !important; }
+  .site-header, .site-visitor-counter, .publication-filter, .publication-summary, .publication-figure-caption, .publications-more, .skip-link, .experience-toggle-chevron, .profile-subsection-chevron { display: none !important; }
   .wrapper { width: 100%; }
   .profile-intro { padding-top: 0; }
   section.has-section-panels { display: block; }

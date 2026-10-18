@@ -1,0 +1,9 @@
+{% assign visitor_counter = site.data.visitor_counter %}
+{% if visitor_counter.enabled and visitor_counter.stats_url and visitor_counter.stats_url != empty and visitor_counter.image_url and visitor_counter.image_url != empty %}
+  <aside class="site-visitor-counter" id="visitors" aria-label="Visitor statistics">
+    <span class="site-visitor-counter-label">Visitors</span>
+    <a class="site-visitor-counter-link" href="{{ visitor_counter.stats_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="View visitor statistics on Flag Counter">
+      <img src="{{ visitor_counter.image_url | escape }}" alt="Flag Counter pageviews" width="{{ visitor_counter.width }}" height="{{ visitor_counter.height }}" decoding="async">
+    </a>
+  </aside>
+{% endif %}
