@@ -58,9 +58,9 @@ accepted:
   - title: "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce"
     authors: Minhyeong Yu, Seunghyun Lee, <span class="me-highlight">Wonduk Seo†</span>
     conference_short: AAAI-Symposium'26
-    conference_display: AAAI Summer Symposium 2026 · Extended Abstract
+    conference_display: AAAI Summer Symposium 2026
     venue_group: aaai
-    conference: <span class="venue-abbr">AAAI</span> Summer Symposium Series (Extended Abstract Paper), 2026.
+    conference: <span class="venue-abbr">AAAI</span> Summer Symposium Series, 2026.
     notes: Oral Presentation
     pdf: https://arxiv.org/abs/2604.23993
     image: ./images/working/epm_rl.png

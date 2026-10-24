@@ -45,7 +45,6 @@ I’m a PhD student in Computer Science at University College London, where I’
         <span>Sep. 2019 - Jun. 2025</span>
       </div>
       <div class="education-degree">Bachelor in Information Management, Data Science</div>
-      <div class="education-advisor">Advisor: Prof. Yi Bu</div>
     </div>
   </div>
 </div>
