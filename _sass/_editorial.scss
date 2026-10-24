@@ -110,6 +110,9 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 #about-me + .section-content-panel > p { font-size: 1.125rem; line-height: 1.75; text-wrap: pretty; }
 #about-me + .section-content-panel > p:first-child { color: var(--ink); }
 #about-me + .section-content-panel > p:nth-child(2) { color: var(--muted); }
+#about-me + .section-content-panel > p.about-contact-note { margin: 20px 0 0; padding-left: 16px; border-left: 2px solid var(--link); color: var(--link); }
+.about-contact-note a { color: inherit; font-weight: 700; text-decoration-color: var(--accent-rule); }
+.about-contact-note a:hover { color: var(--link-emphasis); text-decoration-color: currentColor; }
 .about-venue { color: var(--text-emphasis); font-weight: 400; }
 .venue-abbr { font-weight: inherit; }
 .education-card { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--rule); }
