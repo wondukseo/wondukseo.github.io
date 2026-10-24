@@ -1,0 +1,29 @@
+Social profile icons
+
+Font Awesome Free 6.7.2 by Fonticons, Inc. (@fontawesome)
+Copyright 2024 Fonticons, Inc.
+Project: https://fontawesome.com
+Repository: https://github.com/FortAwesome/Font-Awesome/tree/6.7.2
+
+The SVG icons used in _includes/social-icon.html are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Upstream license:
+https://github.com/FortAwesome/Font-Awesome/blob/6.7.2/LICENSE.txt
+https://fontawesome.com/license/free
+
+Original SVG sources:
+https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/brands/google-scholar.svg
+https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/brands/github.svg
+https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/brands/linkedin.svg
+https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/brands/orcid.svg
+https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/brands/kaggle.svg
+
+Changes: The original viewBox values, path data, and embedded attribution
+comments are preserved. Class, currentColor fill, aria-hidden, and focusable
+attributes were added to each SVG, and the SVGs were placed in a Liquid
+include that selects an icon by name.
+
+Brand icons are trademarks of their respective owners. They are used to
+identify the linked profile services; no endorsement is implied.

@@ -3,6 +3,7 @@ accepted:
   - title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
     authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu†
     conference_short: ICML'26
+    conference_display: ICML 2026
     venue_group: icml
     conference: Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>), 2026.
     pdf: https://openreview.net/pdf?id=hhpU1JMhKR
@@ -10,11 +11,11 @@ accepted:
     video: https://recorder-v3.slideslive.com/?share=111155&s=4d295aaa-6b33-4ce2-8956-6e36495367fa
     model: https://huggingface.co/CulturalAlignmentPKU/WVS-DeBERTa-v2-xxlarge
     image: ./images/working/image.png
-    compact_image: true
 
   - title: "SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated Data Science"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee†, Yi Bu†
     conference_short: ACL'26 Main
+    conference_display: ACL 2026 · Main Conference
     venue_group: acl
     conference: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<span class="venue-abbr">ACL Main</span>), 2026.
     pdf: https://arxiv.org/abs/2503.23314
@@ -25,6 +26,7 @@ accepted:
   - title: "A New Query Expansion Approach for Enhancing Information Retrieval via Agent-Mediated Dialogic Inquiry"
     authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee†
     conference_short: WSDM'26
+    conference_display: WSDM 2026
     venue_group: wsdm
     conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>), 2026.
     pdf: https://dl.acm.org/doi/10.1145/3773966.3779360
@@ -35,6 +37,7 @@ accepted:
   - title: "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization"
     authors: <span class="me-highlight">Wonduk Seo</span>, Daye Kang, Hyunjin An, Taehan Kim, Soohyuk Cho, Seungyong Lee, Minhyeong Yu, Jian Park, Yi Bu†, Seunghyun Lee†
     conference_short: ICPR'26
+    conference_display: ICPR 2026
     venue_group: icpr
     conference: Proceedings of the International Conference on Pattern Recognition (<span class="venue-abbr">ICPR</span>), 2026.
     pdf: https://arxiv.org/abs/2502.11140
@@ -43,6 +46,7 @@ accepted:
   - title: "RoTRAG: Rule of Thumb Reasoning for Conversation Harm Detection with Retrieval-Augmented Generation"
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Junseo Koh, Seunghyun Lee, Haihua Chen†, Yi Bu†
     conference_short: SIGIR-ICTIR'26
+    conference_display: SIGIR-ICTIR 2026
     venue_group: sigir
     conference: International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (<span class="venue-abbr">ICTIR</span>), 2026.
     notes: Oral Presentation
@@ -54,6 +58,7 @@ accepted:
   - title: "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce"
     authors: Minhyeong Yu, Seunghyun Lee, <span class="me-highlight">Wonduk Seo†</span>
     conference_short: AAAI-Symposium'26
+    conference_display: AAAI Summer Symposium 2026 · Extended Abstract
     venue_group: aaai
     conference: <span class="venue-abbr">AAAI</span> Summer Symposium Series (Extended Abstract Paper), 2026.
     notes: Oral Presentation
@@ -63,6 +68,7 @@ accepted:
   - title: "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning"
     authors: <span class="me-highlight">Wonduk Seo</span>, Zonghao Yuan, Yi Bu†
     conference_short: AAAI-AIES'25
+    conference_display: AAAI/ACM AIES 2025
     venue_group: aaai
     conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (<span class="venue-abbr">AAAI-AIES</span>), 2025.
     pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
@@ -72,6 +78,7 @@ accepted:
   - title: "Question-to-Knowledge: Multi-Agent Generation of Inspectable Facts for Product Mapping"
     authors: <span class="me-highlight">Wonduk Seo*</span>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee†
     conference_short: BigData'25
+    conference_display: IEEE BigData 2025 · Industry Track
     venue_group: bigdata
     conference: 2025 IEEE International Conference on Big Data (<span class="venue-abbr">BigData</span>) Industry Track, 2025.
     pdf: https://arxiv.org/abs/2509.01182
@@ -83,6 +90,7 @@ accepted:
   - title: "Better by Comparison: Retrieval-Augmented Contrastive Reasoning for Automatic Prompt Optimization"
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Hyunjin An, Seunghyun Lee, Yi Bu†
     conference_short: JCDL'25
+    conference_display: ACM/IEEE JCDL 2025
     venue_group: jcdl
     conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries (<span class="venue-abbr">JCDL</span>), 2025.
     notes: Oral Presentation
@@ -93,6 +101,7 @@ accepted:
   - title: "Pesti-Gen: Unleashing a Generative Molecule Approach for Toxicity Aware Pesticide Design"
     authors: Taehan Kim*, <span class="me-highlight">Wonduk Seo*</span>
     conference_short: EMBC'25
+    conference_display: IEEE EMBC 2025
     venue_group: embc
     conference: 47th International Conference of the IEEE Engineering in Medicine and Biology (<span class="venue-abbr">EMBC</span>), 2025.
     pdf: https://arxiv.org/abs/2501.14469
@@ -105,6 +114,7 @@ accepted:
   - title: "Transforming Role Classification in Scientific Teams using LLMs and Advanced Predictive Analytics"
     authors: <span class="me-highlight">Wonduk Seo</span>, Yi Bu†
     conference_short: Quantitative Science Studies
+    conference_display: QSS · Vol. 6, pp. 505–523
     venue_group: qss
     conference: Quantitative Science Studies (<span class="venue-abbr">QSS</span>) 6, 505-523.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific
@@ -115,13 +125,13 @@ working:
 
   - title: "F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering"
     authors: Wooseok Han*, <span class="me-highlight">Wonduk Seo*</span>, Lee Jung-Mok*, Juhyeon Lee, Junseo Koh, Yi Bu†
+    venue_group: preprint
     conference: Preprint, Oct. 2026.
     local_page: /papers/f2act-vqa/
     pdf: /papers/f2act-vqa/paper.pdf
     code: https://github.com/hws2002/f2act-vqa-official
     bibtex: /papers/f2act-vqa/citation.bib
     image: ./images/working/grid_search_heatmap_entity_recall.png
-    compact_image: true
     show_on_homepage: true
 
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"

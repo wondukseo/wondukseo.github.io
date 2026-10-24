@@ -122,7 +122,7 @@
 
           <div class="social-icons" aria-label="Profile links">
             {% if site.google_scholar %}
-            <a href="{{ site.google_scholar }}" aria-label="Google Scholar">Google Scholar<svg class="external-link-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12 12 4M4 4h8v8" /></svg></a>
+            <a class="social-icon-link" href="{{ site.google_scholar }}" aria-label="Google Scholar" title="Google Scholar">{% include social-icon.html icon='google-scholar' %}</a>
             {% endif %}
 
             {% if site.cv_link %}
@@ -130,19 +130,19 @@
             {% endif %}
 
             {% if site.github_link %}
-            <a href="{{ site.github_link }}" aria-label="GitHub">GitHub</a>
+            <a class="social-icon-link" href="{{ site.github_link }}" aria-label="GitHub" title="GitHub">{% include social-icon.html icon='github' %}</a>
             {% endif %}
 
             {% if site.linkedin %}
-            <a href="{{ site.linkedin }}" aria-label="LinkedIn">LinkedIn</a>
+            <a class="social-icon-link" href="{{ site.linkedin }}" aria-label="LinkedIn" title="LinkedIn">{% include social-icon.html icon='linkedin' %}</a>
             {% endif %}
 
             {% if site.orcid %}
-            <a href="{{ site.orcid }}" rel="me noopener" target="_blank" aria-label="ORCID">ORCID</a>
+            <a class="social-icon-link" href="{{ site.orcid }}" rel="me noopener" target="_blank" aria-label="ORCID" title="ORCID">{% include social-icon.html icon='orcid' %}</a>
             {% endif %}
 
             {% if site.kaggle %}
-            <a class="kaggle-social" href="{{ site.kaggle }}" rel="noopener" target="_blank" aria-label="Kaggle">Kaggle</a>
+            <a class="social-icon-link kaggle-social" href="{{ site.kaggle }}" rel="noopener" target="_blank" aria-label="Kaggle" title="Kaggle">{% include social-icon.html icon='kaggle' %}</a>
             {% endif %}
 
             {% if site.twitter %}
@@ -160,11 +160,21 @@
         {% if site.enable_footnote %}<p><small>Built with Jekyll &amp; <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a>.</small></p>{% endif %}
       </footer>
     </div>
+    <dialog class="publication-lightbox" data-publication-lightbox aria-labelledby="publication-lightbox-title">
+      <div class="publication-lightbox-toolbar">
+        <p class="publication-lightbox-title" id="publication-lightbox-title" data-lightbox-title></p>
+        <button class="publication-lightbox-close" type="button" data-lightbox-close aria-label="Close image preview" autofocus>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="m6 6 12 12M18 6 6 18" /></svg>
+        </button>
+      </div>
+      <img class="publication-lightbox-image" data-lightbox-image alt="" decoding="async">
+    </dialog>
     <script src="{{ "/assets/js/section-panels.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/experience-collapse.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/profile-subsection-collapse.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/collaboration-graph.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/publications-list.js" | relative_url }}?v={{ asset_version }}"></script>
+    <script src="{{ "/assets/js/publication-lightbox.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/theme-toggle.js" | relative_url }}?v={{ asset_version }}"></script>
     <script src="{{ "/assets/js/site-header.js" | relative_url }}?v={{ asset_version }}"></script>
   </body>

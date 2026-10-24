@@ -46,7 +46,7 @@
         expanded = !expanded;
         update(true);
         if (expanded && event.detail === 0) {
-          var firstRevealedLink = items[previewCount].querySelector("a");
+          var firstRevealedLink = items[previewCount].querySelector(".title a") || items[previewCount].querySelector("a");
           if (firstRevealedLink) firstRevealedLink.focus();
         } else if (!expanded) {
           more.scrollIntoView({ block: "nearest" });

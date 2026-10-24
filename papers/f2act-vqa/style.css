@@ -11,7 +11,7 @@
   --accent-soft: #f4eaeb;
   --accent-rule: #c4a3aa;
   --serif: "Times New Roman", Times, serif;
-  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --sans: var(--serif);
   color-scheme: light;
 }
 
@@ -232,7 +232,7 @@ a:focus-visible {
   border-radius: 3px;
   background: var(--surface);
   color: var(--text);
-  font: 0.8125rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font: 0.8125rem/1.6 var(--serif);
   tab-size: 2;
   white-space: pre;
   overflow-wrap: normal;

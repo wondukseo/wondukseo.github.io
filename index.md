@@ -6,7 +6,16 @@ layout: homepage
 
 I’m a PhD student in Computer Science at University College London, where I’m a member of the UCL NLP Group and work with Prof. Emine Yilmaz. My research focuses on evaluating and improving language models’ reasoning, use of evidence, and alignment with human values. Previously, I was an undergraduate student at Peking University, where I was advised by Prof. Yi Bu. My first-author work has appeared at <span class="about-venue">ICML</span>, <span class="about-venue">ACL</span>, <span class="about-venue">WSDM</span>, <span class="about-venue">SIGIR-ICTIR</span>, <span class="about-venue">ICPR</span>, and <span class="about-venue">BigData</span>.
 
-<p class="about-contact-note">If you’re interested in research collaboration or would like mentorship, please feel free to <a href="mailto:{{ site.email | escape }}">email me directly</a>.</p>
+<aside class="about-research-note" aria-labelledby="research-opportunities-title">
+  <p class="about-research-title" id="research-opportunities-title"><strong>Undergraduate &amp; Master’s Students</strong></p>
+  <p>To explore a research project or mentorship, share your background and research interests through the form below!</p>
+  <p><a class="about-research-link" href="https://docs.google.com/forms/d/e/1FAIpQLScEJfNqBw5XOhF8hbdPjJiZnI2IggBsY9H0y4ViyEMi_mvD0Q/viewform" target="_blank" rel="noopener noreferrer">Research interest form</a></p>
+</aside>
+
+<aside class="about-research-note" aria-labelledby="research-collaboration-title">
+  <p class="about-research-title" id="research-collaboration-title"><strong>Research Collaboration</strong></p>
+  <p>For research collaboration, please <a href="mailto:{{ site.email | escape }}">email me directly</a>. Happy to share ideas and discuss potential projects!</p>
+</aside>
 
 <div class="education-card" aria-label="Education">
   <h3 class="education-card-heading" id="education">Education</h3>

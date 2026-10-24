@@ -1,38 +1,45 @@
 {% assign paper = include.paper %}
 {% assign title_url = paper.local_page | default: paper.pdf %}
+{% assign venue = site.data.publication_venues[paper.conference_short] %}
+{% assign conference_label = paper.conference_display | default: paper.conference_short | default: paper.conference %}
+{% assign authors = paper.authors | split: ', ' %}
 <li data-venue-group="{{ paper.venue_group | default: 'all' }}">
-  <article class="pub-row{% unless include.working %} pub-row--published{% endunless %}{% unless paper.image %} pub-row--text-only{% endunless %}">
-    {% unless include.working %}
-    {% assign venue = site.data.publication_venues[paper.conference_short] %}
-    <div class="publication-venue">
-      {% if venue.logo %}
-      <a class="publication-venue-logo" href="{{ venue.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ paper.conference_short | escape }} official website" style="--venue-mark-width: {{ venue.display_width | default: 116 }}px; --venue-mark-height: {{ venue.display_height | default: 40 }}px;">
-        <img src="{{ venue.logo | relative_url }}" alt="{{ venue.alt | escape }}" loading="lazy" width="{{ venue.display_width | default: 116 }}" height="{{ venue.display_height | default: 40 }}">
+  <article class="pub-row{% unless paper.image %} pub-row--text-only{% endunless %}">
+    {% if paper.image %}
+    <div class="abbr">
+      <a class="publication-figure-link" href="{{ paper.image | relative_url }}" aria-label="Enlarge figure for {{ paper.title | strip_html | escape }}" title="Enlarge figure" aria-haspopup="dialog">
+        <img src="{{ paper.image | relative_url }}" class="teaser" alt="" loading="lazy" width="120" height="90">
       </a>
-      {% endif %}
-      <span class="publication-venue-label">{{ paper.conference_short }}</span>
     </div>
-    {% endunless %}
+    {% endif %}
     <div class="publication-copy">
       <h4 class="title">{% if title_url %}<a href="{{ title_url | relative_url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h4>
-      <div class="author">{{ paper.authors | replace: '†', '<sup>†</sup>' }}</div>
-      <div class="periodical">{{ paper.conference }}{% if paper.notes %} <span class="oral-note">{{ paper.notes }}</span>{% endif %}</div>
+      <div class="author">
+        {% if authors.size > 7 %}
+        {% assign first_authors = authors | slice: 0, 2 | join: ', ' %}
+        {% assign last_authors = authors | slice: -3, 3 | join: ', ' %}
+        <span aria-hidden="true" title="{{ paper.authors | strip_html | escape }}">{{ first_authors | replace: '†', '<sup>†</sup>' }}, …, {{ last_authors | replace: '†', '<sup>†</sup>' }}</span>
+        <span class="sr-only">{{ paper.authors | replace: '†', '<sup>†</sup>' }}</span>
+        {% else %}
+        {{ paper.authors | replace: '†', '<sup>†</sup>' }}
+        {% endif %}
+      </div>
+      <div class="publication-meta">
+        {% if venue.url %}<a class="publication-venue-label" href="{{ venue.url }}" target="_blank" rel="noopener noreferrer" title="{{ paper.conference | strip_html | escape }}">{{ conference_label }}</a>{% else %}<span class="publication-venue-label" title="{{ paper.conference | strip_html | escape }}">{{ conference_label }}</span>{% endif %}
+        {% if paper.notes %}<span class="oral-note">· {{ paper.notes }}</span>{% endif %}
+      </div>
       {% if paper.local_page or paper.pdf or paper.code or paper.model or paper.video or paper.slides or paper.photo or paper.poster or paper.demo or paper.bibtex %}
-      <div class="links" aria-label="Resources for {{ paper.title | strip_html | escape }}">
+      <div class="links" role="group" aria-label="Resources for {{ paper.title | strip_html | escape }}">
         {% assign resources = 'local_page,pdf,code,model,video,slides,photo,poster,demo,bibtex' | split: ',' %}
         {% for resource in resources %}
-          {% if paper[resource] %}<a href="{{ paper[resource] | relative_url }}" target="_blank" rel="noopener noreferrer">{% if resource == 'local_page' %}Details{% elsif resource == 'pdf' %}Paper{% elsif resource == 'bibtex' %}BibTeX{% else %}{{ resource | capitalize }}{% endif %}</a>{% endif %}
+          {% if paper[resource] %}
+          {% assign resource_label = resource | capitalize %}
+          {% if resource == 'local_page' %}{% assign resource_label = 'Details' %}{% elsif resource == 'pdf' %}{% assign resource_label = 'Paper' %}{% elsif resource == 'bibtex' %}{% assign resource_label = 'BibTeX' %}{% endif %}
+          <a href="{{ paper[resource] | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ resource_label | escape }}" title="{{ resource_label | escape }}">{% include publication-resource-icon.html resource=resource %}</a>
+          {% endif %}
         {% endfor %}
       </div>
       {% endif %}
     </div>
-    {% if paper.image %}
-    <div class="abbr">
-      <a class="publication-figure-link{% if paper.compact_image %} publication-figure-link--compact{% endif %}" href="{{ paper.image | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View full-size figure for {{ paper.title | strip_html | escape }}" title="View full-size figure">
-        <img src="{{ paper.image | relative_url }}" class="teaser" alt="" loading="lazy" width="300" height="200">
-        <span class="publication-figure-caption" aria-hidden="true">View full size <svg class="external-link-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12 12 4M4 4h8v8" /></svg></span>
-      </a>
-    </div>
-    {% endif %}
   </article>
 </li>
