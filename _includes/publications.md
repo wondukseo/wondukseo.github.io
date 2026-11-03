@@ -14,7 +14,6 @@
     <label class="publication-filter">Venue
       <select data-publication-venue aria-label="Filter papers by venue">
         <option value="all">All venues</option>
-        <option value="preprint">Preprint</option>
         <option value="icml">ICML</option>
         <option value="acl">ACL</option>
         <option value="wsdm">WSDM</option>

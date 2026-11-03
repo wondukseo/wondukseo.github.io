@@ -1,5 +1,17 @@
 accepted:
 
+  - title: "F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering"
+    authors: Wooseok Han*, <span class="me-highlight">Wonduk Seo*</span>, Lee Jung-Mok*, Juhyeon Lee, Junseo Koh, Yi Bu†
+    conference_short: WSDM'27 Findings
+    conference_display: WSDM 2027 · Findings
+    venue_group: wsdm
+    conference: ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>) Findings, 2027.
+    local_page: /papers/f2act-vqa/
+    pdf: /papers/f2act-vqa/paper.pdf
+    code: https://github.com/hws2002/f2act-vqa-official
+    bibtex: /papers/f2act-vqa/citation.bib
+    image: ./images/working/grid_search_heatmap_entity_recall.png
+
   - title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
     authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu†
     conference_short: ICML'26
@@ -122,17 +134,6 @@ accepted:
     image: ./images/qss.png
 
 working:
-
-  - title: "F²ACT-VQA: Fusion-Driven Fact Retrieval with Generative Reranking for Knowledge-Intensive Visual Question Answering"
-    authors: Wooseok Han*, <span class="me-highlight">Wonduk Seo*</span>, Lee Jung-Mok*, Juhyeon Lee, Junseo Koh, Yi Bu†
-    venue_group: preprint
-    conference: Preprint, Oct. 2026.
-    local_page: /papers/f2act-vqa/
-    pdf: /papers/f2act-vqa/paper.pdf
-    code: https://github.com/hws2002/f2act-vqa-official
-    bibtex: /papers/f2act-vqa/citation.bib
-    image: ./images/working/grid_search_heatmap_entity_recall.png
-    show_on_homepage: true
 
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen†, Yi Bu†
