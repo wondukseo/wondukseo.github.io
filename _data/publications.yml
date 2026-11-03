@@ -4,6 +4,8 @@ accepted:
     authors: Wooseok Han*, <span class="me-highlight">Wonduk Seo*</span>, Lee Jung-Mok*, Juhyeon Lee, Junseo Koh, Yi Bu†
     conference_short: WSDM'27 Findings
     conference_display: WSDM 2027 · Findings
+    acceptance_rate: "Main 15.8%, Findings 12.6%"
+    acceptance_rate_source: Author-provided WSDM 2027 statistics
     venue_group: wsdm
     conference: ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>) Findings, 2027.
     local_page: /papers/f2act-vqa/
@@ -16,6 +18,9 @@ accepted:
     authors: <span class="me-highlight">Wonduk Seo</span>, Wonseok Choi, Junseo Koh, Juhyeon Lee, Hyunjin An, Minhyeong Yu, Jian Park, Qingshan Zhou, Seunghyun Lee, Yi Bu†
     conference_short: ICML'26
     conference_display: ICML 2026
+    acceptance_rate: "26.6%"
+    acceptance_rate_source: https://www.linkedin.com/posts/icmlconf_decision-notifications-are-being-released-activity-7455685189479055361-PXq3
+    acceptance_rate_note: "6,352 accepted out of 23,918 reviewed submissions."
     venue_group: icml
     conference: Forty-Third International Conference on Machine Learning (<span class="venue-abbr">ICML</span>), 2026.
     pdf: https://openreview.net/pdf?id=hhpU1JMhKR
@@ -28,6 +33,9 @@ accepted:
     authors: <span class="me-highlight">Wonduk Seo*</span>, Juhyeon Lee*, Yanjun Shao, Qingshan Zhou, Seunghyun Lee†, Yi Bu†
     conference_short: ACL'26 Main
     conference_display: ACL 2026 · Main Conference
+    acceptance_rate: "18.9%"
+    acceptance_rate_source: https://aclanthology.org/2026.acl-long.0.pdf#page=7
+    acceptance_rate_note: "Main Conference: 2,296 accepted out of 12,148 unique ARR submissions."
     venue_group: acl
     conference: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (<span class="venue-abbr">ACL Main</span>), 2026.
     pdf: https://arxiv.org/abs/2503.23314
@@ -39,6 +47,9 @@ accepted:
     authors: <span class="me-highlight">Wonduk Seo</span>, Hyunjin An, Seunghyun Lee†
     conference_short: WSDM'26
     conference_display: WSDM 2026
+    acceptance_rate: "16.3%"
+    acceptance_rate_source: https://doi.org/10.1145/3773966.3777928
+    acceptance_rate_note: "100 accepted out of 613 submissions; rounded to one decimal place."
     venue_group: wsdm
     conference: Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (<span class="venue-abbr">WSDM</span>), 2026.
     pdf: https://dl.acm.org/doi/10.1145/3773966.3779360
@@ -81,6 +92,9 @@ accepted:
     authors: <span class="me-highlight">Wonduk Seo</span>, Zonghao Yuan, Yi Bu†
     conference_short: AAAI-AIES'25
     conference_display: AAAI/ACM AIES 2025
+    acceptance_rate: "31.8%"
+    acceptance_rate_source: https://www.aies-conference.com/2025/wp-content/doc/AIES-2025-Program-10.20.pdf
+    acceptance_rate_note: "238 accepted out of 748 reviewed submissions, after initial desk rejections."
     venue_group: aaai
     conference: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (<span class="venue-abbr">AAAI-AIES</span>), 2025.
     pdf: https://ojs.aaai.org/index.php/AIES/article/view/36717
@@ -103,6 +117,9 @@ accepted:
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Hyunjin An, Seunghyun Lee, Yi Bu†
     conference_short: JCDL'25
     conference_display: ACM/IEEE JCDL 2025
+    acceptance_rate: "19.2%"
+    acceptance_rate_source: https://jcdl.org/past_conferences.php
+    acceptance_rate_note: "Short Papers: 10 accepted out of 52 submissions; the official table rounds this to 19%."
     venue_group: jcdl
     conference: Proceedings of the 25th ACM/IEEE Joint Conference on Digital Libraries (<span class="venue-abbr">JCDL</span>), 2025.
     notes: Oral Presentation

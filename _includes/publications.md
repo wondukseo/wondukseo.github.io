@@ -1,4 +1,4 @@
-<h2 id="publications">Publications</h2>
+<h2 id="publications">Selected Publications</h2>
 <p class="pub-note">* Equal contribution &nbsp; <sup>†</sup> Corresponding author</p>
 
 {% assign papers = site.data.publications %}

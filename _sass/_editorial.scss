@@ -9,6 +9,7 @@
   --soft: #f5f1ec;
   --link: #7d2e44;
   --link-emphasis: #542031;
+  --acceptance-rate: #000;
   --accent-soft: #f4eaeb;
   --accent-rule: #c4a3aa;
   --form-link: #956475;
@@ -30,6 +31,7 @@ html.theme-dark {
   --soft: #252a33;
   --link: #e4a4b2;
   --link-emphasis: #f3ced6;
+  --acceptance-rate: #f5f5f5;
   --accent-soft: #352a32;
   --accent-rule: #79606b;
   --form-link: #d9adba;
@@ -177,6 +179,8 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 .me-highlight { color: var(--ink); font-weight: 700; }
 .publication-meta { grid-column: 1 / -1; grid-row: 3; display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 10px; min-width: 0; margin-top: 5px; color: var(--muted); font: .8125rem/1.45 var(--sans); overflow-wrap: anywhere; }
 .publication-venue-label { min-width: 0; }
+.publication-acceptance-rate { color: var(--acceptance-rate); font-style: normal; font-weight: 400; }
+.publication-acceptance-rate--below { flex-basis: 100%; }
 .publication-meta a { color: var(--link); text-decoration: underline; text-decoration-color: var(--accent-rule); }
 .publication-meta a:hover { text-decoration-color: currentColor; }
 .publication-meta .oral-note { color: var(--link); }
