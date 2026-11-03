@@ -71,6 +71,7 @@ I’m a PhD student in Computer Science at University College London, where I’
   <li>
     <p><strong class="research-interest-lead">Information retrieval</strong> Enhancing information retrieval through query reformulation, retrieval fusion, and model training.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
+      <a class="research-pub-chip" href="{{ '/papers/f2act-vqa/' | relative_url }}" target="_blank" rel="noopener noreferrer">Han*, <span class="research-pub-author-me">Seo</span>* and Lee* et al., <span class="research-pub-venue">WSDM'27 Findings</span></a>
       <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3773966.3779360" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">WSDM'26</span></a>
       <a class="research-pub-chip" href="https://dl.acm.org/doi/10.1145/3805713.3820397" target="_blank" rel="noopener noreferrer">Lee* and <span class="research-pub-author-me">Seo</span>* et al., <span class="research-pub-venue">SIGIR-ICTIR'26</span></a>
       <a class="research-pub-chip" href="https://arxiv.org/abs/2509.01182" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">BigData'25</span></a>
@@ -80,7 +81,7 @@ I’m a PhD student in Computer Science at University College London, where I’
     <p><strong class="research-interest-lead">Evidence in LLM pipelines</strong> Tracing how evidence is used across multi-stage systems, with post-training for better grounding and calibration.</p>
     <div class="research-pub-tags" aria-label="Representative publications">
       <a class="research-pub-chip" href="https://arxiv.org/abs/2604.23993" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span><sup>†</sup>, <span class="research-pub-venue">AAAI-Symposium'26</span></a>
-      <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span>Quantitative Science Studies</span></a>
+      <a class="research-pub-chip" href="https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific" target="_blank" rel="noopener noreferrer"><span class="research-pub-author-me">Seo</span> et al., <span class="research-pub-venue">Quantitative Science Studies</span></a>
     </div>
   </li>
 </ul>

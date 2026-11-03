@@ -143,8 +143,8 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 .research-interest-list li:nth-child(-n+2) { border-top: 0; padding-top: 0; }
 .research-interest-list p { margin-bottom: 18px; font-size: 1.125rem; line-height: 1.65; color: var(--text); text-wrap: pretty; }
 .research-interest-lead { display: block; margin-bottom: 11px; font: 700 1.25rem/1.4 var(--serif); color: var(--ink); }
-.research-pub-tags { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 7px; font: .8125rem/1.5 var(--sans); margin-top: auto; }
-.research-pub-chip { display: inline-block; max-width: 100%; padding: 6px 9px; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); overflow-wrap: anywhere; }
+.research-pub-tags { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px; font: .8125rem/1.5 var(--sans); margin-top: 0; }
+.research-pub-chip { display: inline-block; min-height: 34px; max-width: 100%; padding: 6px 9px; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); overflow-wrap: anywhere; }
 .research-pub-chip:hover { border-color: var(--accent-rule); background: var(--accent-soft); text-decoration: none; }
 .research-pub-author-me, .research-pub-venue { color: var(--link-emphasis); font-weight: 400; }
 
