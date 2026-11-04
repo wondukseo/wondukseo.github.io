@@ -105,6 +105,8 @@ accepted:
     authors: <span class="me-highlight">Wonduk Seo*</span>, Taesub Shin*, Hyunjin An, Dokyun Kim, Seunghyun Lee†
     conference_short: BigData'25
     conference_display: IEEE BigData 2025 · Industry Track
+    acceptance_rate: "18%"
+    acceptance_rate_source: Author-provided IEEE BigData 2025 statistics
     venue_group: bigdata
     conference: 2025 IEEE International Conference on Big Data (<span class="venue-abbr">BigData</span>) Industry Track, 2025.
     pdf: https://arxiv.org/abs/2509.01182
@@ -143,7 +145,7 @@ accepted:
   - title: "Transforming Role Classification in Scientific Teams using LLMs and Advanced Predictive Analytics"
     authors: <span class="me-highlight">Wonduk Seo</span>, Yi Bu†
     conference_short: Quantitative Science Studies
-    conference_display: QSS · Vol. 6, pp. 505–523
+    conference_display: Quantitative Science Studies · Vol. 6, pp. 505–523
     venue_group: qss
     conference: Quantitative Science Studies (<span class="venue-abbr">QSS</span>) 6, 505-523.
     pdf: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00360/128587/Transforming-Role-Classification-in-Scientific

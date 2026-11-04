@@ -10,6 +10,7 @@
   --link: #7d2e44;
   --link-emphasis: #542031;
   --acceptance-rate: #000;
+  --oral-highlight: #fff2a8;
   --accent-soft: #f4eaeb;
   --accent-rule: #c4a3aa;
   --form-link: #956475;
@@ -32,6 +33,7 @@ html.theme-dark {
   --link: #e4a4b2;
   --link-emphasis: #f3ced6;
   --acceptance-rate: #f5f5f5;
+  --oral-highlight: #5a4920;
   --accent-soft: #352a32;
   --accent-rule: #79606b;
   --form-link: #d9adba;
@@ -184,6 +186,7 @@ section.has-section-panels { display: grid; grid-template-columns: 184px minmax(
 .publication-meta a { color: var(--link); text-decoration: underline; text-decoration-color: var(--accent-rule); }
 .publication-meta a:hover { text-decoration-color: currentColor; }
 .publication-meta .oral-note { color: var(--link); }
+.oral-note-highlight { color: inherit; background: var(--oral-highlight); padding: 0 2px; border-radius: 1px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .publications .links { grid-column: 2; grid-row: 1; justify-self: end; display: flex; flex-wrap: nowrap; gap: 2px; margin: -2px 0 0; }
 .publications .links a { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 28px; width: 28px; height: 28px; padding: 5px; border: 0; border-radius: 4px; background: transparent; color: var(--link); text-decoration: none; cursor: pointer; }
 .publications .links a:hover { color: var(--link-emphasis); background: var(--accent-soft); }

@@ -26,7 +26,7 @@
       </div>
       <div class="publication-meta">
         {% if venue.url %}<a class="publication-venue-label" href="{{ venue.url }}" target="_blank" rel="noopener noreferrer" title="{{ paper.conference | strip_html | escape }}">{{ conference_label }}</a>{% else %}<span class="publication-venue-label" title="{{ paper.conference | strip_html | escape }}">{{ conference_label }}</span>{% endif %}
-        {% if paper.notes %}<span class="oral-note">· {{ paper.notes }}</span>{% endif %}
+        {% if paper.notes %}<span class="oral-note">· <mark class="oral-note-highlight">{{ paper.notes }}</mark></span>{% endif %}
         {% if paper.acceptance_rate %}<span class="publication-acceptance-rate{% if paper.notes contains 'Oral Presentation' %} publication-acceptance-rate--below{% endif %}"{% if paper.acceptance_rate_note %} title="{{ paper.acceptance_rate_note | escape }}"{% endif %}>Acceptance Rate: {{ paper.acceptance_rate | escape }}</span>{% endif %}
       </div>
       {% if paper.local_page or paper.pdf or paper.code or paper.model or paper.video or paper.slides or paper.photo or paper.poster or paper.demo or paper.bibtex %}
