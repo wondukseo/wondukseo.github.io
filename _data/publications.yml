@@ -154,6 +154,15 @@ accepted:
 
 working:
 
+  - title: "DM-Call: Decision-Model-Guided Function Calling with Cumulative Verification Feedback"
+    authors: Minhyeong Yu*, <span class="me-highlight">Wonduk Seo*</span>, Seunghyun Lee†
+    venue_group: preprint
+    conference: Preprint, Nov. 2026.
+    pdf: https://arxiv.org/pdf/2611.10977
+    code: https://github.com/gogoymh/decision-model-guided-function-calling
+    image: ./images/working/DMCall-Figure.png
+    show_on_homepage: true
+
   - title: "MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization"
     authors: Juhyeon Lee*, <span class="me-highlight">Wonduk Seo*</span>, Junseo Koh, Hyunjin An, Jian Park, Seunghyun Lee, Haihua Chen†, Yi Bu†
     conference_short: W1

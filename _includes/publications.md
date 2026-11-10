@@ -4,6 +4,7 @@
 {% assign papers = site.data.publications %}
 {% assign featured_papers = papers.working | where: 'show_on_homepage', true %}
 {% assign all_papers = featured_papers | concat: papers.accepted %}
+{% assign preprints = all_papers | where: 'venue_group', 'preprint' %}
 {% if all_papers.size > 0 %}
 <div class="publication-list" data-publication-list data-preview-count="4">
   <div class="publication-toolbar">
@@ -14,6 +15,7 @@
     <label class="publication-filter">Venue
       <select data-publication-venue aria-label="Filter papers by venue">
         <option value="all">All venues</option>
+        {% if preprints.size > 0 %}<option value="preprint">Preprint</option>{% endif %}
         <option value="icml">ICML</option>
         <option value="acl">ACL</option>
         <option value="wsdm">WSDM</option>
